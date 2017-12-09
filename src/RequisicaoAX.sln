@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequisicaoAX.Mapping", "Req
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequisicaoAX.Business", "RequisicaoAX.Business\RequisicaoAX.Business.csproj", "{AE21EBAD-F88B-4B53-B9E4-A1A2EE9495B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequisicaoAX.Dynamics.Services", "RequisicaoAX.Dynamics.Services\RequisicaoAX.Dynamics.Services.csproj", "{3B3AC6BE-E3FA-4A94-B407-6A0723A52534}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{AE21EBAD-F88B-4B53-B9E4-A1A2EE9495B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE21EBAD-F88B-4B53-B9E4-A1A2EE9495B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE21EBAD-F88B-4B53-B9E4-A1A2EE9495B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B3AC6BE-E3FA-4A94-B407-6A0723A52534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B3AC6BE-E3FA-4A94-B407-6A0723A52534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B3AC6BE-E3FA-4A94-B407-6A0723A52534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B3AC6BE-E3FA-4A94-B407-6A0723A52534}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
