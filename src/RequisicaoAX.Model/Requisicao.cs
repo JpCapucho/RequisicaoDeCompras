@@ -26,7 +26,7 @@ namespace RequisicaoAX.Model
         /// <summary>
         /// Data de criação do registro
         /// </summary>
-        public virtual DateTime? DataCriacao { get; private set; } = DateTime.Now;
+        public virtual DateTime? DataCriacao { get; set; } = DateTime.Now;
         
         /// <summary>
         /// Usuario que aprovou a requisição
@@ -36,7 +36,7 @@ namespace RequisicaoAX.Model
         /// <summary>
         /// Data de aprovação
         /// </summary>
-        public virtual DateTime? DataAprovacao { get; private set; }
+        public virtual DateTime? DataAprovacao { get; set; }
 
         /// <summary>
         /// Empresa vinculada a requisicao
@@ -55,6 +55,8 @@ namespace RequisicaoAX.Model
 
 
         #region Constructor
+        public Requisicao() { }
+
         /// <summary>
         /// Construtor personalisado
         /// </summary>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequisicaoAX", "RequisicaoAX\RequisicaoAX.csproj", "{5BC88537-F905-4F0F-BF04-6120F5977339}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequisicaoAX.Dynamics", "RequisicaoAX.Dynamics\RequisicaoAX.Dynamics.csproj", "{3B3AC6BE-E3FA-4A94-B407-6A0723A52534}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequisicaoAX.Util", "RequisicaoAX.Util\RequisicaoAX.Util.csproj", "{8302A352-677C-4026-9F4E-C537E940F3CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Helper", "..\..\NHibernate.Helper\NHibernate.Helper\NHibernate.Helper.csproj", "{A1BA87F1-43B2-4D40-A8E7-0E42D9114745}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{8302A352-677C-4026-9F4E-C537E940F3CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8302A352-677C-4026-9F4E-C537E940F3CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8302A352-677C-4026-9F4E-C537E940F3CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1BA87F1-43B2-4D40-A8E7-0E42D9114745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1BA87F1-43B2-4D40-A8E7-0E42D9114745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1BA87F1-43B2-4D40-A8E7-0E42D9114745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1BA87F1-43B2-4D40-A8E7-0E42D9114745}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

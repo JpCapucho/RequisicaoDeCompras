@@ -23,7 +23,7 @@ namespace RequisicaoAX.Model
         /// <summary>
         /// Filiais vinculadas a esta entidade
         /// </summary>
-        public IList<Filial> Filiais { get; set; }
+        public virtual IList<Filial> Filiais { get; set; }
         #endregion
 
         #region Constructor

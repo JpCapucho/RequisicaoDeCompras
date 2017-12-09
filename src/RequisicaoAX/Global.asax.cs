@@ -17,7 +17,13 @@ namespace RequisicaoAX
             // Code that runs on application startup
             GlobalConfiguration.Configure(WebApiConfig.Register);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            BundleConfig.RegisterBundles(BundleTable.Bundles);                        
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            //Esta linha eh responsavel por ativar o log4net
+            log4net.Config.XmlConfigurator.Configure();
+
+            //Ao inicializar a aplicação inicia o NHibernateSessionFactory da Aplicação
+            NHibernate.Helper.Management.SessionManager.Instance.InitializeSessionFactory();
         }
     }
 }

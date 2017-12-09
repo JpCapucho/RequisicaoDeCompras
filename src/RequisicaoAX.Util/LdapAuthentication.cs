@@ -13,17 +13,11 @@ namespace RequisicaoAX.Util
         private string _filterAttribute;
 
         /// <summary>
-        /// Construindo em ldap://cardexpress.corp
-        /// </summary>
-        public LdapAuthentication()
-        {
-            //Definindo o servidor de autenticação
-            _path = "ldap://cardexpress.corp";
-        }
-
-        /// <summary>
         /// Construir especificando o caminho do servidor LDAP
         /// </summary>
+        /// <example>
+        /// ldap://meudominio.com
+        /// </example>
         /// <param name="path">caminho do servidor ldap://<servername></param>
         public LdapAuthentication(string path)
         {
@@ -41,8 +35,7 @@ namespace RequisicaoAX.Util
                 // Bind to the native AdsObject to force authentication.  
                 Object obj = entry.NativeObject;
 
-                DirectorySearcher search = new DirectorySearcher(entry)
-                {
+                DirectorySearcher search = new DirectorySearcher(entry) {
                     Filter = string.Format("(SAMAccountName={0})", username)
                 };
 
@@ -69,8 +62,7 @@ namespace RequisicaoAX.Util
 
         public string GetGroups()
         {
-            DirectorySearcher search = new DirectorySearcher(_path)
-            {
+            DirectorySearcher search = new DirectorySearcher(_path) {
                 Filter = string.Format("(cn={0})", _filterAttribute)
             };
 
