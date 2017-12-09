@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="Cronn.Core.Tendencia"
+                   namespace="Cronn.Core.Tendencia.Model" >
+
+	<class name="Requisicao" schema="rfq">
+
+		<id name="Id">
+			<generator class="identity" />
+		</id>
+
+    <many-to-one name="CriadoPor" class="Usuario" column="CriadoPor" cascade="none" />
+    <property name="DataCriacao" />
+
+    <many-to-one name="AprovadoPor" class="Usuario" column="AprovadoPor" cascade="none" />
+    <property name="DataAprovacao" />
+
+    <many-to-one name="Empresa" column="EmpresaId" cascade="none" />
+
+    <property name="Visivel" />
+    
+    <bag name="Itens" lazy="true" cascade="all" >
+      <key column="RequisicaoId" />
+      <one-to-many class="Item" />
+    </bag>
+
+	</class>
+</hibernate-mapping>
+

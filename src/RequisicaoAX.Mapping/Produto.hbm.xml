@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="Cronn.Core.Tendencia"
+                   namespace="Cronn.Core.Tendencia.Model" >
+
+	<class name="Produto" schema="rfq">
+
+		<id name="Id" length="70">
+			<generator class="assigned" />
+		</id>
+
+    <property name="Nome" length="20" />
+    <property name="Codigo" length="70" />
+    <property name="Disponivel" />
+    
+    <bag name="Itens" lazy="true" cascade="none" >
+      <key column="ProdutoId" />
+      <one-to-many class="Item" />
+    </bag>
+
+
+	</class>
+</hibernate-mapping>
+

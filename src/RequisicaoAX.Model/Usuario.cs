@@ -49,6 +49,11 @@ namespace RequisicaoAX.Model
         /// Verdadeiro quando o usuario for um administrador
         /// </remarks>
         public virtual bool Admin { get; set; }
+
+        /// <summary>
+        /// Filial vinculada
+        /// </summary>
+        public virtual Filial Filial { get; set; }
         #endregion
 
         #region Contructor

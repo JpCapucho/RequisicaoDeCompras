@@ -9,9 +9,10 @@ namespace RequisicaoAX.Model
 	/// </summary>
     public class Empresa
     {
-    	/// <summary>
-    	/// Identificador unico
-    	/// </summary>
+        #region Fields
+        /// <summary>
+        /// Identificador unico
+        /// </summary>
         public virtual string Id { get; set; }
         
         /// <summary>
@@ -23,6 +24,11 @@ namespace RequisicaoAX.Model
         /// Filiais vinculadas a esta entidade
         /// </summary>
         public IList<Filial> Filiais { get; set; }
+        #endregion
+
+        #region Constructor
+        public Empresa() { }
+        #endregion
     }
 
 }

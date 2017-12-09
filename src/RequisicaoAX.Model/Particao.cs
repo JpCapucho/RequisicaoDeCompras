@@ -13,13 +13,28 @@ namespace RequisicaoAX.Model
 	/// <summary>
 	/// Partição do sistema
 	/// </summary>
+    /// <remarks>
+    /// Dados de integração com o ERP
+    /// </remarks>
 	public class Particao
 	{
-		public virtual string Id { get; set; }
+        #region Fields
+        /// <summary>
+        /// Identificador da particao
+        /// </summary>
+        public virtual string Id { get; set; }
 		
+        /// <summary>
+        /// Nome da particao
+        /// </summary>
 		public virtual string Nome { get; set; }
-		
-		public Particao() {}
-			
-	}
+
+        #endregion
+
+        #region Contructor
+        public Particao() {}
+
+        #endregion
+
+    }
 }

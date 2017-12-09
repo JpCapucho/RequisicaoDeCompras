@@ -3,61 +3,20 @@
                    assembly="Cronn.Core.Tendencia"
                    namespace="Cronn.Core.Tendencia.Model" >
 
-	<class name="User" schema="Sgv">
+	<class name="Usuario" schema="rfq">
 
 		<id name="Id">
 			<generator class="assigned" />
 		</id>
 
-    <property name="Nome" />
-    <property name="Email" />
-    <property name="TipoUsuario" />
-    <property name="Cpf" />
-    <property name="Ativo" />
-    <property name="Bloqueado" />
-    <property name="Coorporativo" />
-    <property name="Situacao" />
-    <property name="UltimoAcesso" />
-    <property name="Login" />
-    <many-to-one name="Superior" column="IdSuperior" cascade="none" />
-    <property name="Bairro" />
-    <property name="Endereco" />
-    <property name="CEP" />
-    <property name="Numero" />
-    <property name="Categoria" />
-    <property name="CodigoFuncionario" />
-    <property name="DataInclusao" />
-    <property name="DataAlteracao" />
+    <property name="Nome" length="50" />
+    <property name="Dominio" length="40" />
+    <property name="SID" length="80" />
+    <property name="Aprovador" />
+    <property name="Admin" />
     
-    <bag name="Vendas" lazy="true" cascade="none" >
-      <key column="IdUsuarioVenda" />
-      <one-to-many class="ItemVenda" />
-    </bag>
-
-    <bag name="Visitas" lazy="true" cascade="none" >
-      <key column="IdUsuario" />
-      <one-to-many class="VisitaConsultor" />
-    </bag>
-
-    <bag name="AreasConsultor" lazy="true" cascade="none" >
-      <key column="IdConsultor" />
-      <one-to-many class="AreaConsultor" />
-    </bag>
-
-    <bag name="Rotas" lazy="true" cascade="none" >
-      <key column="IdConsultor" />
-      <one-to-many class="Rota" />
-    </bag>
-
-    <bag name="LancamentosUsuario" lazy="true" cascade="none" >
-      <key column="IdUsuario" />
-      <one-to-many class="Lancamento" />
-    </bag>
+    <many-to-one name="Filial" column="FilialId" cascade="none" />
     
-    <bag name="LancamentosConsultor" lazy="true" cascade="none" >
-      <key column="IdConsultor" />
-      <one-to-many class="Lancamento" />
-    </bag>
 
 	</class>
 </hibernate-mapping>

@@ -3,19 +3,14 @@
                    assembly="Cronn.Core.Tendencia"
                    namespace="Cronn.Core.Tendencia.Model" >
 
-	<class name="Empresa" schema="rfq">
+	<class name="Particao" schema="rfq">
 
-		<id name="Id" length="4">
+		<id name="Id" length="8">
 			<generator class="assigned" />
 		</id>
 
     <property name="Nome" length="40" />
-
-    <bag name="Filiais" lazy="true" cascade="all" >
-      <key column="EmpresaId" />
-      <one-to-many class="Filial" />
-    </bag>
-
-  </class>
+    
+	</class>
 </hibernate-mapping>
 
