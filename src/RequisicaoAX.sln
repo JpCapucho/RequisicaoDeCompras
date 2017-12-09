@@ -1,7 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-# SharpDevelop 5.1
+# Visual Studio 15
 VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequisicaoAX", "RequisicaoAX\RequisicaoAX.csproj", "{5BC88537-F905-4F0F-BF04-6120F5977339}"
@@ -14,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequisicaoAX.Mapping", "Req
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequisicaoAX.Business", "RequisicaoAX.Business\RequisicaoAX.Business.csproj", "{AE21EBAD-F88B-4B53-B9E4-A1A2EE9495B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequisicaoAX.Dynamics.Services", "RequisicaoAX.Dynamics.Services\RequisicaoAX.Dynamics.Services.csproj", "{3B3AC6BE-E3FA-4A94-B407-6A0723A52534}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequisicaoAX.Dynamics", "RequisicaoAX.Dynamics.Services\RequisicaoAX.Dynamics.csproj", "{3B3AC6BE-E3FA-4A94-B407-6A0723A52534}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

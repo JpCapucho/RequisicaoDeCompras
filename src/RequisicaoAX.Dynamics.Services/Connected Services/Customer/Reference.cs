@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RequisicaoAX.Dynamics.Services.Customer {
+namespace RequisicaoAX.Dynamics.Customer {
     
     
     /// <remarks/>
@@ -628,100 +628,100 @@ namespace RequisicaoAX.Dynamics.Services.Customer {
         // CODEGEN: Generating message contract since the wrapper name (CustomerServiceFindKeysRequest) of message CustomerServiceFindKeysRequest does not match the default value (findKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/findKeys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/findKeysRe" +
             "sponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Customer.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/findKeysAi" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Customer.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/findKeysAi" +
             "fFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindKeysResponse findKeys(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindKeysRequest request);
+        RequisicaoAX.Dynamics.Customer.CustomerServiceFindKeysResponse findKeys(RequisicaoAX.Dynamics.Customer.CustomerServiceFindKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/findKeys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/findKeysRe" +
             "sponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Customer.CustomerServiceFindKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (CustomerServiceCreateRequest) of message CustomerServiceCreateRequest does not match the default value (create)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/create", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/createResp" +
             "onse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Customer.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/createAifF" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Customer.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/createAifF" +
             "aultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Customer.CustomerServiceCreateResponse create(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceCreateRequest request);
+        RequisicaoAX.Dynamics.Customer.CustomerServiceCreateResponse create(RequisicaoAX.Dynamics.Customer.CustomerServiceCreateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/create", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/createResp" +
             "onse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceCreateResponse> createAsync(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceCreateRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceCreateResponse> createAsync(RequisicaoAX.Dynamics.Customer.CustomerServiceCreateRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (CustomerServiceDeleteRequest) of message CustomerServiceDeleteRequest does not match the default value (delete)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/delete", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/deleteResp" +
             "onse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Customer.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/deleteAifF" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Customer.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/deleteAifF" +
             "aultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Customer.CustomerServiceDeleteResponse delete(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceDeleteRequest request);
+        RequisicaoAX.Dynamics.Customer.CustomerServiceDeleteResponse delete(RequisicaoAX.Dynamics.Customer.CustomerServiceDeleteRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/delete", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/deleteResp" +
             "onse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceDeleteResponse> deleteAsync(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceDeleteRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceDeleteResponse> deleteAsync(RequisicaoAX.Dynamics.Customer.CustomerServiceDeleteRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (CustomerServiceGetChangedKeysRequest) of message CustomerServiceGetChangedKeysRequest does not match the default value (getChangedKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/getChanged" +
             "Keys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/getChanged" +
             "KeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Customer.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/getChanged" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Customer.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/getChanged" +
             "KeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetChangedKeysResponse getChangedKeys(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetChangedKeysRequest request);
+        RequisicaoAX.Dynamics.Customer.CustomerServiceGetChangedKeysResponse getChangedKeys(RequisicaoAX.Dynamics.Customer.CustomerServiceGetChangedKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/getChanged" +
             "Keys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/getChanged" +
             "KeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetChangedKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Customer.CustomerServiceGetChangedKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (CustomerServiceUpdateRequest) of message CustomerServiceUpdateRequest does not match the default value (update)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/update", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/updateResp" +
             "onse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Customer.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/updateAifF" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Customer.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/updateAifF" +
             "aultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Customer.CustomerServiceUpdateResponse update(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceUpdateRequest request);
+        RequisicaoAX.Dynamics.Customer.CustomerServiceUpdateResponse update(RequisicaoAX.Dynamics.Customer.CustomerServiceUpdateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/update", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/updateResp" +
             "onse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceUpdateResponse> updateAsync(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceUpdateRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceUpdateResponse> updateAsync(RequisicaoAX.Dynamics.Customer.CustomerServiceUpdateRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (CustomerServiceGetKeysRequest) of message CustomerServiceGetKeysRequest does not match the default value (getKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/getKeys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/getKeysRes" +
             "ponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Customer.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/getKeysAif" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Customer.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/getKeysAif" +
             "FaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetKeysResponse getKeys(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetKeysRequest request);
+        RequisicaoAX.Dynamics.Customer.CustomerServiceGetKeysResponse getKeys(RequisicaoAX.Dynamics.Customer.CustomerServiceGetKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/getKeys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/getKeysRes" +
             "ponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Customer.CustomerServiceGetKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (CustomerServiceReadRequest) of message CustomerServiceReadRequest does not match the default value (read)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/read", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/readRespon" +
             "se")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Customer.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/readAifFau" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Customer.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/readAifFau" +
             "ltFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Customer.CustomerServiceReadResponse read(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceReadRequest request);
+        RequisicaoAX.Dynamics.Customer.CustomerServiceReadResponse read(RequisicaoAX.Dynamics.Customer.CustomerServiceReadRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/read", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/readRespon" +
             "se")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceReadRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Customer.CustomerServiceReadRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (CustomerServiceFindRequest) of message CustomerServiceFindRequest does not match the default value (find)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/find", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/findRespon" +
             "se")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Customer.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/findAifFau" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Customer.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/findAifFau" +
             "ltFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindResponse find(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindRequest request);
+        RequisicaoAX.Dynamics.Customer.CustomerServiceFindResponse find(RequisicaoAX.Dynamics.Customer.CustomerServiceFindRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/find", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/findRespon" +
             "se")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Customer.CustomerServiceFindRequest request);
     }
     
     /// <remarks/>
@@ -881,16 +881,16 @@ namespace RequisicaoAX.Dynamics.Services.Customer {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Customer.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.Customer.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.Customer.QueryCriteria QueryCriteria;
         
         public CustomerServiceFindKeysRequest() {
         }
         
-        public CustomerServiceFindKeysRequest(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.QueryCriteria QueryCriteria) {
+        public CustomerServiceFindKeysRequest(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.QueryCriteria QueryCriteria) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
         }
@@ -905,12 +905,12 @@ namespace RequisicaoAX.Dynamics.Services.Customer {
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Customer.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Customer.EntityKey[] EntityKeyList;
         
         public CustomerServiceFindKeysResponse() {
         }
         
-        public CustomerServiceFindKeysResponse(RequisicaoAX.Dynamics.Services.Customer.EntityKey[] EntityKeyList) {
+        public CustomerServiceFindKeysResponse(RequisicaoAX.Dynamics.Customer.EntityKey[] EntityKeyList) {
             this.EntityKeyList = EntityKeyList;
         }
     }
@@ -11999,16 +11999,16 @@ namespace RequisicaoAX.Dynamics.Services.Customer {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Customer.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Customer", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Customer")]
-        public RequisicaoAX.Dynamics.Services.Customer.AxdCustomer Customer;
+        public RequisicaoAX.Dynamics.Customer.AxdCustomer Customer;
         
         public CustomerServiceCreateRequest() {
         }
         
-        public CustomerServiceCreateRequest(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.AxdCustomer Customer) {
+        public CustomerServiceCreateRequest(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.AxdCustomer Customer) {
             this.CallContext = CallContext;
             this.Customer = Customer;
         }
@@ -12023,12 +12023,12 @@ namespace RequisicaoAX.Dynamics.Services.Customer {
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Customer.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Customer.EntityKey[] EntityKeyList;
         
         public CustomerServiceCreateResponse() {
         }
         
-        public CustomerServiceCreateResponse(RequisicaoAX.Dynamics.Services.Customer.EntityKey[] EntityKeyList) {
+        public CustomerServiceCreateResponse(RequisicaoAX.Dynamics.Customer.EntityKey[] EntityKeyList) {
             this.EntityKeyList = EntityKeyList;
         }
     }
@@ -12041,17 +12041,17 @@ namespace RequisicaoAX.Dynamics.Services.Customer {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Customer.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Customer.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Customer.EntityKey[] EntityKeyList;
         
         public CustomerServiceDeleteRequest() {
         }
         
-        public CustomerServiceDeleteRequest(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.EntityKey[] EntityKeyList) {
+        public CustomerServiceDeleteRequest(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.EntityKey[] EntityKeyList) {
             this.CallContext = CallContext;
             this.EntityKeyList = EntityKeyList;
         }
@@ -12228,11 +12228,11 @@ namespace RequisicaoAX.Dynamics.Services.Customer {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Customer.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging")]
-        public RequisicaoAX.Dynamics.Services.Customer.DocumentPaging DocumentPaging;
+        public RequisicaoAX.Dynamics.Customer.DocumentPaging DocumentPaging;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/services", Order=1)]
         public System.DateTime _changedDateTime;
@@ -12240,7 +12240,7 @@ namespace RequisicaoAX.Dynamics.Services.Customer {
         public CustomerServiceGetChangedKeysRequest() {
         }
         
-        public CustomerServiceGetChangedKeysRequest(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+        public CustomerServiceGetChangedKeysRequest(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
             this.CallContext = CallContext;
             this.DocumentPaging = DocumentPaging;
             this._changedDateTime = _changedDateTime;
@@ -12255,12 +12255,12 @@ namespace RequisicaoAX.Dynamics.Services.Customer {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage")]
-        public RequisicaoAX.Dynamics.Services.Customer.EntityKeyPage EntityKeyPage;
+        public RequisicaoAX.Dynamics.Customer.EntityKeyPage EntityKeyPage;
         
         public CustomerServiceGetChangedKeysResponse() {
         }
         
-        public CustomerServiceGetChangedKeysResponse(RequisicaoAX.Dynamics.Services.Customer.EntityKeyPage EntityKeyPage) {
+        public CustomerServiceGetChangedKeysResponse(RequisicaoAX.Dynamics.Customer.EntityKeyPage EntityKeyPage) {
             this.EntityKeyPage = EntityKeyPage;
         }
     }
@@ -12273,21 +12273,21 @@ namespace RequisicaoAX.Dynamics.Services.Customer {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Customer.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Customer.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Customer.EntityKey[] EntityKeyList;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Customer", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Customer")]
-        public RequisicaoAX.Dynamics.Services.Customer.AxdCustomer Customer;
+        public RequisicaoAX.Dynamics.Customer.AxdCustomer Customer;
         
         public CustomerServiceUpdateRequest() {
         }
         
-        public CustomerServiceUpdateRequest(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.EntityKey[] EntityKeyList, RequisicaoAX.Dynamics.Services.Customer.AxdCustomer Customer) {
+        public CustomerServiceUpdateRequest(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.EntityKey[] EntityKeyList, RequisicaoAX.Dynamics.Customer.AxdCustomer Customer) {
             this.CallContext = CallContext;
             this.EntityKeyList = EntityKeyList;
             this.Customer = Customer;
@@ -12312,16 +12312,16 @@ namespace RequisicaoAX.Dynamics.Services.Customer {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Customer.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging")]
-        public RequisicaoAX.Dynamics.Services.Customer.DocumentPaging DocumentPaging;
+        public RequisicaoAX.Dynamics.Customer.DocumentPaging DocumentPaging;
         
         public CustomerServiceGetKeysRequest() {
         }
         
-        public CustomerServiceGetKeysRequest(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.DocumentPaging DocumentPaging) {
+        public CustomerServiceGetKeysRequest(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.DocumentPaging DocumentPaging) {
             this.CallContext = CallContext;
             this.DocumentPaging = DocumentPaging;
         }
@@ -12335,12 +12335,12 @@ namespace RequisicaoAX.Dynamics.Services.Customer {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage")]
-        public RequisicaoAX.Dynamics.Services.Customer.EntityKeyPage EntityKeyPage;
+        public RequisicaoAX.Dynamics.Customer.EntityKeyPage EntityKeyPage;
         
         public CustomerServiceGetKeysResponse() {
         }
         
-        public CustomerServiceGetKeysResponse(RequisicaoAX.Dynamics.Services.Customer.EntityKeyPage EntityKeyPage) {
+        public CustomerServiceGetKeysResponse(RequisicaoAX.Dynamics.Customer.EntityKeyPage EntityKeyPage) {
             this.EntityKeyPage = EntityKeyPage;
         }
     }
@@ -12353,17 +12353,17 @@ namespace RequisicaoAX.Dynamics.Services.Customer {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Customer.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Customer.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Customer.EntityKey[] EntityKeyList;
         
         public CustomerServiceReadRequest() {
         }
         
-        public CustomerServiceReadRequest(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.EntityKey[] EntityKeyList) {
+        public CustomerServiceReadRequest(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.EntityKey[] EntityKeyList) {
             this.CallContext = CallContext;
             this.EntityKeyList = EntityKeyList;
         }
@@ -12377,12 +12377,12 @@ namespace RequisicaoAX.Dynamics.Services.Customer {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Customer", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Customer")]
-        public RequisicaoAX.Dynamics.Services.Customer.AxdCustomer Customer;
+        public RequisicaoAX.Dynamics.Customer.AxdCustomer Customer;
         
         public CustomerServiceReadResponse() {
         }
         
-        public CustomerServiceReadResponse(RequisicaoAX.Dynamics.Services.Customer.AxdCustomer Customer) {
+        public CustomerServiceReadResponse(RequisicaoAX.Dynamics.Customer.AxdCustomer Customer) {
             this.Customer = Customer;
         }
     }
@@ -12395,16 +12395,16 @@ namespace RequisicaoAX.Dynamics.Services.Customer {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Customer.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.Customer.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.Customer.QueryCriteria QueryCriteria;
         
         public CustomerServiceFindRequest() {
         }
         
-        public CustomerServiceFindRequest(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.QueryCriteria QueryCriteria) {
+        public CustomerServiceFindRequest(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.QueryCriteria QueryCriteria) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
         }
@@ -12418,23 +12418,23 @@ namespace RequisicaoAX.Dynamics.Services.Customer {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Customer", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Customer")]
-        public RequisicaoAX.Dynamics.Services.Customer.AxdCustomer Customer;
+        public RequisicaoAX.Dynamics.Customer.AxdCustomer Customer;
         
         public CustomerServiceFindResponse() {
         }
         
-        public CustomerServiceFindResponse(RequisicaoAX.Dynamics.Services.Customer.AxdCustomer Customer) {
+        public CustomerServiceFindResponse(RequisicaoAX.Dynamics.Customer.AxdCustomer Customer) {
             this.Customer = Customer;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface CustomerServiceChannel : RequisicaoAX.Dynamics.Services.Customer.CustomerService, System.ServiceModel.IClientChannel {
+    public interface CustomerServiceChannel : RequisicaoAX.Dynamics.Customer.CustomerService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class CustomerServiceClient : System.ServiceModel.ClientBase<RequisicaoAX.Dynamics.Services.Customer.CustomerService>, RequisicaoAX.Dynamics.Services.Customer.CustomerService {
+    public partial class CustomerServiceClient : System.ServiceModel.ClientBase<RequisicaoAX.Dynamics.Customer.CustomerService>, RequisicaoAX.Dynamics.Customer.CustomerService {
         
         public CustomerServiceClient() {
         }
@@ -12456,205 +12456,205 @@ namespace RequisicaoAX.Dynamics.Services.Customer {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindKeysResponse RequisicaoAX.Dynamics.Services.Customer.CustomerService.findKeys(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindKeysRequest request) {
+        RequisicaoAX.Dynamics.Customer.CustomerServiceFindKeysResponse RequisicaoAX.Dynamics.Customer.CustomerService.findKeys(RequisicaoAX.Dynamics.Customer.CustomerServiceFindKeysRequest request) {
             return base.Channel.findKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Customer.EntityKey[] findKeys(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindKeysRequest();
+        public RequisicaoAX.Dynamics.Customer.EntityKey[] findKeys(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Customer.CustomerServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Customer.CustomerServiceFindKeysRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Customer.CustomerService)(this)).findKeys(inValue);
+            RequisicaoAX.Dynamics.Customer.CustomerServiceFindKeysResponse retVal = ((RequisicaoAX.Dynamics.Customer.CustomerService)(this)).findKeys(inValue);
             return retVal.EntityKeyList;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindKeysResponse> RequisicaoAX.Dynamics.Services.Customer.CustomerService.findKeysAsync(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceFindKeysResponse> RequisicaoAX.Dynamics.Customer.CustomerService.findKeysAsync(RequisicaoAX.Dynamics.Customer.CustomerServiceFindKeysRequest request) {
             return base.Channel.findKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Customer.CustomerServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Customer.CustomerServiceFindKeysRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            return ((RequisicaoAX.Dynamics.Services.Customer.CustomerService)(this)).findKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Customer.CustomerService)(this)).findKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Customer.CustomerServiceCreateResponse RequisicaoAX.Dynamics.Services.Customer.CustomerService.create(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceCreateRequest request) {
+        RequisicaoAX.Dynamics.Customer.CustomerServiceCreateResponse RequisicaoAX.Dynamics.Customer.CustomerService.create(RequisicaoAX.Dynamics.Customer.CustomerServiceCreateRequest request) {
             return base.Channel.create(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Customer.EntityKey[] create(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.AxdCustomer Customer) {
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceCreateRequest inValue = new RequisicaoAX.Dynamics.Services.Customer.CustomerServiceCreateRequest();
+        public RequisicaoAX.Dynamics.Customer.EntityKey[] create(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.AxdCustomer Customer) {
+            RequisicaoAX.Dynamics.Customer.CustomerServiceCreateRequest inValue = new RequisicaoAX.Dynamics.Customer.CustomerServiceCreateRequest();
             inValue.CallContext = CallContext;
             inValue.Customer = Customer;
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceCreateResponse retVal = ((RequisicaoAX.Dynamics.Services.Customer.CustomerService)(this)).create(inValue);
+            RequisicaoAX.Dynamics.Customer.CustomerServiceCreateResponse retVal = ((RequisicaoAX.Dynamics.Customer.CustomerService)(this)).create(inValue);
             return retVal.EntityKeyList;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceCreateResponse> RequisicaoAX.Dynamics.Services.Customer.CustomerService.createAsync(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceCreateRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceCreateResponse> RequisicaoAX.Dynamics.Customer.CustomerService.createAsync(RequisicaoAX.Dynamics.Customer.CustomerServiceCreateRequest request) {
             return base.Channel.createAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceCreateResponse> createAsync(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.AxdCustomer Customer) {
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceCreateRequest inValue = new RequisicaoAX.Dynamics.Services.Customer.CustomerServiceCreateRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceCreateResponse> createAsync(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.AxdCustomer Customer) {
+            RequisicaoAX.Dynamics.Customer.CustomerServiceCreateRequest inValue = new RequisicaoAX.Dynamics.Customer.CustomerServiceCreateRequest();
             inValue.CallContext = CallContext;
             inValue.Customer = Customer;
-            return ((RequisicaoAX.Dynamics.Services.Customer.CustomerService)(this)).createAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Customer.CustomerService)(this)).createAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Customer.CustomerServiceDeleteResponse RequisicaoAX.Dynamics.Services.Customer.CustomerService.delete(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceDeleteRequest request) {
+        RequisicaoAX.Dynamics.Customer.CustomerServiceDeleteResponse RequisicaoAX.Dynamics.Customer.CustomerService.delete(RequisicaoAX.Dynamics.Customer.CustomerServiceDeleteRequest request) {
             return base.Channel.delete(request);
         }
         
-        public void delete(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceDeleteRequest inValue = new RequisicaoAX.Dynamics.Services.Customer.CustomerServiceDeleteRequest();
+        public void delete(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Customer.CustomerServiceDeleteRequest inValue = new RequisicaoAX.Dynamics.Customer.CustomerServiceDeleteRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceDeleteResponse retVal = ((RequisicaoAX.Dynamics.Services.Customer.CustomerService)(this)).delete(inValue);
+            RequisicaoAX.Dynamics.Customer.CustomerServiceDeleteResponse retVal = ((RequisicaoAX.Dynamics.Customer.CustomerService)(this)).delete(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceDeleteResponse> RequisicaoAX.Dynamics.Services.Customer.CustomerService.deleteAsync(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceDeleteRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceDeleteResponse> RequisicaoAX.Dynamics.Customer.CustomerService.deleteAsync(RequisicaoAX.Dynamics.Customer.CustomerServiceDeleteRequest request) {
             return base.Channel.deleteAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceDeleteResponse> deleteAsync(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceDeleteRequest inValue = new RequisicaoAX.Dynamics.Services.Customer.CustomerServiceDeleteRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceDeleteResponse> deleteAsync(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Customer.CustomerServiceDeleteRequest inValue = new RequisicaoAX.Dynamics.Customer.CustomerServiceDeleteRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            return ((RequisicaoAX.Dynamics.Services.Customer.CustomerService)(this)).deleteAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Customer.CustomerService)(this)).deleteAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetChangedKeysResponse RequisicaoAX.Dynamics.Services.Customer.CustomerService.getChangedKeys(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetChangedKeysRequest request) {
+        RequisicaoAX.Dynamics.Customer.CustomerServiceGetChangedKeysResponse RequisicaoAX.Dynamics.Customer.CustomerService.getChangedKeys(RequisicaoAX.Dynamics.Customer.CustomerServiceGetChangedKeysRequest request) {
             return base.Channel.getChangedKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Customer.EntityKeyPage getChangedKeys(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetChangedKeysRequest();
+        public RequisicaoAX.Dynamics.Customer.EntityKeyPage getChangedKeys(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+            RequisicaoAX.Dynamics.Customer.CustomerServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Customer.CustomerServiceGetChangedKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
             inValue._changedDateTime = _changedDateTime;
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetChangedKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Customer.CustomerService)(this)).getChangedKeys(inValue);
+            RequisicaoAX.Dynamics.Customer.CustomerServiceGetChangedKeysResponse retVal = ((RequisicaoAX.Dynamics.Customer.CustomerService)(this)).getChangedKeys(inValue);
             return retVal.EntityKeyPage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetChangedKeysResponse> RequisicaoAX.Dynamics.Services.Customer.CustomerService.getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetChangedKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceGetChangedKeysResponse> RequisicaoAX.Dynamics.Customer.CustomerService.getChangedKeysAsync(RequisicaoAX.Dynamics.Customer.CustomerServiceGetChangedKeysRequest request) {
             return base.Channel.getChangedKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetChangedKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+            RequisicaoAX.Dynamics.Customer.CustomerServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Customer.CustomerServiceGetChangedKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
             inValue._changedDateTime = _changedDateTime;
-            return ((RequisicaoAX.Dynamics.Services.Customer.CustomerService)(this)).getChangedKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Customer.CustomerService)(this)).getChangedKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Customer.CustomerServiceUpdateResponse RequisicaoAX.Dynamics.Services.Customer.CustomerService.update(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceUpdateRequest request) {
+        RequisicaoAX.Dynamics.Customer.CustomerServiceUpdateResponse RequisicaoAX.Dynamics.Customer.CustomerService.update(RequisicaoAX.Dynamics.Customer.CustomerServiceUpdateRequest request) {
             return base.Channel.update(request);
         }
         
-        public void update(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.EntityKey[] EntityKeyList, RequisicaoAX.Dynamics.Services.Customer.AxdCustomer Customer) {
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceUpdateRequest inValue = new RequisicaoAX.Dynamics.Services.Customer.CustomerServiceUpdateRequest();
+        public void update(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.EntityKey[] EntityKeyList, RequisicaoAX.Dynamics.Customer.AxdCustomer Customer) {
+            RequisicaoAX.Dynamics.Customer.CustomerServiceUpdateRequest inValue = new RequisicaoAX.Dynamics.Customer.CustomerServiceUpdateRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
             inValue.Customer = Customer;
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceUpdateResponse retVal = ((RequisicaoAX.Dynamics.Services.Customer.CustomerService)(this)).update(inValue);
+            RequisicaoAX.Dynamics.Customer.CustomerServiceUpdateResponse retVal = ((RequisicaoAX.Dynamics.Customer.CustomerService)(this)).update(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceUpdateResponse> RequisicaoAX.Dynamics.Services.Customer.CustomerService.updateAsync(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceUpdateRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceUpdateResponse> RequisicaoAX.Dynamics.Customer.CustomerService.updateAsync(RequisicaoAX.Dynamics.Customer.CustomerServiceUpdateRequest request) {
             return base.Channel.updateAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceUpdateResponse> updateAsync(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.EntityKey[] EntityKeyList, RequisicaoAX.Dynamics.Services.Customer.AxdCustomer Customer) {
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceUpdateRequest inValue = new RequisicaoAX.Dynamics.Services.Customer.CustomerServiceUpdateRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceUpdateResponse> updateAsync(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.EntityKey[] EntityKeyList, RequisicaoAX.Dynamics.Customer.AxdCustomer Customer) {
+            RequisicaoAX.Dynamics.Customer.CustomerServiceUpdateRequest inValue = new RequisicaoAX.Dynamics.Customer.CustomerServiceUpdateRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
             inValue.Customer = Customer;
-            return ((RequisicaoAX.Dynamics.Services.Customer.CustomerService)(this)).updateAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Customer.CustomerService)(this)).updateAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetKeysResponse RequisicaoAX.Dynamics.Services.Customer.CustomerService.getKeys(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetKeysRequest request) {
+        RequisicaoAX.Dynamics.Customer.CustomerServiceGetKeysResponse RequisicaoAX.Dynamics.Customer.CustomerService.getKeys(RequisicaoAX.Dynamics.Customer.CustomerServiceGetKeysRequest request) {
             return base.Channel.getKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Customer.EntityKeyPage getKeys(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.DocumentPaging DocumentPaging) {
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetKeysRequest();
+        public RequisicaoAX.Dynamics.Customer.EntityKeyPage getKeys(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.DocumentPaging DocumentPaging) {
+            RequisicaoAX.Dynamics.Customer.CustomerServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Customer.CustomerServiceGetKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Customer.CustomerService)(this)).getKeys(inValue);
+            RequisicaoAX.Dynamics.Customer.CustomerServiceGetKeysResponse retVal = ((RequisicaoAX.Dynamics.Customer.CustomerService)(this)).getKeys(inValue);
             return retVal.EntityKeyPage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetKeysResponse> RequisicaoAX.Dynamics.Services.Customer.CustomerService.getKeysAsync(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceGetKeysResponse> RequisicaoAX.Dynamics.Customer.CustomerService.getKeysAsync(RequisicaoAX.Dynamics.Customer.CustomerServiceGetKeysRequest request) {
             return base.Channel.getKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.DocumentPaging DocumentPaging) {
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Customer.CustomerServiceGetKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.DocumentPaging DocumentPaging) {
+            RequisicaoAX.Dynamics.Customer.CustomerServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Customer.CustomerServiceGetKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
-            return ((RequisicaoAX.Dynamics.Services.Customer.CustomerService)(this)).getKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Customer.CustomerService)(this)).getKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Customer.CustomerServiceReadResponse RequisicaoAX.Dynamics.Services.Customer.CustomerService.read(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceReadRequest request) {
+        RequisicaoAX.Dynamics.Customer.CustomerServiceReadResponse RequisicaoAX.Dynamics.Customer.CustomerService.read(RequisicaoAX.Dynamics.Customer.CustomerServiceReadRequest request) {
             return base.Channel.read(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Customer.AxdCustomer read(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceReadRequest inValue = new RequisicaoAX.Dynamics.Services.Customer.CustomerServiceReadRequest();
+        public RequisicaoAX.Dynamics.Customer.AxdCustomer read(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Customer.CustomerServiceReadRequest inValue = new RequisicaoAX.Dynamics.Customer.CustomerServiceReadRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceReadResponse retVal = ((RequisicaoAX.Dynamics.Services.Customer.CustomerService)(this)).read(inValue);
+            RequisicaoAX.Dynamics.Customer.CustomerServiceReadResponse retVal = ((RequisicaoAX.Dynamics.Customer.CustomerService)(this)).read(inValue);
             return retVal.Customer;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceReadResponse> RequisicaoAX.Dynamics.Services.Customer.CustomerService.readAsync(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceReadRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceReadResponse> RequisicaoAX.Dynamics.Customer.CustomerService.readAsync(RequisicaoAX.Dynamics.Customer.CustomerServiceReadRequest request) {
             return base.Channel.readAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceReadRequest inValue = new RequisicaoAX.Dynamics.Services.Customer.CustomerServiceReadRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Customer.CustomerServiceReadRequest inValue = new RequisicaoAX.Dynamics.Customer.CustomerServiceReadRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            return ((RequisicaoAX.Dynamics.Services.Customer.CustomerService)(this)).readAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Customer.CustomerService)(this)).readAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindResponse RequisicaoAX.Dynamics.Services.Customer.CustomerService.find(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindRequest request) {
+        RequisicaoAX.Dynamics.Customer.CustomerServiceFindResponse RequisicaoAX.Dynamics.Customer.CustomerService.find(RequisicaoAX.Dynamics.Customer.CustomerServiceFindRequest request) {
             return base.Channel.find(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Customer.AxdCustomer find(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindRequest inValue = new RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindRequest();
+        public RequisicaoAX.Dynamics.Customer.AxdCustomer find(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Customer.CustomerServiceFindRequest inValue = new RequisicaoAX.Dynamics.Customer.CustomerServiceFindRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindResponse retVal = ((RequisicaoAX.Dynamics.Services.Customer.CustomerService)(this)).find(inValue);
+            RequisicaoAX.Dynamics.Customer.CustomerServiceFindResponse retVal = ((RequisicaoAX.Dynamics.Customer.CustomerService)(this)).find(inValue);
             return retVal.Customer;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindResponse> RequisicaoAX.Dynamics.Services.Customer.CustomerService.findAsync(RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceFindResponse> RequisicaoAX.Dynamics.Customer.CustomerService.findAsync(RequisicaoAX.Dynamics.Customer.CustomerServiceFindRequest request) {
             return base.Channel.findAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Services.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Services.Customer.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindRequest inValue = new RequisicaoAX.Dynamics.Services.Customer.CustomerServiceFindRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Customer.CustomerServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Customer.CallContext CallContext, RequisicaoAX.Dynamics.Customer.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Customer.CustomerServiceFindRequest inValue = new RequisicaoAX.Dynamics.Customer.CustomerServiceFindRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            return ((RequisicaoAX.Dynamics.Services.Customer.CustomerService)(this)).findAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Customer.CustomerService)(this)).findAsync(inValue);
         }
     }
 }

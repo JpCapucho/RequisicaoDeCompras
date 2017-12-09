@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RequisicaoAX.Dynamics.Services.HcmWorker {
+namespace RequisicaoAX.Dynamics.HcmWorker {
     
     
     /// <remarks/>
@@ -6650,151 +6650,151 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/rea" +
             "dAsOf", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/rea" +
             "dAsOfResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.HcmWorker.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/rea" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.HcmWorker.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/rea" +
             "dAsOfAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(AxdEntity_DirPerson_DirPartyTable))]
-        RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadAsOfResponse readAsOf(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadAsOfRequest request);
+        RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadAsOfResponse readAsOf(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadAsOfRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/rea" +
             "dAsOf", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/rea" +
             "dAsOfResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadAsOfResponse> readAsOfAsync(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadAsOfRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadAsOfResponse> readAsOfAsync(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadAsOfRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (HcmWorkerImportServiceReadRequest) of message HcmWorkerImportServiceReadRequest does not match the default value (read)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/rea" +
             "d", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/rea" +
             "dResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.HcmWorker.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/rea" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.HcmWorker.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/rea" +
             "dAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(AxdEntity_DirPerson_DirPartyTable))]
-        RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadResponse read(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadRequest request);
+        RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadResponse read(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/rea" +
             "d", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/rea" +
             "dResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadResponse> readAsync(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (HcmWorkerImportServiceFindRequest) of message HcmWorkerImportServiceFindRequest does not match the default value (find)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
             "d", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
             "dResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.HcmWorker.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.HcmWorker.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
             "dAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(AxdEntity_DirPerson_DirPartyTable))]
-        RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindResponse find(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindRequest request);
+        RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindResponse find(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
             "d", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
             "dResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindResponse> findAsync(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (HcmWorkerImportServiceFindKeysAsOfRequest) of message HcmWorkerImportServiceFindKeysAsOfRequest does not match the default value (findKeysAsOf)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
             "dKeysAsOf", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
             "dKeysAsOfResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.HcmWorker.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.HcmWorker.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
             "dKeysAsOfAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(AxdEntity_DirPerson_DirPartyTable))]
-        RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysAsOfResponse findKeysAsOf(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysAsOfRequest request);
+        RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysAsOfResponse findKeysAsOf(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysAsOfRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
             "dKeysAsOf", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
             "dKeysAsOfResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysAsOfResponse> findKeysAsOfAsync(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysAsOfRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysAsOfResponse> findKeysAsOfAsync(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysAsOfRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (HcmWorkerImportServiceUpdateRequest) of message HcmWorkerImportServiceUpdateRequest does not match the default value (update)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/upd" +
             "ate", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/upd" +
             "ateResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.HcmWorker.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/upd" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.HcmWorker.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/upd" +
             "ateAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(AxdEntity_DirPerson_DirPartyTable))]
-        RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceUpdateResponse update(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceUpdateRequest request);
+        RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceUpdateResponse update(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceUpdateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/upd" +
             "ate", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/upd" +
             "ateResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceUpdateResponse> updateAsync(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceUpdateRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceUpdateResponse> updateAsync(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceUpdateRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (HcmWorkerImportServiceFindAsOfRequest) of message HcmWorkerImportServiceFindAsOfRequest does not match the default value (findAsOf)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
             "dAsOf", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
             "dAsOfResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.HcmWorker.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.HcmWorker.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
             "dAsOfAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(AxdEntity_DirPerson_DirPartyTable))]
-        RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindAsOfResponse findAsOf(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindAsOfRequest request);
+        RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindAsOfResponse findAsOf(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindAsOfRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
             "dAsOf", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
             "dAsOfResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindAsOfResponse> findAsOfAsync(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindAsOfRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindAsOfResponse> findAsOfAsync(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindAsOfRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (HcmWorkerImportServiceGetChangedKeysRequest) of message HcmWorkerImportServiceGetChangedKeysRequest does not match the default value (getChangedKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/get" +
             "ChangedKeys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/get" +
             "ChangedKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.HcmWorker.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/get" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.HcmWorker.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/get" +
             "ChangedKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(AxdEntity_DirPerson_DirPartyTable))]
-        RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetChangedKeysResponse getChangedKeys(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetChangedKeysRequest request);
+        RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetChangedKeysResponse getChangedKeys(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetChangedKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/get" +
             "ChangedKeys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/get" +
             "ChangedKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetChangedKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetChangedKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (HcmWorkerImportServiceCreateRequest) of message HcmWorkerImportServiceCreateRequest does not match the default value (create)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/cre" +
             "ate", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/cre" +
             "ateResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.HcmWorker.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/cre" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.HcmWorker.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/cre" +
             "ateAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(AxdEntity_DirPerson_DirPartyTable))]
-        RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceCreateResponse create(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceCreateRequest request);
+        RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceCreateResponse create(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceCreateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/cre" +
             "ate", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/cre" +
             "ateResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceCreateResponse> createAsync(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceCreateRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceCreateResponse> createAsync(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceCreateRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (HcmWorkerImportServiceFindKeysRequest) of message HcmWorkerImportServiceFindKeysRequest does not match the default value (findKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
             "dKeys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
             "dKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.HcmWorker.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.HcmWorker.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
             "dKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(AxdEntity_DirPerson_DirPartyTable))]
-        RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysResponse findKeys(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysRequest request);
+        RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysResponse findKeys(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
             "dKeys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/fin" +
             "dKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (HcmWorkerImportServiceGetKeysRequest) of message HcmWorkerImportServiceGetKeysRequest does not match the default value (getKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/get" +
             "Keys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/get" +
             "KeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.HcmWorker.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/get" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.HcmWorker.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/get" +
             "KeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(AxdEntity_DirPerson_DirPartyTable))]
-        RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetKeysResponse getKeys(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetKeysRequest request);
+        RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetKeysResponse getKeys(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/get" +
             "Keys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/HcmWorkerImportService/get" +
             "KeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetKeysRequest request);
     }
     
     /// <remarks/>
@@ -6954,12 +6954,12 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext;
+        public RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.HcmWorker.EntityKey[] EntityKeyList;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/services", Order=1)]
         public System.DateTime _validAsOf;
@@ -6967,7 +6967,7 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         public HcmWorkerImportServiceReadAsOfRequest() {
         }
         
-        public HcmWorkerImportServiceReadAsOfRequest(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] EntityKeyList, System.DateTime _validAsOf) {
+        public HcmWorkerImportServiceReadAsOfRequest(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.EntityKey[] EntityKeyList, System.DateTime _validAsOf) {
             this.CallContext = CallContext;
             this.EntityKeyList = EntityKeyList;
             this._validAsOf = _validAsOf;
@@ -6982,12 +6982,12 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/HcmWorkerImport", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/HcmWorkerImport")]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.AxdHcmWorkerImport HcmWorkerImport;
+        public RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport HcmWorkerImport;
         
         public HcmWorkerImportServiceReadAsOfResponse() {
         }
         
-        public HcmWorkerImportServiceReadAsOfResponse(RequisicaoAX.Dynamics.Services.HcmWorker.AxdHcmWorkerImport HcmWorkerImport) {
+        public HcmWorkerImportServiceReadAsOfResponse(RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport HcmWorkerImport) {
             this.HcmWorkerImport = HcmWorkerImport;
         }
     }
@@ -7000,17 +7000,17 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext;
+        public RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.HcmWorker.EntityKey[] EntityKeyList;
         
         public HcmWorkerImportServiceReadRequest() {
         }
         
-        public HcmWorkerImportServiceReadRequest(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] EntityKeyList) {
+        public HcmWorkerImportServiceReadRequest(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.EntityKey[] EntityKeyList) {
             this.CallContext = CallContext;
             this.EntityKeyList = EntityKeyList;
         }
@@ -7024,12 +7024,12 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/HcmWorkerImport", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/HcmWorkerImport")]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.AxdHcmWorkerImport HcmWorkerImport;
+        public RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport HcmWorkerImport;
         
         public HcmWorkerImportServiceReadResponse() {
         }
         
-        public HcmWorkerImportServiceReadResponse(RequisicaoAX.Dynamics.Services.HcmWorker.AxdHcmWorkerImport HcmWorkerImport) {
+        public HcmWorkerImportServiceReadResponse(RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport HcmWorkerImport) {
             this.HcmWorkerImport = HcmWorkerImport;
         }
     }
@@ -7190,16 +7190,16 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext;
+        public RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.HcmWorker.QueryCriteria QueryCriteria;
         
         public HcmWorkerImportServiceFindRequest() {
         }
         
-        public HcmWorkerImportServiceFindRequest(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.QueryCriteria QueryCriteria) {
+        public HcmWorkerImportServiceFindRequest(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.QueryCriteria QueryCriteria) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
         }
@@ -7213,12 +7213,12 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/HcmWorkerImport", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/HcmWorkerImport")]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.AxdHcmWorkerImport HcmWorkerImport;
+        public RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport HcmWorkerImport;
         
         public HcmWorkerImportServiceFindResponse() {
         }
         
-        public HcmWorkerImportServiceFindResponse(RequisicaoAX.Dynamics.Services.HcmWorker.AxdHcmWorkerImport HcmWorkerImport) {
+        public HcmWorkerImportServiceFindResponse(RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport HcmWorkerImport) {
             this.HcmWorkerImport = HcmWorkerImport;
         }
     }
@@ -7231,11 +7231,11 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext;
+        public RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.HcmWorker.QueryCriteria QueryCriteria;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/services", Order=1)]
         public System.DateTime _validAsOf;
@@ -7243,7 +7243,7 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         public HcmWorkerImportServiceFindKeysAsOfRequest() {
         }
         
-        public HcmWorkerImportServiceFindKeysAsOfRequest(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.QueryCriteria QueryCriteria, System.DateTime _validAsOf) {
+        public HcmWorkerImportServiceFindKeysAsOfRequest(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.QueryCriteria QueryCriteria, System.DateTime _validAsOf) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
             this._validAsOf = _validAsOf;
@@ -7259,12 +7259,12 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.HcmWorker.EntityKey[] EntityKeyList;
         
         public HcmWorkerImportServiceFindKeysAsOfResponse() {
         }
         
-        public HcmWorkerImportServiceFindKeysAsOfResponse(RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] EntityKeyList) {
+        public HcmWorkerImportServiceFindKeysAsOfResponse(RequisicaoAX.Dynamics.HcmWorker.EntityKey[] EntityKeyList) {
             this.EntityKeyList = EntityKeyList;
         }
     }
@@ -7277,21 +7277,21 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext;
+        public RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.HcmWorker.EntityKey[] EntityKeyList;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/HcmWorkerImport", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/HcmWorkerImport")]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.AxdHcmWorkerImport HcmWorkerImport;
+        public RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport HcmWorkerImport;
         
         public HcmWorkerImportServiceUpdateRequest() {
         }
         
-        public HcmWorkerImportServiceUpdateRequest(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] EntityKeyList, RequisicaoAX.Dynamics.Services.HcmWorker.AxdHcmWorkerImport HcmWorkerImport) {
+        public HcmWorkerImportServiceUpdateRequest(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.EntityKey[] EntityKeyList, RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport HcmWorkerImport) {
             this.CallContext = CallContext;
             this.EntityKeyList = EntityKeyList;
             this.HcmWorkerImport = HcmWorkerImport;
@@ -7316,11 +7316,11 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext;
+        public RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.HcmWorker.QueryCriteria QueryCriteria;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/services", Order=1)]
         public System.DateTime _validAsOf;
@@ -7328,7 +7328,7 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         public HcmWorkerImportServiceFindAsOfRequest() {
         }
         
-        public HcmWorkerImportServiceFindAsOfRequest(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.QueryCriteria QueryCriteria, System.DateTime _validAsOf) {
+        public HcmWorkerImportServiceFindAsOfRequest(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.QueryCriteria QueryCriteria, System.DateTime _validAsOf) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
             this._validAsOf = _validAsOf;
@@ -7343,12 +7343,12 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/HcmWorkerImport", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/HcmWorkerImport")]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.AxdHcmWorkerImport HcmWorkerImport;
+        public RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport HcmWorkerImport;
         
         public HcmWorkerImportServiceFindAsOfResponse() {
         }
         
-        public HcmWorkerImportServiceFindAsOfResponse(RequisicaoAX.Dynamics.Services.HcmWorker.AxdHcmWorkerImport HcmWorkerImport) {
+        public HcmWorkerImportServiceFindAsOfResponse(RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport HcmWorkerImport) {
             this.HcmWorkerImport = HcmWorkerImport;
         }
     }
@@ -7514,11 +7514,11 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext;
+        public RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging")]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.DocumentPaging DocumentPaging;
+        public RequisicaoAX.Dynamics.HcmWorker.DocumentPaging DocumentPaging;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/services", Order=1)]
         public System.DateTime _changedDateTime;
@@ -7526,7 +7526,7 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         public HcmWorkerImportServiceGetChangedKeysRequest() {
         }
         
-        public HcmWorkerImportServiceGetChangedKeysRequest(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+        public HcmWorkerImportServiceGetChangedKeysRequest(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
             this.CallContext = CallContext;
             this.DocumentPaging = DocumentPaging;
             this._changedDateTime = _changedDateTime;
@@ -7541,12 +7541,12 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage")]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.EntityKeyPage EntityKeyPage;
+        public RequisicaoAX.Dynamics.HcmWorker.EntityKeyPage EntityKeyPage;
         
         public HcmWorkerImportServiceGetChangedKeysResponse() {
         }
         
-        public HcmWorkerImportServiceGetChangedKeysResponse(RequisicaoAX.Dynamics.Services.HcmWorker.EntityKeyPage EntityKeyPage) {
+        public HcmWorkerImportServiceGetChangedKeysResponse(RequisicaoAX.Dynamics.HcmWorker.EntityKeyPage EntityKeyPage) {
             this.EntityKeyPage = EntityKeyPage;
         }
     }
@@ -7559,16 +7559,16 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext;
+        public RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/HcmWorkerImport", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/HcmWorkerImport")]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.AxdHcmWorkerImport HcmWorkerImport;
+        public RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport HcmWorkerImport;
         
         public HcmWorkerImportServiceCreateRequest() {
         }
         
-        public HcmWorkerImportServiceCreateRequest(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.AxdHcmWorkerImport HcmWorkerImport) {
+        public HcmWorkerImportServiceCreateRequest(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport HcmWorkerImport) {
             this.CallContext = CallContext;
             this.HcmWorkerImport = HcmWorkerImport;
         }
@@ -7583,12 +7583,12 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.HcmWorker.EntityKey[] EntityKeyList;
         
         public HcmWorkerImportServiceCreateResponse() {
         }
         
-        public HcmWorkerImportServiceCreateResponse(RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] EntityKeyList) {
+        public HcmWorkerImportServiceCreateResponse(RequisicaoAX.Dynamics.HcmWorker.EntityKey[] EntityKeyList) {
             this.EntityKeyList = EntityKeyList;
         }
     }
@@ -7601,16 +7601,16 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext;
+        public RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.HcmWorker.QueryCriteria QueryCriteria;
         
         public HcmWorkerImportServiceFindKeysRequest() {
         }
         
-        public HcmWorkerImportServiceFindKeysRequest(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.QueryCriteria QueryCriteria) {
+        public HcmWorkerImportServiceFindKeysRequest(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.QueryCriteria QueryCriteria) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
         }
@@ -7625,12 +7625,12 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.HcmWorker.EntityKey[] EntityKeyList;
         
         public HcmWorkerImportServiceFindKeysResponse() {
         }
         
-        public HcmWorkerImportServiceFindKeysResponse(RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] EntityKeyList) {
+        public HcmWorkerImportServiceFindKeysResponse(RequisicaoAX.Dynamics.HcmWorker.EntityKey[] EntityKeyList) {
             this.EntityKeyList = EntityKeyList;
         }
     }
@@ -7643,16 +7643,16 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext;
+        public RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging")]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.DocumentPaging DocumentPaging;
+        public RequisicaoAX.Dynamics.HcmWorker.DocumentPaging DocumentPaging;
         
         public HcmWorkerImportServiceGetKeysRequest() {
         }
         
-        public HcmWorkerImportServiceGetKeysRequest(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.DocumentPaging DocumentPaging) {
+        public HcmWorkerImportServiceGetKeysRequest(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.DocumentPaging DocumentPaging) {
             this.CallContext = CallContext;
             this.DocumentPaging = DocumentPaging;
         }
@@ -7666,23 +7666,23 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage")]
-        public RequisicaoAX.Dynamics.Services.HcmWorker.EntityKeyPage EntityKeyPage;
+        public RequisicaoAX.Dynamics.HcmWorker.EntityKeyPage EntityKeyPage;
         
         public HcmWorkerImportServiceGetKeysResponse() {
         }
         
-        public HcmWorkerImportServiceGetKeysResponse(RequisicaoAX.Dynamics.Services.HcmWorker.EntityKeyPage EntityKeyPage) {
+        public HcmWorkerImportServiceGetKeysResponse(RequisicaoAX.Dynamics.HcmWorker.EntityKeyPage EntityKeyPage) {
             this.EntityKeyPage = EntityKeyPage;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface HcmWorkerImportServiceChannel : RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService, System.ServiceModel.IClientChannel {
+    public interface HcmWorkerImportServiceChannel : RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class HcmWorkerImportServiceClient : System.ServiceModel.ClientBase<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService>, RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService {
+    public partial class HcmWorkerImportServiceClient : System.ServiceModel.ClientBase<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService>, RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService {
         
         public HcmWorkerImportServiceClient() {
         }
@@ -7704,262 +7704,262 @@ namespace RequisicaoAX.Dynamics.Services.HcmWorker {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadAsOfResponse RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService.readAsOf(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadAsOfRequest request) {
+        RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadAsOfResponse RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService.readAsOf(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadAsOfRequest request) {
             return base.Channel.readAsOf(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.HcmWorker.AxdHcmWorkerImport readAsOf(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] EntityKeyList, System.DateTime _validAsOf) {
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadAsOfRequest inValue = new RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadAsOfRequest();
+        public RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport readAsOf(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.EntityKey[] EntityKeyList, System.DateTime _validAsOf) {
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadAsOfRequest inValue = new RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadAsOfRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
             inValue._validAsOf = _validAsOf;
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadAsOfResponse retVal = ((RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService)(this)).readAsOf(inValue);
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadAsOfResponse retVal = ((RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService)(this)).readAsOf(inValue);
             return retVal.HcmWorkerImport;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadAsOfResponse> RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService.readAsOfAsync(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadAsOfRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadAsOfResponse> RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService.readAsOfAsync(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadAsOfRequest request) {
             return base.Channel.readAsOfAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadAsOfResponse> readAsOfAsync(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] EntityKeyList, System.DateTime _validAsOf) {
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadAsOfRequest inValue = new RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadAsOfRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadAsOfResponse> readAsOfAsync(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.EntityKey[] EntityKeyList, System.DateTime _validAsOf) {
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadAsOfRequest inValue = new RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadAsOfRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
             inValue._validAsOf = _validAsOf;
-            return ((RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService)(this)).readAsOfAsync(inValue);
+            return ((RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService)(this)).readAsOfAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadResponse RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService.read(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadRequest request) {
+        RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadResponse RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService.read(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadRequest request) {
             return base.Channel.read(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.HcmWorker.AxdHcmWorkerImport read(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadRequest inValue = new RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadRequest();
+        public RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport read(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadRequest inValue = new RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadResponse retVal = ((RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService)(this)).read(inValue);
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadResponse retVal = ((RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService)(this)).read(inValue);
             return retVal.HcmWorkerImport;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadResponse> RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService.readAsync(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadResponse> RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService.readAsync(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadRequest request) {
             return base.Channel.readAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadRequest inValue = new RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceReadRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadResponse> readAsync(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadRequest inValue = new RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            return ((RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService)(this)).readAsync(inValue);
+            return ((RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService)(this)).readAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindResponse RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService.find(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindRequest request) {
+        RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindResponse RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService.find(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindRequest request) {
             return base.Channel.find(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.HcmWorker.AxdHcmWorkerImport find(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindRequest inValue = new RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindRequest();
+        public RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport find(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindRequest inValue = new RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindResponse retVal = ((RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService)(this)).find(inValue);
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindResponse retVal = ((RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService)(this)).find(inValue);
             return retVal.HcmWorkerImport;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindResponse> RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService.findAsync(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindResponse> RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService.findAsync(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindRequest request) {
             return base.Channel.findAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindRequest inValue = new RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindResponse> findAsync(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindRequest inValue = new RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            return ((RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService)(this)).findAsync(inValue);
+            return ((RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService)(this)).findAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysAsOfResponse RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService.findKeysAsOf(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysAsOfRequest request) {
+        RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysAsOfResponse RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService.findKeysAsOf(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysAsOfRequest request) {
             return base.Channel.findKeysAsOf(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] findKeysAsOf(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.QueryCriteria QueryCriteria, System.DateTime _validAsOf) {
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysAsOfRequest inValue = new RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysAsOfRequest();
+        public RequisicaoAX.Dynamics.HcmWorker.EntityKey[] findKeysAsOf(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.QueryCriteria QueryCriteria, System.DateTime _validAsOf) {
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysAsOfRequest inValue = new RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysAsOfRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
             inValue._validAsOf = _validAsOf;
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysAsOfResponse retVal = ((RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService)(this)).findKeysAsOf(inValue);
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysAsOfResponse retVal = ((RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService)(this)).findKeysAsOf(inValue);
             return retVal.EntityKeyList;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysAsOfResponse> RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService.findKeysAsOfAsync(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysAsOfRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysAsOfResponse> RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService.findKeysAsOfAsync(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysAsOfRequest request) {
             return base.Channel.findKeysAsOfAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysAsOfResponse> findKeysAsOfAsync(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.QueryCriteria QueryCriteria, System.DateTime _validAsOf) {
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysAsOfRequest inValue = new RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysAsOfRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysAsOfResponse> findKeysAsOfAsync(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.QueryCriteria QueryCriteria, System.DateTime _validAsOf) {
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysAsOfRequest inValue = new RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysAsOfRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
             inValue._validAsOf = _validAsOf;
-            return ((RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService)(this)).findKeysAsOfAsync(inValue);
+            return ((RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService)(this)).findKeysAsOfAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceUpdateResponse RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService.update(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceUpdateRequest request) {
+        RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceUpdateResponse RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService.update(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceUpdateRequest request) {
             return base.Channel.update(request);
         }
         
-        public void update(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] EntityKeyList, RequisicaoAX.Dynamics.Services.HcmWorker.AxdHcmWorkerImport HcmWorkerImport) {
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceUpdateRequest inValue = new RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceUpdateRequest();
+        public void update(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.EntityKey[] EntityKeyList, RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport HcmWorkerImport) {
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceUpdateRequest inValue = new RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceUpdateRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
             inValue.HcmWorkerImport = HcmWorkerImport;
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceUpdateResponse retVal = ((RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService)(this)).update(inValue);
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceUpdateResponse retVal = ((RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService)(this)).update(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceUpdateResponse> RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService.updateAsync(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceUpdateRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceUpdateResponse> RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService.updateAsync(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceUpdateRequest request) {
             return base.Channel.updateAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceUpdateResponse> updateAsync(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] EntityKeyList, RequisicaoAX.Dynamics.Services.HcmWorker.AxdHcmWorkerImport HcmWorkerImport) {
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceUpdateRequest inValue = new RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceUpdateRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceUpdateResponse> updateAsync(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.EntityKey[] EntityKeyList, RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport HcmWorkerImport) {
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceUpdateRequest inValue = new RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceUpdateRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
             inValue.HcmWorkerImport = HcmWorkerImport;
-            return ((RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService)(this)).updateAsync(inValue);
+            return ((RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService)(this)).updateAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindAsOfResponse RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService.findAsOf(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindAsOfRequest request) {
+        RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindAsOfResponse RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService.findAsOf(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindAsOfRequest request) {
             return base.Channel.findAsOf(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.HcmWorker.AxdHcmWorkerImport findAsOf(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.QueryCriteria QueryCriteria, System.DateTime _validAsOf) {
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindAsOfRequest inValue = new RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindAsOfRequest();
+        public RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport findAsOf(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.QueryCriteria QueryCriteria, System.DateTime _validAsOf) {
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindAsOfRequest inValue = new RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindAsOfRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
             inValue._validAsOf = _validAsOf;
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindAsOfResponse retVal = ((RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService)(this)).findAsOf(inValue);
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindAsOfResponse retVal = ((RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService)(this)).findAsOf(inValue);
             return retVal.HcmWorkerImport;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindAsOfResponse> RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService.findAsOfAsync(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindAsOfRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindAsOfResponse> RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService.findAsOfAsync(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindAsOfRequest request) {
             return base.Channel.findAsOfAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindAsOfResponse> findAsOfAsync(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.QueryCriteria QueryCriteria, System.DateTime _validAsOf) {
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindAsOfRequest inValue = new RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindAsOfRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindAsOfResponse> findAsOfAsync(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.QueryCriteria QueryCriteria, System.DateTime _validAsOf) {
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindAsOfRequest inValue = new RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindAsOfRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
             inValue._validAsOf = _validAsOf;
-            return ((RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService)(this)).findAsOfAsync(inValue);
+            return ((RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService)(this)).findAsOfAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetChangedKeysResponse RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService.getChangedKeys(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetChangedKeysRequest request) {
+        RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetChangedKeysResponse RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService.getChangedKeys(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetChangedKeysRequest request) {
             return base.Channel.getChangedKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.HcmWorker.EntityKeyPage getChangedKeys(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetChangedKeysRequest();
+        public RequisicaoAX.Dynamics.HcmWorker.EntityKeyPage getChangedKeys(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetChangedKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
             inValue._changedDateTime = _changedDateTime;
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetChangedKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService)(this)).getChangedKeys(inValue);
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetChangedKeysResponse retVal = ((RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService)(this)).getChangedKeys(inValue);
             return retVal.EntityKeyPage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetChangedKeysResponse> RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService.getChangedKeysAsync(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetChangedKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetChangedKeysResponse> RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService.getChangedKeysAsync(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetChangedKeysRequest request) {
             return base.Channel.getChangedKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetChangedKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetChangedKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
             inValue._changedDateTime = _changedDateTime;
-            return ((RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService)(this)).getChangedKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService)(this)).getChangedKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceCreateResponse RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService.create(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceCreateRequest request) {
+        RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceCreateResponse RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService.create(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceCreateRequest request) {
             return base.Channel.create(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] create(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.AxdHcmWorkerImport HcmWorkerImport) {
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceCreateRequest inValue = new RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceCreateRequest();
+        public RequisicaoAX.Dynamics.HcmWorker.EntityKey[] create(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport HcmWorkerImport) {
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceCreateRequest inValue = new RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceCreateRequest();
             inValue.CallContext = CallContext;
             inValue.HcmWorkerImport = HcmWorkerImport;
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceCreateResponse retVal = ((RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService)(this)).create(inValue);
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceCreateResponse retVal = ((RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService)(this)).create(inValue);
             return retVal.EntityKeyList;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceCreateResponse> RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService.createAsync(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceCreateRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceCreateResponse> RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService.createAsync(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceCreateRequest request) {
             return base.Channel.createAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceCreateResponse> createAsync(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.AxdHcmWorkerImport HcmWorkerImport) {
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceCreateRequest inValue = new RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceCreateRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceCreateResponse> createAsync(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport HcmWorkerImport) {
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceCreateRequest inValue = new RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceCreateRequest();
             inValue.CallContext = CallContext;
             inValue.HcmWorkerImport = HcmWorkerImport;
-            return ((RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService)(this)).createAsync(inValue);
+            return ((RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService)(this)).createAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysResponse RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService.findKeys(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysRequest request) {
+        RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysResponse RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService.findKeys(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysRequest request) {
             return base.Channel.findKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.HcmWorker.EntityKey[] findKeys(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysRequest();
+        public RequisicaoAX.Dynamics.HcmWorker.EntityKey[] findKeys(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService)(this)).findKeys(inValue);
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysResponse retVal = ((RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService)(this)).findKeys(inValue);
             return retVal.EntityKeyList;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysResponse> RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService.findKeysAsync(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysResponse> RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService.findKeysAsync(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysRequest request) {
             return base.Channel.findKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceFindKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            return ((RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService)(this)).findKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService)(this)).findKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetKeysResponse RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService.getKeys(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetKeysRequest request) {
+        RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetKeysResponse RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService.getKeys(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetKeysRequest request) {
             return base.Channel.getKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.HcmWorker.EntityKeyPage getKeys(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.DocumentPaging DocumentPaging) {
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetKeysRequest();
+        public RequisicaoAX.Dynamics.HcmWorker.EntityKeyPage getKeys(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.DocumentPaging DocumentPaging) {
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService)(this)).getKeys(inValue);
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetKeysResponse retVal = ((RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService)(this)).getKeys(inValue);
             return retVal.EntityKeyPage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetKeysResponse> RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService.getKeysAsync(RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetKeysResponse> RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService.getKeysAsync(RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetKeysRequest request) {
             return base.Channel.getKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Services.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.Services.HcmWorker.DocumentPaging DocumentPaging) {
-            RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportServiceGetKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.HcmWorker.CallContext CallContext, RequisicaoAX.Dynamics.HcmWorker.DocumentPaging DocumentPaging) {
+            RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
-            return ((RequisicaoAX.Dynamics.Services.HcmWorker.HcmWorkerImportService)(this)).getKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportService)(this)).getKeysAsync(inValue);
         }
     }
 }

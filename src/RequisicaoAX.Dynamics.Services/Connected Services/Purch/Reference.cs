@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RequisicaoAX.Dynamics.Services.Purch {
+namespace RequisicaoAX.Dynamics.Purch {
     
     
     /// <remarks/>
@@ -632,48 +632,48 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         // CODEGEN: Generating message contract since the wrapper name (DlvDlvModeServiceGetChangedKeysRequest) of message DlvDlvModeServiceGetChangedKeysRequest does not match the default value (getChangedKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DlvDlvModeService/getChangedKeys", ReplyAction="http://tempuri.org/DlvDlvModeService/getChangedKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/DlvDlvModeService/getChangedKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/DlvDlvModeService/getChangedKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetChangedKeysResponse getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetChangedKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetChangedKeysResponse getChangedKeys(RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetChangedKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DlvDlvModeService/getChangedKeys", ReplyAction="http://tempuri.org/DlvDlvModeService/getChangedKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetChangedKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetChangedKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (DlvDlvModeServiceGetKeysRequest) of message DlvDlvModeServiceGetKeysRequest does not match the default value (getKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DlvDlvModeService/getKeys", ReplyAction="http://tempuri.org/DlvDlvModeService/getKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/DlvDlvModeService/getKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/DlvDlvModeService/getKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetKeysResponse getKeys(RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetKeysResponse getKeys(RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DlvDlvModeService/getKeys", ReplyAction="http://tempuri.org/DlvDlvModeService/getKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (DlvDlvModeServiceFindKeysRequest) of message DlvDlvModeServiceFindKeysRequest does not match the default value (findKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DlvDlvModeService/findKeys", ReplyAction="http://tempuri.org/DlvDlvModeService/findKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/DlvDlvModeService/findKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/DlvDlvModeService/findKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindKeysResponse findKeys(RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindKeysResponse findKeys(RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DlvDlvModeService/findKeys", ReplyAction="http://tempuri.org/DlvDlvModeService/findKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (DlvDlvModeServiceReadRequest) of message DlvDlvModeServiceReadRequest does not match the default value (read)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DlvDlvModeService/read", ReplyAction="http://tempuri.org/DlvDlvModeService/readResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/DlvDlvModeService/readAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/DlvDlvModeService/readAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceReadResponse read(RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceReadRequest request);
+        RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceReadResponse read(RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceReadRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DlvDlvModeService/read", ReplyAction="http://tempuri.org/DlvDlvModeService/readResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceReadRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceReadRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (DlvDlvModeServiceFindRequest) of message DlvDlvModeServiceFindRequest does not match the default value (find)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DlvDlvModeService/find", ReplyAction="http://tempuri.org/DlvDlvModeService/findResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/DlvDlvModeService/findAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/DlvDlvModeService/findAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindResponse find(RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindRequest request);
+        RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindResponse find(RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DlvDlvModeService/find", ReplyAction="http://tempuri.org/DlvDlvModeService/findResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindRequest request);
     }
     
     /// <remarks/>
@@ -833,11 +833,11 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging")]
-        public RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging;
+        public RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org", Order=1)]
         public System.DateTime _changedDateTime;
@@ -845,7 +845,7 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         public DlvDlvModeServiceGetChangedKeysRequest() {
         }
         
-        public DlvDlvModeServiceGetChangedKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+        public DlvDlvModeServiceGetChangedKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
             this.CallContext = CallContext;
             this.DocumentPaging = DocumentPaging;
             this._changedDateTime = _changedDateTime;
@@ -860,12 +860,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage")]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage;
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage;
         
         public DlvDlvModeServiceGetChangedKeysResponse() {
         }
         
-        public DlvDlvModeServiceGetChangedKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage) {
+        public DlvDlvModeServiceGetChangedKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage) {
             this.EntityKeyPage = EntityKeyPage;
         }
     }
@@ -878,16 +878,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging")]
-        public RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging;
+        public RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging;
         
         public DlvDlvModeServiceGetKeysRequest() {
         }
         
-        public DlvDlvModeServiceGetKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
+        public DlvDlvModeServiceGetKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
             this.CallContext = CallContext;
             this.DocumentPaging = DocumentPaging;
         }
@@ -901,12 +901,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage")]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage;
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage;
         
         public DlvDlvModeServiceGetKeysResponse() {
         }
         
-        public DlvDlvModeServiceGetKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage) {
+        public DlvDlvModeServiceGetKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage) {
             this.EntityKeyPage = EntityKeyPage;
         }
     }
@@ -1067,16 +1067,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria;
         
         public DlvDlvModeServiceFindKeysRequest() {
         }
         
-        public DlvDlvModeServiceFindKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
+        public DlvDlvModeServiceFindKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
         }
@@ -1091,12 +1091,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList;
         
         public DlvDlvModeServiceFindKeysResponse() {
         }
         
-        public DlvDlvModeServiceFindKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
+        public DlvDlvModeServiceFindKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
             this.EntityKeyList = EntityKeyList;
         }
     }
@@ -1510,17 +1510,17 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList;
         
         public DlvDlvModeServiceReadRequest() {
         }
         
-        public DlvDlvModeServiceReadRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
+        public DlvDlvModeServiceReadRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
             this.CallContext = CallContext;
             this.EntityKeyList = EntityKeyList;
         }
@@ -1534,12 +1534,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/DlvDlvMode", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/DlvDlvMode")]
-        public RequisicaoAX.Dynamics.Services.Purch.AxdDlvDlvMode DlvDlvMode;
+        public RequisicaoAX.Dynamics.Purch.AxdDlvDlvMode DlvDlvMode;
         
         public DlvDlvModeServiceReadResponse() {
         }
         
-        public DlvDlvModeServiceReadResponse(RequisicaoAX.Dynamics.Services.Purch.AxdDlvDlvMode DlvDlvMode) {
+        public DlvDlvModeServiceReadResponse(RequisicaoAX.Dynamics.Purch.AxdDlvDlvMode DlvDlvMode) {
             this.DlvDlvMode = DlvDlvMode;
         }
     }
@@ -1552,16 +1552,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria;
         
         public DlvDlvModeServiceFindRequest() {
         }
         
-        public DlvDlvModeServiceFindRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
+        public DlvDlvModeServiceFindRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
         }
@@ -1575,23 +1575,23 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/DlvDlvMode", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/DlvDlvMode")]
-        public RequisicaoAX.Dynamics.Services.Purch.AxdDlvDlvMode DlvDlvMode;
+        public RequisicaoAX.Dynamics.Purch.AxdDlvDlvMode DlvDlvMode;
         
         public DlvDlvModeServiceFindResponse() {
         }
         
-        public DlvDlvModeServiceFindResponse(RequisicaoAX.Dynamics.Services.Purch.AxdDlvDlvMode DlvDlvMode) {
+        public DlvDlvModeServiceFindResponse(RequisicaoAX.Dynamics.Purch.AxdDlvDlvMode DlvDlvMode) {
             this.DlvDlvMode = DlvDlvMode;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface DlvDlvModeServiceChannel : RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService, System.ServiceModel.IClientChannel {
+    public interface DlvDlvModeServiceChannel : RequisicaoAX.Dynamics.Purch.DlvDlvModeService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class DlvDlvModeServiceClient : System.ServiceModel.ClientBase<RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService>, RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService {
+    public partial class DlvDlvModeServiceClient : System.ServiceModel.ClientBase<RequisicaoAX.Dynamics.Purch.DlvDlvModeService>, RequisicaoAX.Dynamics.Purch.DlvDlvModeService {
         
         public DlvDlvModeServiceClient() {
         }
@@ -1613,130 +1613,130 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetChangedKeysResponse RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService.getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetChangedKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetChangedKeysResponse RequisicaoAX.Dynamics.Purch.DlvDlvModeService.getChangedKeys(RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetChangedKeysRequest request) {
             return base.Channel.getChangedKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetChangedKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage getChangedKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+            RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetChangedKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
             inValue._changedDateTime = _changedDateTime;
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetChangedKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService)(this)).getChangedKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetChangedKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.DlvDlvModeService)(this)).getChangedKeys(inValue);
             return retVal.EntityKeyPage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetChangedKeysResponse> RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService.getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetChangedKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetChangedKeysResponse> RequisicaoAX.Dynamics.Purch.DlvDlvModeService.getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetChangedKeysRequest request) {
             return base.Channel.getChangedKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetChangedKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+            RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetChangedKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
             inValue._changedDateTime = _changedDateTime;
-            return ((RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService)(this)).getChangedKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.DlvDlvModeService)(this)).getChangedKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetKeysResponse RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService.getKeys(RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetKeysResponse RequisicaoAX.Dynamics.Purch.DlvDlvModeService.getKeys(RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetKeysRequest request) {
             return base.Channel.getKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage getKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage getKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
+            RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService)(this)).getKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.DlvDlvModeService)(this)).getKeys(inValue);
             return retVal.EntityKeyPage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetKeysResponse> RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService.getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetKeysResponse> RequisicaoAX.Dynamics.Purch.DlvDlvModeService.getKeysAsync(RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetKeysRequest request) {
             return base.Channel.getKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceGetKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
+            RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
-            return ((RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService)(this)).getKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.DlvDlvModeService)(this)).getKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindKeysResponse RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService.findKeys(RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindKeysResponse RequisicaoAX.Dynamics.Purch.DlvDlvModeService.findKeys(RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindKeysRequest request) {
             return base.Channel.findKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] findKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] findKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindKeysRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService)(this)).findKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.DlvDlvModeService)(this)).findKeys(inValue);
             return retVal.EntityKeyList;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindKeysResponse> RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService.findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindKeysResponse> RequisicaoAX.Dynamics.Purch.DlvDlvModeService.findKeysAsync(RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindKeysRequest request) {
             return base.Channel.findKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindKeysRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            return ((RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService)(this)).findKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.DlvDlvModeService)(this)).findKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceReadResponse RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService.read(RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceReadRequest request) {
+        RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceReadResponse RequisicaoAX.Dynamics.Purch.DlvDlvModeService.read(RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceReadRequest request) {
             return base.Channel.read(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.AxdDlvDlvMode read(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceReadRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceReadRequest();
+        public RequisicaoAX.Dynamics.Purch.AxdDlvDlvMode read(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceReadRequest inValue = new RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceReadRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceReadResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService)(this)).read(inValue);
+            RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceReadResponse retVal = ((RequisicaoAX.Dynamics.Purch.DlvDlvModeService)(this)).read(inValue);
             return retVal.DlvDlvMode;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceReadResponse> RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService.readAsync(RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceReadRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceReadResponse> RequisicaoAX.Dynamics.Purch.DlvDlvModeService.readAsync(RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceReadRequest request) {
             return base.Channel.readAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceReadRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceReadRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceReadRequest inValue = new RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceReadRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            return ((RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService)(this)).readAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.DlvDlvModeService)(this)).readAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindResponse RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService.find(RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindRequest request) {
+        RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindResponse RequisicaoAX.Dynamics.Purch.DlvDlvModeService.find(RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindRequest request) {
             return base.Channel.find(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.AxdDlvDlvMode find(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindRequest();
+        public RequisicaoAX.Dynamics.Purch.AxdDlvDlvMode find(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindRequest inValue = new RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService)(this)).find(inValue);
+            RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindResponse retVal = ((RequisicaoAX.Dynamics.Purch.DlvDlvModeService)(this)).find(inValue);
             return retVal.DlvDlvMode;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindResponse> RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService.findAsync(RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindResponse> RequisicaoAX.Dynamics.Purch.DlvDlvModeService.findAsync(RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindRequest request) {
             return base.Channel.findAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeServiceFindRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindRequest inValue = new RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            return ((RequisicaoAX.Dynamics.Services.Purch.DlvDlvModeService)(this)).findAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.DlvDlvModeService)(this)).findAsync(inValue);
         }
     }
     
@@ -1746,48 +1746,48 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         // CODEGEN: Generating message contract since the wrapper name (DlvDlvTermServiceReadRequest) of message DlvDlvTermServiceReadRequest does not match the default value (read)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DlvDlvTermService/read", ReplyAction="http://tempuri.org/DlvDlvTermService/readResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/DlvDlvTermService/readAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/DlvDlvTermService/readAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceReadResponse read(RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceReadRequest request);
+        RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceReadResponse read(RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceReadRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DlvDlvTermService/read", ReplyAction="http://tempuri.org/DlvDlvTermService/readResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceReadRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceReadRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (DlvDlvTermServiceFindKeysRequest) of message DlvDlvTermServiceFindKeysRequest does not match the default value (findKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DlvDlvTermService/findKeys", ReplyAction="http://tempuri.org/DlvDlvTermService/findKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/DlvDlvTermService/findKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/DlvDlvTermService/findKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindKeysResponse findKeys(RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindKeysResponse findKeys(RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DlvDlvTermService/findKeys", ReplyAction="http://tempuri.org/DlvDlvTermService/findKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (DlvDlvTermServiceGetChangedKeysRequest) of message DlvDlvTermServiceGetChangedKeysRequest does not match the default value (getChangedKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DlvDlvTermService/getChangedKeys", ReplyAction="http://tempuri.org/DlvDlvTermService/getChangedKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/DlvDlvTermService/getChangedKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/DlvDlvTermService/getChangedKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetChangedKeysResponse getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetChangedKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetChangedKeysResponse getChangedKeys(RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetChangedKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DlvDlvTermService/getChangedKeys", ReplyAction="http://tempuri.org/DlvDlvTermService/getChangedKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetChangedKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetChangedKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (DlvDlvTermServiceGetKeysRequest) of message DlvDlvTermServiceGetKeysRequest does not match the default value (getKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DlvDlvTermService/getKeys", ReplyAction="http://tempuri.org/DlvDlvTermService/getKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/DlvDlvTermService/getKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/DlvDlvTermService/getKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetKeysResponse getKeys(RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetKeysResponse getKeys(RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DlvDlvTermService/getKeys", ReplyAction="http://tempuri.org/DlvDlvTermService/getKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (DlvDlvTermServiceFindRequest) of message DlvDlvTermServiceFindRequest does not match the default value (find)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DlvDlvTermService/find", ReplyAction="http://tempuri.org/DlvDlvTermService/findResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/DlvDlvTermService/findAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/DlvDlvTermService/findAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindResponse find(RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindRequest request);
+        RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindResponse find(RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DlvDlvTermService/find", ReplyAction="http://tempuri.org/DlvDlvTermService/findResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindRequest request);
     }
     
     /// <remarks/>
@@ -2062,17 +2062,17 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList;
         
         public DlvDlvTermServiceReadRequest() {
         }
         
-        public DlvDlvTermServiceReadRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
+        public DlvDlvTermServiceReadRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
             this.CallContext = CallContext;
             this.EntityKeyList = EntityKeyList;
         }
@@ -2086,12 +2086,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/DlvDlvTerm", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/DlvDlvTerm")]
-        public RequisicaoAX.Dynamics.Services.Purch.AxdDlvDlvTerm DlvDlvTerm;
+        public RequisicaoAX.Dynamics.Purch.AxdDlvDlvTerm DlvDlvTerm;
         
         public DlvDlvTermServiceReadResponse() {
         }
         
-        public DlvDlvTermServiceReadResponse(RequisicaoAX.Dynamics.Services.Purch.AxdDlvDlvTerm DlvDlvTerm) {
+        public DlvDlvTermServiceReadResponse(RequisicaoAX.Dynamics.Purch.AxdDlvDlvTerm DlvDlvTerm) {
             this.DlvDlvTerm = DlvDlvTerm;
         }
     }
@@ -2104,16 +2104,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria;
         
         public DlvDlvTermServiceFindKeysRequest() {
         }
         
-        public DlvDlvTermServiceFindKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
+        public DlvDlvTermServiceFindKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
         }
@@ -2128,12 +2128,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList;
         
         public DlvDlvTermServiceFindKeysResponse() {
         }
         
-        public DlvDlvTermServiceFindKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
+        public DlvDlvTermServiceFindKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
             this.EntityKeyList = EntityKeyList;
         }
     }
@@ -2146,11 +2146,11 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging")]
-        public RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging;
+        public RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org", Order=1)]
         public System.DateTime _changedDateTime;
@@ -2158,7 +2158,7 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         public DlvDlvTermServiceGetChangedKeysRequest() {
         }
         
-        public DlvDlvTermServiceGetChangedKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+        public DlvDlvTermServiceGetChangedKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
             this.CallContext = CallContext;
             this.DocumentPaging = DocumentPaging;
             this._changedDateTime = _changedDateTime;
@@ -2173,12 +2173,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage")]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage;
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage;
         
         public DlvDlvTermServiceGetChangedKeysResponse() {
         }
         
-        public DlvDlvTermServiceGetChangedKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage) {
+        public DlvDlvTermServiceGetChangedKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage) {
             this.EntityKeyPage = EntityKeyPage;
         }
     }
@@ -2191,16 +2191,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging")]
-        public RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging;
+        public RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging;
         
         public DlvDlvTermServiceGetKeysRequest() {
         }
         
-        public DlvDlvTermServiceGetKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
+        public DlvDlvTermServiceGetKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
             this.CallContext = CallContext;
             this.DocumentPaging = DocumentPaging;
         }
@@ -2214,12 +2214,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage")]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage;
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage;
         
         public DlvDlvTermServiceGetKeysResponse() {
         }
         
-        public DlvDlvTermServiceGetKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage) {
+        public DlvDlvTermServiceGetKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage) {
             this.EntityKeyPage = EntityKeyPage;
         }
     }
@@ -2232,16 +2232,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria;
         
         public DlvDlvTermServiceFindRequest() {
         }
         
-        public DlvDlvTermServiceFindRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
+        public DlvDlvTermServiceFindRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
         }
@@ -2255,23 +2255,23 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/DlvDlvTerm", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/DlvDlvTerm")]
-        public RequisicaoAX.Dynamics.Services.Purch.AxdDlvDlvTerm DlvDlvTerm;
+        public RequisicaoAX.Dynamics.Purch.AxdDlvDlvTerm DlvDlvTerm;
         
         public DlvDlvTermServiceFindResponse() {
         }
         
-        public DlvDlvTermServiceFindResponse(RequisicaoAX.Dynamics.Services.Purch.AxdDlvDlvTerm DlvDlvTerm) {
+        public DlvDlvTermServiceFindResponse(RequisicaoAX.Dynamics.Purch.AxdDlvDlvTerm DlvDlvTerm) {
             this.DlvDlvTerm = DlvDlvTerm;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface DlvDlvTermServiceChannel : RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService, System.ServiceModel.IClientChannel {
+    public interface DlvDlvTermServiceChannel : RequisicaoAX.Dynamics.Purch.DlvDlvTermService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class DlvDlvTermServiceClient : System.ServiceModel.ClientBase<RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService>, RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService {
+    public partial class DlvDlvTermServiceClient : System.ServiceModel.ClientBase<RequisicaoAX.Dynamics.Purch.DlvDlvTermService>, RequisicaoAX.Dynamics.Purch.DlvDlvTermService {
         
         public DlvDlvTermServiceClient() {
         }
@@ -2293,130 +2293,130 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceReadResponse RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService.read(RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceReadRequest request) {
+        RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceReadResponse RequisicaoAX.Dynamics.Purch.DlvDlvTermService.read(RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceReadRequest request) {
             return base.Channel.read(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.AxdDlvDlvTerm read(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceReadRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceReadRequest();
+        public RequisicaoAX.Dynamics.Purch.AxdDlvDlvTerm read(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceReadRequest inValue = new RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceReadRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceReadResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService)(this)).read(inValue);
+            RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceReadResponse retVal = ((RequisicaoAX.Dynamics.Purch.DlvDlvTermService)(this)).read(inValue);
             return retVal.DlvDlvTerm;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceReadResponse> RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService.readAsync(RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceReadRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceReadResponse> RequisicaoAX.Dynamics.Purch.DlvDlvTermService.readAsync(RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceReadRequest request) {
             return base.Channel.readAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceReadRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceReadRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceReadRequest inValue = new RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceReadRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            return ((RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService)(this)).readAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.DlvDlvTermService)(this)).readAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindKeysResponse RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService.findKeys(RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindKeysResponse RequisicaoAX.Dynamics.Purch.DlvDlvTermService.findKeys(RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindKeysRequest request) {
             return base.Channel.findKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] findKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] findKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindKeysRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService)(this)).findKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.DlvDlvTermService)(this)).findKeys(inValue);
             return retVal.EntityKeyList;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindKeysResponse> RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService.findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindKeysResponse> RequisicaoAX.Dynamics.Purch.DlvDlvTermService.findKeysAsync(RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindKeysRequest request) {
             return base.Channel.findKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindKeysRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            return ((RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService)(this)).findKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.DlvDlvTermService)(this)).findKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetChangedKeysResponse RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService.getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetChangedKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetChangedKeysResponse RequisicaoAX.Dynamics.Purch.DlvDlvTermService.getChangedKeys(RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetChangedKeysRequest request) {
             return base.Channel.getChangedKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetChangedKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage getChangedKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+            RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetChangedKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
             inValue._changedDateTime = _changedDateTime;
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetChangedKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService)(this)).getChangedKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetChangedKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.DlvDlvTermService)(this)).getChangedKeys(inValue);
             return retVal.EntityKeyPage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetChangedKeysResponse> RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService.getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetChangedKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetChangedKeysResponse> RequisicaoAX.Dynamics.Purch.DlvDlvTermService.getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetChangedKeysRequest request) {
             return base.Channel.getChangedKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetChangedKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+            RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetChangedKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
             inValue._changedDateTime = _changedDateTime;
-            return ((RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService)(this)).getChangedKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.DlvDlvTermService)(this)).getChangedKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetKeysResponse RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService.getKeys(RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetKeysResponse RequisicaoAX.Dynamics.Purch.DlvDlvTermService.getKeys(RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetKeysRequest request) {
             return base.Channel.getKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage getKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage getKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
+            RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService)(this)).getKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.DlvDlvTermService)(this)).getKeys(inValue);
             return retVal.EntityKeyPage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetKeysResponse> RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService.getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetKeysResponse> RequisicaoAX.Dynamics.Purch.DlvDlvTermService.getKeysAsync(RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetKeysRequest request) {
             return base.Channel.getKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceGetKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
+            RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
-            return ((RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService)(this)).getKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.DlvDlvTermService)(this)).getKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindResponse RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService.find(RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindRequest request) {
+        RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindResponse RequisicaoAX.Dynamics.Purch.DlvDlvTermService.find(RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindRequest request) {
             return base.Channel.find(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.AxdDlvDlvTerm find(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindRequest();
+        public RequisicaoAX.Dynamics.Purch.AxdDlvDlvTerm find(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindRequest inValue = new RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService)(this)).find(inValue);
+            RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindResponse retVal = ((RequisicaoAX.Dynamics.Purch.DlvDlvTermService)(this)).find(inValue);
             return retVal.DlvDlvTerm;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindResponse> RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService.findAsync(RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindResponse> RequisicaoAX.Dynamics.Purch.DlvDlvTermService.findAsync(RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindRequest request) {
             return base.Channel.findAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermServiceFindRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindRequest inValue = new RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            return ((RequisicaoAX.Dynamics.Services.Purch.DlvDlvTermService)(this)).findAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.DlvDlvTermService)(this)).findAsync(inValue);
         }
     }
     
@@ -2426,48 +2426,48 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         // CODEGEN: Generating message contract since the wrapper name (MarkupMarkupTableServiceGetKeysRequest) of message MarkupMarkupTableServiceGetKeysRequest does not match the default value (getKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/MarkupMarkupTableService/getKeys", ReplyAction="http://tempuri.org/MarkupMarkupTableService/getKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/MarkupMarkupTableService/getKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/MarkupMarkupTableService/getKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetKeysResponse getKeys(RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetKeysResponse getKeys(RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/MarkupMarkupTableService/getKeys", ReplyAction="http://tempuri.org/MarkupMarkupTableService/getKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (MarkupMarkupTableServiceFindRequest) of message MarkupMarkupTableServiceFindRequest does not match the default value (find)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/MarkupMarkupTableService/find", ReplyAction="http://tempuri.org/MarkupMarkupTableService/findResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/MarkupMarkupTableService/findAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/MarkupMarkupTableService/findAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindResponse find(RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindRequest request);
+        RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindResponse find(RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/MarkupMarkupTableService/find", ReplyAction="http://tempuri.org/MarkupMarkupTableService/findResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (MarkupMarkupTableServiceGetChangedKeysRequest) of message MarkupMarkupTableServiceGetChangedKeysRequest does not match the default value (getChangedKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/MarkupMarkupTableService/getChangedKeys", ReplyAction="http://tempuri.org/MarkupMarkupTableService/getChangedKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/MarkupMarkupTableService/getChangedKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/MarkupMarkupTableService/getChangedKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetChangedKeysResponse getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetChangedKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetChangedKeysResponse getChangedKeys(RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetChangedKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/MarkupMarkupTableService/getChangedKeys", ReplyAction="http://tempuri.org/MarkupMarkupTableService/getChangedKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetChangedKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetChangedKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (MarkupMarkupTableServiceReadRequest) of message MarkupMarkupTableServiceReadRequest does not match the default value (read)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/MarkupMarkupTableService/read", ReplyAction="http://tempuri.org/MarkupMarkupTableService/readResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/MarkupMarkupTableService/readAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/MarkupMarkupTableService/readAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceReadResponse read(RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceReadRequest request);
+        RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceReadResponse read(RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceReadRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/MarkupMarkupTableService/read", ReplyAction="http://tempuri.org/MarkupMarkupTableService/readResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceReadRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceReadRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (MarkupMarkupTableServiceFindKeysRequest) of message MarkupMarkupTableServiceFindKeysRequest does not match the default value (findKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/MarkupMarkupTableService/findKeys", ReplyAction="http://tempuri.org/MarkupMarkupTableService/findKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/MarkupMarkupTableService/findKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/MarkupMarkupTableService/findKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindKeysResponse findKeys(RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindKeysResponse findKeys(RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/MarkupMarkupTableService/findKeys", ReplyAction="http://tempuri.org/MarkupMarkupTableService/findKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindKeysRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -2478,16 +2478,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging")]
-        public RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging;
+        public RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging;
         
         public MarkupMarkupTableServiceGetKeysRequest() {
         }
         
-        public MarkupMarkupTableServiceGetKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
+        public MarkupMarkupTableServiceGetKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
             this.CallContext = CallContext;
             this.DocumentPaging = DocumentPaging;
         }
@@ -2501,12 +2501,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage")]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage;
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage;
         
         public MarkupMarkupTableServiceGetKeysResponse() {
         }
         
-        public MarkupMarkupTableServiceGetKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage) {
+        public MarkupMarkupTableServiceGetKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage) {
             this.EntityKeyPage = EntityKeyPage;
         }
     }
@@ -2783,16 +2783,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria;
         
         public MarkupMarkupTableServiceFindRequest() {
         }
         
-        public MarkupMarkupTableServiceFindRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
+        public MarkupMarkupTableServiceFindRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
         }
@@ -2806,12 +2806,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/MarkupMarkupTable", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/MarkupMarkupTable")]
-        public RequisicaoAX.Dynamics.Services.Purch.AxdMarkupMarkupTable MarkupMarkupTable;
+        public RequisicaoAX.Dynamics.Purch.AxdMarkupMarkupTable MarkupMarkupTable;
         
         public MarkupMarkupTableServiceFindResponse() {
         }
         
-        public MarkupMarkupTableServiceFindResponse(RequisicaoAX.Dynamics.Services.Purch.AxdMarkupMarkupTable MarkupMarkupTable) {
+        public MarkupMarkupTableServiceFindResponse(RequisicaoAX.Dynamics.Purch.AxdMarkupMarkupTable MarkupMarkupTable) {
             this.MarkupMarkupTable = MarkupMarkupTable;
         }
     }
@@ -2824,11 +2824,11 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging")]
-        public RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging;
+        public RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org", Order=1)]
         public System.DateTime _changedDateTime;
@@ -2836,7 +2836,7 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         public MarkupMarkupTableServiceGetChangedKeysRequest() {
         }
         
-        public MarkupMarkupTableServiceGetChangedKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+        public MarkupMarkupTableServiceGetChangedKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
             this.CallContext = CallContext;
             this.DocumentPaging = DocumentPaging;
             this._changedDateTime = _changedDateTime;
@@ -2851,12 +2851,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage")]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage;
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage;
         
         public MarkupMarkupTableServiceGetChangedKeysResponse() {
         }
         
-        public MarkupMarkupTableServiceGetChangedKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage) {
+        public MarkupMarkupTableServiceGetChangedKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage) {
             this.EntityKeyPage = EntityKeyPage;
         }
     }
@@ -2869,17 +2869,17 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList;
         
         public MarkupMarkupTableServiceReadRequest() {
         }
         
-        public MarkupMarkupTableServiceReadRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
+        public MarkupMarkupTableServiceReadRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
             this.CallContext = CallContext;
             this.EntityKeyList = EntityKeyList;
         }
@@ -2893,12 +2893,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/MarkupMarkupTable", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/MarkupMarkupTable")]
-        public RequisicaoAX.Dynamics.Services.Purch.AxdMarkupMarkupTable MarkupMarkupTable;
+        public RequisicaoAX.Dynamics.Purch.AxdMarkupMarkupTable MarkupMarkupTable;
         
         public MarkupMarkupTableServiceReadResponse() {
         }
         
-        public MarkupMarkupTableServiceReadResponse(RequisicaoAX.Dynamics.Services.Purch.AxdMarkupMarkupTable MarkupMarkupTable) {
+        public MarkupMarkupTableServiceReadResponse(RequisicaoAX.Dynamics.Purch.AxdMarkupMarkupTable MarkupMarkupTable) {
             this.MarkupMarkupTable = MarkupMarkupTable;
         }
     }
@@ -2911,16 +2911,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria;
         
         public MarkupMarkupTableServiceFindKeysRequest() {
         }
         
-        public MarkupMarkupTableServiceFindKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
+        public MarkupMarkupTableServiceFindKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
         }
@@ -2935,23 +2935,23 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList;
         
         public MarkupMarkupTableServiceFindKeysResponse() {
         }
         
-        public MarkupMarkupTableServiceFindKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
+        public MarkupMarkupTableServiceFindKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
             this.EntityKeyList = EntityKeyList;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface MarkupMarkupTableServiceChannel : RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService, System.ServiceModel.IClientChannel {
+    public interface MarkupMarkupTableServiceChannel : RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class MarkupMarkupTableServiceClient : System.ServiceModel.ClientBase<RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService>, RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService {
+    public partial class MarkupMarkupTableServiceClient : System.ServiceModel.ClientBase<RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService>, RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService {
         
         public MarkupMarkupTableServiceClient() {
         }
@@ -2973,130 +2973,130 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetKeysResponse RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService.getKeys(RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetKeysResponse RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService.getKeys(RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetKeysRequest request) {
             return base.Channel.getKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage getKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
-            RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage getKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
+            RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
-            RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService)(this)).getKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService)(this)).getKeys(inValue);
             return retVal.EntityKeyPage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetKeysResponse> RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService.getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetKeysResponse> RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService.getKeysAsync(RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetKeysRequest request) {
             return base.Channel.getKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
-            RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
+            RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
-            return ((RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService)(this)).getKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService)(this)).getKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindResponse RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService.find(RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindRequest request) {
+        RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindResponse RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService.find(RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindRequest request) {
             return base.Channel.find(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.AxdMarkupMarkupTable find(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindRequest();
+        public RequisicaoAX.Dynamics.Purch.AxdMarkupMarkupTable find(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindRequest inValue = new RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService)(this)).find(inValue);
+            RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindResponse retVal = ((RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService)(this)).find(inValue);
             return retVal.MarkupMarkupTable;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindResponse> RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService.findAsync(RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindResponse> RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService.findAsync(RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindRequest request) {
             return base.Channel.findAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindRequest inValue = new RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            return ((RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService)(this)).findAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService)(this)).findAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetChangedKeysResponse RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService.getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetChangedKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetChangedKeysResponse RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService.getChangedKeys(RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetChangedKeysRequest request) {
             return base.Channel.getChangedKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
-            RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetChangedKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage getChangedKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+            RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetChangedKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
             inValue._changedDateTime = _changedDateTime;
-            RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetChangedKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService)(this)).getChangedKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetChangedKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService)(this)).getChangedKeys(inValue);
             return retVal.EntityKeyPage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetChangedKeysResponse> RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService.getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetChangedKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetChangedKeysResponse> RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService.getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetChangedKeysRequest request) {
             return base.Channel.getChangedKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
-            RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceGetChangedKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+            RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetChangedKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
             inValue._changedDateTime = _changedDateTime;
-            return ((RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService)(this)).getChangedKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService)(this)).getChangedKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceReadResponse RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService.read(RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceReadRequest request) {
+        RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceReadResponse RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService.read(RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceReadRequest request) {
             return base.Channel.read(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.AxdMarkupMarkupTable read(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceReadRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceReadRequest();
+        public RequisicaoAX.Dynamics.Purch.AxdMarkupMarkupTable read(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceReadRequest inValue = new RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceReadRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceReadResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService)(this)).read(inValue);
+            RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceReadResponse retVal = ((RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService)(this)).read(inValue);
             return retVal.MarkupMarkupTable;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceReadResponse> RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService.readAsync(RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceReadRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceReadResponse> RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService.readAsync(RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceReadRequest request) {
             return base.Channel.readAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceReadRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceReadRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceReadRequest inValue = new RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceReadRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            return ((RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService)(this)).readAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService)(this)).readAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindKeysResponse RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService.findKeys(RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindKeysResponse RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService.findKeys(RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindKeysRequest request) {
             return base.Channel.findKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] findKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] findKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindKeysRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService)(this)).findKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService)(this)).findKeys(inValue);
             return retVal.EntityKeyList;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindKeysResponse> RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService.findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindKeysResponse> RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService.findKeysAsync(RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindKeysRequest request) {
             return base.Channel.findKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableServiceFindKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindKeysRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            return ((RequisicaoAX.Dynamics.Services.Purch.MarkupMarkupTableService)(this)).findKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.MarkupMarkupTableService)(this)).findKeysAsync(inValue);
         }
     }
     
@@ -3106,48 +3106,48 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         // CODEGEN: Generating message contract since the wrapper name (PurchRFQPaymTermsServiceFindKeysRequest) of message PurchRFQPaymTermsServiceFindKeysRequest does not match the default value (findKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQPaymTermsService/findKeys", ReplyAction="http://tempuri.org/PurchRFQPaymTermsService/findKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/PurchRFQPaymTermsService/findKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/PurchRFQPaymTermsService/findKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindKeysResponse findKeys(RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindKeysResponse findKeys(RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQPaymTermsService/findKeys", ReplyAction="http://tempuri.org/PurchRFQPaymTermsService/findKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchRFQPaymTermsServiceReadRequest) of message PurchRFQPaymTermsServiceReadRequest does not match the default value (read)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQPaymTermsService/read", ReplyAction="http://tempuri.org/PurchRFQPaymTermsService/readResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/PurchRFQPaymTermsService/readAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/PurchRFQPaymTermsService/readAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceReadResponse read(RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceReadRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceReadResponse read(RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceReadRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQPaymTermsService/read", ReplyAction="http://tempuri.org/PurchRFQPaymTermsService/readResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceReadRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceReadRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchRFQPaymTermsServiceFindRequest) of message PurchRFQPaymTermsServiceFindRequest does not match the default value (find)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQPaymTermsService/find", ReplyAction="http://tempuri.org/PurchRFQPaymTermsService/findResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/PurchRFQPaymTermsService/findAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/PurchRFQPaymTermsService/findAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindResponse find(RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindResponse find(RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQPaymTermsService/find", ReplyAction="http://tempuri.org/PurchRFQPaymTermsService/findResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchRFQPaymTermsServiceGetChangedKeysRequest) of message PurchRFQPaymTermsServiceGetChangedKeysRequest does not match the default value (getChangedKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQPaymTermsService/getChangedKeys", ReplyAction="http://tempuri.org/PurchRFQPaymTermsService/getChangedKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/PurchRFQPaymTermsService/getChangedKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/PurchRFQPaymTermsService/getChangedKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetChangedKeysResponse getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetChangedKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetChangedKeysResponse getChangedKeys(RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetChangedKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQPaymTermsService/getChangedKeys", ReplyAction="http://tempuri.org/PurchRFQPaymTermsService/getChangedKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetChangedKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetChangedKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchRFQPaymTermsServiceGetKeysRequest) of message PurchRFQPaymTermsServiceGetKeysRequest does not match the default value (getKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQPaymTermsService/getKeys", ReplyAction="http://tempuri.org/PurchRFQPaymTermsService/getKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/PurchRFQPaymTermsService/getKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/PurchRFQPaymTermsService/getKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetKeysResponse getKeys(RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetKeysResponse getKeys(RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQPaymTermsService/getKeys", ReplyAction="http://tempuri.org/PurchRFQPaymTermsService/getKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetKeysRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -3158,16 +3158,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria;
         
         public PurchRFQPaymTermsServiceFindKeysRequest() {
         }
         
-        public PurchRFQPaymTermsServiceFindKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
+        public PurchRFQPaymTermsServiceFindKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
         }
@@ -3182,12 +3182,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList;
         
         public PurchRFQPaymTermsServiceFindKeysResponse() {
         }
         
-        public PurchRFQPaymTermsServiceFindKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
+        public PurchRFQPaymTermsServiceFindKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
             this.EntityKeyList = EntityKeyList;
         }
     }
@@ -3523,17 +3523,17 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList;
         
         public PurchRFQPaymTermsServiceReadRequest() {
         }
         
-        public PurchRFQPaymTermsServiceReadRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
+        public PurchRFQPaymTermsServiceReadRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
             this.CallContext = CallContext;
             this.EntityKeyList = EntityKeyList;
         }
@@ -3547,12 +3547,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQPaymTerms", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQPaymTerms")]
-        public RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQPaymTerms PurchRFQPaymTerms;
+        public RequisicaoAX.Dynamics.Purch.AxdPurchRFQPaymTerms PurchRFQPaymTerms;
         
         public PurchRFQPaymTermsServiceReadResponse() {
         }
         
-        public PurchRFQPaymTermsServiceReadResponse(RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQPaymTerms PurchRFQPaymTerms) {
+        public PurchRFQPaymTermsServiceReadResponse(RequisicaoAX.Dynamics.Purch.AxdPurchRFQPaymTerms PurchRFQPaymTerms) {
             this.PurchRFQPaymTerms = PurchRFQPaymTerms;
         }
     }
@@ -3565,16 +3565,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria;
         
         public PurchRFQPaymTermsServiceFindRequest() {
         }
         
-        public PurchRFQPaymTermsServiceFindRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
+        public PurchRFQPaymTermsServiceFindRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
         }
@@ -3588,12 +3588,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQPaymTerms", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQPaymTerms")]
-        public RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQPaymTerms PurchRFQPaymTerms;
+        public RequisicaoAX.Dynamics.Purch.AxdPurchRFQPaymTerms PurchRFQPaymTerms;
         
         public PurchRFQPaymTermsServiceFindResponse() {
         }
         
-        public PurchRFQPaymTermsServiceFindResponse(RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQPaymTerms PurchRFQPaymTerms) {
+        public PurchRFQPaymTermsServiceFindResponse(RequisicaoAX.Dynamics.Purch.AxdPurchRFQPaymTerms PurchRFQPaymTerms) {
             this.PurchRFQPaymTerms = PurchRFQPaymTerms;
         }
     }
@@ -3606,11 +3606,11 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging")]
-        public RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging;
+        public RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org", Order=1)]
         public System.DateTime _changedDateTime;
@@ -3618,7 +3618,7 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         public PurchRFQPaymTermsServiceGetChangedKeysRequest() {
         }
         
-        public PurchRFQPaymTermsServiceGetChangedKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+        public PurchRFQPaymTermsServiceGetChangedKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
             this.CallContext = CallContext;
             this.DocumentPaging = DocumentPaging;
             this._changedDateTime = _changedDateTime;
@@ -3633,12 +3633,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage")]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage;
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage;
         
         public PurchRFQPaymTermsServiceGetChangedKeysResponse() {
         }
         
-        public PurchRFQPaymTermsServiceGetChangedKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage) {
+        public PurchRFQPaymTermsServiceGetChangedKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage) {
             this.EntityKeyPage = EntityKeyPage;
         }
     }
@@ -3651,16 +3651,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging")]
-        public RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging;
+        public RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging;
         
         public PurchRFQPaymTermsServiceGetKeysRequest() {
         }
         
-        public PurchRFQPaymTermsServiceGetKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
+        public PurchRFQPaymTermsServiceGetKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
             this.CallContext = CallContext;
             this.DocumentPaging = DocumentPaging;
         }
@@ -3674,23 +3674,23 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage")]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage;
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage;
         
         public PurchRFQPaymTermsServiceGetKeysResponse() {
         }
         
-        public PurchRFQPaymTermsServiceGetKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage) {
+        public PurchRFQPaymTermsServiceGetKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage) {
             this.EntityKeyPage = EntityKeyPage;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface PurchRFQPaymTermsServiceChannel : RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService, System.ServiceModel.IClientChannel {
+    public interface PurchRFQPaymTermsServiceChannel : RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class PurchRFQPaymTermsServiceClient : System.ServiceModel.ClientBase<RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService>, RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService {
+    public partial class PurchRFQPaymTermsServiceClient : System.ServiceModel.ClientBase<RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService>, RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService {
         
         public PurchRFQPaymTermsServiceClient() {
         }
@@ -3712,130 +3712,130 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindKeysResponse RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService.findKeys(RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindKeysResponse RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService.findKeys(RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindKeysRequest request) {
             return base.Channel.findKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] findKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] findKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindKeysRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService)(this)).findKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService)(this)).findKeys(inValue);
             return retVal.EntityKeyList;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindKeysResponse> RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService.findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindKeysResponse> RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService.findKeysAsync(RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindKeysRequest request) {
             return base.Channel.findKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindKeysRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService)(this)).findKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService)(this)).findKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceReadResponse RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService.read(RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceReadRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceReadResponse RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService.read(RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceReadRequest request) {
             return base.Channel.read(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQPaymTerms read(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceReadRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceReadRequest();
+        public RequisicaoAX.Dynamics.Purch.AxdPurchRFQPaymTerms read(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceReadRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceReadRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceReadResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService)(this)).read(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceReadResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService)(this)).read(inValue);
             return retVal.PurchRFQPaymTerms;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceReadResponse> RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService.readAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceReadRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceReadResponse> RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService.readAsync(RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceReadRequest request) {
             return base.Channel.readAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceReadRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceReadRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceReadRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceReadRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService)(this)).readAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService)(this)).readAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindResponse RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService.find(RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindResponse RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService.find(RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindRequest request) {
             return base.Channel.find(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQPaymTerms find(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindRequest();
+        public RequisicaoAX.Dynamics.Purch.AxdPurchRFQPaymTerms find(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService)(this)).find(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService)(this)).find(inValue);
             return retVal.PurchRFQPaymTerms;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindResponse> RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService.findAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindResponse> RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService.findAsync(RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindRequest request) {
             return base.Channel.findAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceFindRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService)(this)).findAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService)(this)).findAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetChangedKeysResponse RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService.getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetChangedKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetChangedKeysResponse RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService.getChangedKeys(RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetChangedKeysRequest request) {
             return base.Channel.getChangedKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetChangedKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage getChangedKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetChangedKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
             inValue._changedDateTime = _changedDateTime;
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetChangedKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService)(this)).getChangedKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetChangedKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService)(this)).getChangedKeys(inValue);
             return retVal.EntityKeyPage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetChangedKeysResponse> RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService.getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetChangedKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetChangedKeysResponse> RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService.getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetChangedKeysRequest request) {
             return base.Channel.getChangedKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetChangedKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetChangedKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
             inValue._changedDateTime = _changedDateTime;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService)(this)).getChangedKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService)(this)).getChangedKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetKeysResponse RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService.getKeys(RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetKeysResponse RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService.getKeys(RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetKeysRequest request) {
             return base.Channel.getKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage getKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage getKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService)(this)).getKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService)(this)).getKeys(inValue);
             return retVal.EntityKeyPage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetKeysResponse> RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService.getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetKeysResponse> RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService.getKeysAsync(RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetKeysRequest request) {
             return base.Channel.getKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsServiceGetKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQPaymTermsService)(this)).getKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsService)(this)).getKeysAsync(inValue);
         }
     }
     
@@ -3845,66 +3845,66 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         // CODEGEN: Generating message contract since the wrapper name (PurchRFQSitesServiceFindKeysRequest) of message PurchRFQSitesServiceFindKeysRequest does not match the default value (findKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQSitesService/findKeys", ReplyAction="http://tempuri.org/PurchRFQSitesService/findKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/PurchRFQSitesService/findKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/PurchRFQSitesService/findKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindKeysResponse findKeys(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindKeysResponse findKeys(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQSitesService/findKeys", ReplyAction="http://tempuri.org/PurchRFQSitesService/findKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchRFQSitesServiceGetKeysRequest) of message PurchRFQSitesServiceGetKeysRequest does not match the default value (getKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQSitesService/getKeys", ReplyAction="http://tempuri.org/PurchRFQSitesService/getKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/PurchRFQSitesService/getKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/PurchRFQSitesService/getKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetKeysResponse getKeys(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetKeysResponse getKeys(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQSitesService/getKeys", ReplyAction="http://tempuri.org/PurchRFQSitesService/getKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchRFQSitesServiceUpdateRequest) of message PurchRFQSitesServiceUpdateRequest does not match the default value (update)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQSitesService/update", ReplyAction="http://tempuri.org/PurchRFQSitesService/updateResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/PurchRFQSitesService/updateAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/PurchRFQSitesService/updateAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceUpdateResponse update(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceUpdateRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceUpdateResponse update(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceUpdateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQSitesService/update", ReplyAction="http://tempuri.org/PurchRFQSitesService/updateResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceUpdateResponse> updateAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceUpdateRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceUpdateResponse> updateAsync(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceUpdateRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchRFQSitesServiceCreateRequest) of message PurchRFQSitesServiceCreateRequest does not match the default value (create)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQSitesService/create", ReplyAction="http://tempuri.org/PurchRFQSitesService/createResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/PurchRFQSitesService/createAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/PurchRFQSitesService/createAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceCreateResponse create(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceCreateRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceCreateResponse create(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceCreateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQSitesService/create", ReplyAction="http://tempuri.org/PurchRFQSitesService/createResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceCreateResponse> createAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceCreateRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceCreateResponse> createAsync(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceCreateRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchRFQSitesServiceReadRequest) of message PurchRFQSitesServiceReadRequest does not match the default value (read)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQSitesService/read", ReplyAction="http://tempuri.org/PurchRFQSitesService/readResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/PurchRFQSitesService/readAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/PurchRFQSitesService/readAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceReadResponse read(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceReadRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceReadResponse read(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceReadRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQSitesService/read", ReplyAction="http://tempuri.org/PurchRFQSitesService/readResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceReadRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceReadRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchRFQSitesServiceFindRequest) of message PurchRFQSitesServiceFindRequest does not match the default value (find)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQSitesService/find", ReplyAction="http://tempuri.org/PurchRFQSitesService/findResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/PurchRFQSitesService/findAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/PurchRFQSitesService/findAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindResponse find(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindResponse find(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQSitesService/find", ReplyAction="http://tempuri.org/PurchRFQSitesService/findResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchRFQSitesServiceGetChangedKeysRequest) of message PurchRFQSitesServiceGetChangedKeysRequest does not match the default value (getChangedKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQSitesService/getChangedKeys", ReplyAction="http://tempuri.org/PurchRFQSitesService/getChangedKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/PurchRFQSitesService/getChangedKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/PurchRFQSitesService/getChangedKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetChangedKeysResponse getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetChangedKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetChangedKeysResponse getChangedKeys(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetChangedKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQSitesService/getChangedKeys", ReplyAction="http://tempuri.org/PurchRFQSitesService/getChangedKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetChangedKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetChangedKeysRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -3915,16 +3915,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria;
         
         public PurchRFQSitesServiceFindKeysRequest() {
         }
         
-        public PurchRFQSitesServiceFindKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
+        public PurchRFQSitesServiceFindKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
         }
@@ -3939,12 +3939,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList;
         
         public PurchRFQSitesServiceFindKeysResponse() {
         }
         
-        public PurchRFQSitesServiceFindKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
+        public PurchRFQSitesServiceFindKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
             this.EntityKeyList = EntityKeyList;
         }
     }
@@ -3957,16 +3957,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging")]
-        public RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging;
+        public RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging;
         
         public PurchRFQSitesServiceGetKeysRequest() {
         }
         
-        public PurchRFQSitesServiceGetKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
+        public PurchRFQSitesServiceGetKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
             this.CallContext = CallContext;
             this.DocumentPaging = DocumentPaging;
         }
@@ -3980,12 +3980,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage")]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage;
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage;
         
         public PurchRFQSitesServiceGetKeysResponse() {
         }
         
-        public PurchRFQSitesServiceGetKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage) {
+        public PurchRFQSitesServiceGetKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage) {
             this.EntityKeyPage = EntityKeyPage;
         }
     }
@@ -19341,21 +19341,21 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQSites", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQSites")]
-        public RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQSites PurchRFQSites;
+        public RequisicaoAX.Dynamics.Purch.AxdPurchRFQSites PurchRFQSites;
         
         public PurchRFQSitesServiceUpdateRequest() {
         }
         
-        public PurchRFQSitesServiceUpdateRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList, RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQSites PurchRFQSites) {
+        public PurchRFQSitesServiceUpdateRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList, RequisicaoAX.Dynamics.Purch.AxdPurchRFQSites PurchRFQSites) {
             this.CallContext = CallContext;
             this.EntityKeyList = EntityKeyList;
             this.PurchRFQSites = PurchRFQSites;
@@ -19380,16 +19380,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQSites", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQSites")]
-        public RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQSites PurchRFQSites;
+        public RequisicaoAX.Dynamics.Purch.AxdPurchRFQSites PurchRFQSites;
         
         public PurchRFQSitesServiceCreateRequest() {
         }
         
-        public PurchRFQSitesServiceCreateRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQSites PurchRFQSites) {
+        public PurchRFQSitesServiceCreateRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.AxdPurchRFQSites PurchRFQSites) {
             this.CallContext = CallContext;
             this.PurchRFQSites = PurchRFQSites;
         }
@@ -19404,12 +19404,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList;
         
         public PurchRFQSitesServiceCreateResponse() {
         }
         
-        public PurchRFQSitesServiceCreateResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
+        public PurchRFQSitesServiceCreateResponse(RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
             this.EntityKeyList = EntityKeyList;
         }
     }
@@ -19422,17 +19422,17 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList;
         
         public PurchRFQSitesServiceReadRequest() {
         }
         
-        public PurchRFQSitesServiceReadRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
+        public PurchRFQSitesServiceReadRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
             this.CallContext = CallContext;
             this.EntityKeyList = EntityKeyList;
         }
@@ -19446,12 +19446,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQSites", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQSites")]
-        public RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQSites PurchRFQSites;
+        public RequisicaoAX.Dynamics.Purch.AxdPurchRFQSites PurchRFQSites;
         
         public PurchRFQSitesServiceReadResponse() {
         }
         
-        public PurchRFQSitesServiceReadResponse(RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQSites PurchRFQSites) {
+        public PurchRFQSitesServiceReadResponse(RequisicaoAX.Dynamics.Purch.AxdPurchRFQSites PurchRFQSites) {
             this.PurchRFQSites = PurchRFQSites;
         }
     }
@@ -19464,16 +19464,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria;
         
         public PurchRFQSitesServiceFindRequest() {
         }
         
-        public PurchRFQSitesServiceFindRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
+        public PurchRFQSitesServiceFindRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
         }
@@ -19487,12 +19487,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQSites", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQSites")]
-        public RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQSites PurchRFQSites;
+        public RequisicaoAX.Dynamics.Purch.AxdPurchRFQSites PurchRFQSites;
         
         public PurchRFQSitesServiceFindResponse() {
         }
         
-        public PurchRFQSitesServiceFindResponse(RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQSites PurchRFQSites) {
+        public PurchRFQSitesServiceFindResponse(RequisicaoAX.Dynamics.Purch.AxdPurchRFQSites PurchRFQSites) {
             this.PurchRFQSites = PurchRFQSites;
         }
     }
@@ -19505,11 +19505,11 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging")]
-        public RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging;
+        public RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org", Order=1)]
         public System.DateTime _changedDateTime;
@@ -19517,7 +19517,7 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         public PurchRFQSitesServiceGetChangedKeysRequest() {
         }
         
-        public PurchRFQSitesServiceGetChangedKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+        public PurchRFQSitesServiceGetChangedKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
             this.CallContext = CallContext;
             this.DocumentPaging = DocumentPaging;
             this._changedDateTime = _changedDateTime;
@@ -19532,23 +19532,23 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage")]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage;
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage;
         
         public PurchRFQSitesServiceGetChangedKeysResponse() {
         }
         
-        public PurchRFQSitesServiceGetChangedKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage) {
+        public PurchRFQSitesServiceGetChangedKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage) {
             this.EntityKeyPage = EntityKeyPage;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface PurchRFQSitesServiceChannel : RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService, System.ServiceModel.IClientChannel {
+    public interface PurchRFQSitesServiceChannel : RequisicaoAX.Dynamics.Purch.PurchRFQSitesService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class PurchRFQSitesServiceClient : System.ServiceModel.ClientBase<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService>, RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService {
+    public partial class PurchRFQSitesServiceClient : System.ServiceModel.ClientBase<RequisicaoAX.Dynamics.Purch.PurchRFQSitesService>, RequisicaoAX.Dynamics.Purch.PurchRFQSitesService {
         
         public PurchRFQSitesServiceClient() {
         }
@@ -19570,181 +19570,181 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindKeysResponse RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService.findKeys(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindKeysResponse RequisicaoAX.Dynamics.Purch.PurchRFQSitesService.findKeys(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindKeysRequest request) {
             return base.Channel.findKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] findKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] findKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindKeysRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService)(this)).findKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchRFQSitesService)(this)).findKeys(inValue);
             return retVal.EntityKeyList;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindKeysResponse> RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService.findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindKeysResponse> RequisicaoAX.Dynamics.Purch.PurchRFQSitesService.findKeysAsync(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindKeysRequest request) {
             return base.Channel.findKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindKeysRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService)(this)).findKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchRFQSitesService)(this)).findKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetKeysResponse RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService.getKeys(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetKeysResponse RequisicaoAX.Dynamics.Purch.PurchRFQSitesService.getKeys(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetKeysRequest request) {
             return base.Channel.getKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage getKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage getKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService)(this)).getKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchRFQSitesService)(this)).getKeys(inValue);
             return retVal.EntityKeyPage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetKeysResponse> RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService.getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetKeysResponse> RequisicaoAX.Dynamics.Purch.PurchRFQSitesService.getKeysAsync(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetKeysRequest request) {
             return base.Channel.getKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService)(this)).getKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchRFQSitesService)(this)).getKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceUpdateResponse RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService.update(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceUpdateRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceUpdateResponse RequisicaoAX.Dynamics.Purch.PurchRFQSitesService.update(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceUpdateRequest request) {
             return base.Channel.update(request);
         }
         
-        public void update(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList, RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQSites PurchRFQSites) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceUpdateRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceUpdateRequest();
+        public void update(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList, RequisicaoAX.Dynamics.Purch.AxdPurchRFQSites PurchRFQSites) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceUpdateRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceUpdateRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
             inValue.PurchRFQSites = PurchRFQSites;
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceUpdateResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService)(this)).update(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceUpdateResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchRFQSitesService)(this)).update(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceUpdateResponse> RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService.updateAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceUpdateRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceUpdateResponse> RequisicaoAX.Dynamics.Purch.PurchRFQSitesService.updateAsync(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceUpdateRequest request) {
             return base.Channel.updateAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceUpdateResponse> updateAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList, RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQSites PurchRFQSites) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceUpdateRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceUpdateRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceUpdateResponse> updateAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList, RequisicaoAX.Dynamics.Purch.AxdPurchRFQSites PurchRFQSites) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceUpdateRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceUpdateRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
             inValue.PurchRFQSites = PurchRFQSites;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService)(this)).updateAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchRFQSitesService)(this)).updateAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceCreateResponse RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService.create(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceCreateRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceCreateResponse RequisicaoAX.Dynamics.Purch.PurchRFQSitesService.create(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceCreateRequest request) {
             return base.Channel.create(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] create(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQSites PurchRFQSites) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceCreateRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceCreateRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] create(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.AxdPurchRFQSites PurchRFQSites) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceCreateRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceCreateRequest();
             inValue.CallContext = CallContext;
             inValue.PurchRFQSites = PurchRFQSites;
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceCreateResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService)(this)).create(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceCreateResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchRFQSitesService)(this)).create(inValue);
             return retVal.EntityKeyList;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceCreateResponse> RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService.createAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceCreateRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceCreateResponse> RequisicaoAX.Dynamics.Purch.PurchRFQSitesService.createAsync(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceCreateRequest request) {
             return base.Channel.createAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceCreateResponse> createAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQSites PurchRFQSites) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceCreateRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceCreateRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceCreateResponse> createAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.AxdPurchRFQSites PurchRFQSites) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceCreateRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceCreateRequest();
             inValue.CallContext = CallContext;
             inValue.PurchRFQSites = PurchRFQSites;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService)(this)).createAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchRFQSitesService)(this)).createAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceReadResponse RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService.read(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceReadRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceReadResponse RequisicaoAX.Dynamics.Purch.PurchRFQSitesService.read(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceReadRequest request) {
             return base.Channel.read(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQSites read(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceReadRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceReadRequest();
+        public RequisicaoAX.Dynamics.Purch.AxdPurchRFQSites read(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceReadRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceReadRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceReadResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService)(this)).read(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceReadResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchRFQSitesService)(this)).read(inValue);
             return retVal.PurchRFQSites;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceReadResponse> RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService.readAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceReadRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceReadResponse> RequisicaoAX.Dynamics.Purch.PurchRFQSitesService.readAsync(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceReadRequest request) {
             return base.Channel.readAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceReadRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceReadRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceReadRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceReadRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService)(this)).readAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchRFQSitesService)(this)).readAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindResponse RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService.find(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindResponse RequisicaoAX.Dynamics.Purch.PurchRFQSitesService.find(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindRequest request) {
             return base.Channel.find(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQSites find(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindRequest();
+        public RequisicaoAX.Dynamics.Purch.AxdPurchRFQSites find(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService)(this)).find(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchRFQSitesService)(this)).find(inValue);
             return retVal.PurchRFQSites;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindResponse> RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService.findAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindResponse> RequisicaoAX.Dynamics.Purch.PurchRFQSitesService.findAsync(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindRequest request) {
             return base.Channel.findAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceFindRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService)(this)).findAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchRFQSitesService)(this)).findAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetChangedKeysResponse RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService.getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetChangedKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetChangedKeysResponse RequisicaoAX.Dynamics.Purch.PurchRFQSitesService.getChangedKeys(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetChangedKeysRequest request) {
             return base.Channel.getChangedKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetChangedKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage getChangedKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetChangedKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
             inValue._changedDateTime = _changedDateTime;
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetChangedKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService)(this)).getChangedKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetChangedKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchRFQSitesService)(this)).getChangedKeys(inValue);
             return retVal.EntityKeyPage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetChangedKeysResponse> RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService.getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetChangedKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetChangedKeysResponse> RequisicaoAX.Dynamics.Purch.PurchRFQSitesService.getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetChangedKeysRequest request) {
             return base.Channel.getChangedKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesServiceGetChangedKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetChangedKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
             inValue._changedDateTime = _changedDateTime;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQSitesService)(this)).getChangedKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchRFQSitesService)(this)).getChangedKeysAsync(inValue);
         }
     }
     
@@ -19754,48 +19754,48 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         // CODEGEN: Generating message contract since the wrapper name (PurchRFQUnitServiceFindKeysRequest) of message PurchRFQUnitServiceFindKeysRequest does not match the default value (findKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQUnitService/findKeys", ReplyAction="http://tempuri.org/PurchRFQUnitService/findKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/PurchRFQUnitService/findKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/PurchRFQUnitService/findKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindKeysResponse findKeys(RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindKeysResponse findKeys(RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQUnitService/findKeys", ReplyAction="http://tempuri.org/PurchRFQUnitService/findKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchRFQUnitServiceGetChangedKeysRequest) of message PurchRFQUnitServiceGetChangedKeysRequest does not match the default value (getChangedKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQUnitService/getChangedKeys", ReplyAction="http://tempuri.org/PurchRFQUnitService/getChangedKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/PurchRFQUnitService/getChangedKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/PurchRFQUnitService/getChangedKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetChangedKeysResponse getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetChangedKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetChangedKeysResponse getChangedKeys(RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetChangedKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQUnitService/getChangedKeys", ReplyAction="http://tempuri.org/PurchRFQUnitService/getChangedKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetChangedKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetChangedKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchRFQUnitServiceFindRequest) of message PurchRFQUnitServiceFindRequest does not match the default value (find)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQUnitService/find", ReplyAction="http://tempuri.org/PurchRFQUnitService/findResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/PurchRFQUnitService/findAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/PurchRFQUnitService/findAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindResponse find(RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindResponse find(RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQUnitService/find", ReplyAction="http://tempuri.org/PurchRFQUnitService/findResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchRFQUnitServiceGetKeysRequest) of message PurchRFQUnitServiceGetKeysRequest does not match the default value (getKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQUnitService/getKeys", ReplyAction="http://tempuri.org/PurchRFQUnitService/getKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/PurchRFQUnitService/getKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/PurchRFQUnitService/getKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetKeysResponse getKeys(RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetKeysResponse getKeys(RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQUnitService/getKeys", ReplyAction="http://tempuri.org/PurchRFQUnitService/getKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchRFQUnitServiceReadRequest) of message PurchRFQUnitServiceReadRequest does not match the default value (read)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQUnitService/read", ReplyAction="http://tempuri.org/PurchRFQUnitService/readResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://tempuri.org/PurchRFQUnitService/readAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://tempuri.org/PurchRFQUnitService/readAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceReadResponse read(RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceReadRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceReadResponse read(RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceReadRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/PurchRFQUnitService/read", ReplyAction="http://tempuri.org/PurchRFQUnitService/readResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceReadRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceReadRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -19806,16 +19806,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria;
         
         public PurchRFQUnitServiceFindKeysRequest() {
         }
         
-        public PurchRFQUnitServiceFindKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
+        public PurchRFQUnitServiceFindKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
         }
@@ -19830,12 +19830,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList;
         
         public PurchRFQUnitServiceFindKeysResponse() {
         }
         
-        public PurchRFQUnitServiceFindKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
+        public PurchRFQUnitServiceFindKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
             this.EntityKeyList = EntityKeyList;
         }
     }
@@ -19848,11 +19848,11 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging")]
-        public RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging;
+        public RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org", Order=1)]
         public System.DateTime _changedDateTime;
@@ -19860,7 +19860,7 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         public PurchRFQUnitServiceGetChangedKeysRequest() {
         }
         
-        public PurchRFQUnitServiceGetChangedKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+        public PurchRFQUnitServiceGetChangedKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
             this.CallContext = CallContext;
             this.DocumentPaging = DocumentPaging;
             this._changedDateTime = _changedDateTime;
@@ -19875,12 +19875,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage")]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage;
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage;
         
         public PurchRFQUnitServiceGetChangedKeysResponse() {
         }
         
-        public PurchRFQUnitServiceGetChangedKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage) {
+        public PurchRFQUnitServiceGetChangedKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage) {
             this.EntityKeyPage = EntityKeyPage;
         }
     }
@@ -20319,16 +20319,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria;
         
         public PurchRFQUnitServiceFindRequest() {
         }
         
-        public PurchRFQUnitServiceFindRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
+        public PurchRFQUnitServiceFindRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
         }
@@ -20342,12 +20342,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQUnit", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQUnit")]
-        public RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQUnit PurchRFQUnit;
+        public RequisicaoAX.Dynamics.Purch.AxdPurchRFQUnit PurchRFQUnit;
         
         public PurchRFQUnitServiceFindResponse() {
         }
         
-        public PurchRFQUnitServiceFindResponse(RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQUnit PurchRFQUnit) {
+        public PurchRFQUnitServiceFindResponse(RequisicaoAX.Dynamics.Purch.AxdPurchRFQUnit PurchRFQUnit) {
             this.PurchRFQUnit = PurchRFQUnit;
         }
     }
@@ -20360,16 +20360,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging")]
-        public RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging;
+        public RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging;
         
         public PurchRFQUnitServiceGetKeysRequest() {
         }
         
-        public PurchRFQUnitServiceGetKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
+        public PurchRFQUnitServiceGetKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
             this.CallContext = CallContext;
             this.DocumentPaging = DocumentPaging;
         }
@@ -20383,12 +20383,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage")]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage;
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage;
         
         public PurchRFQUnitServiceGetKeysResponse() {
         }
         
-        public PurchRFQUnitServiceGetKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage) {
+        public PurchRFQUnitServiceGetKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage) {
             this.EntityKeyPage = EntityKeyPage;
         }
     }
@@ -20401,17 +20401,17 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList;
         
         public PurchRFQUnitServiceReadRequest() {
         }
         
-        public PurchRFQUnitServiceReadRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
+        public PurchRFQUnitServiceReadRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
             this.CallContext = CallContext;
             this.EntityKeyList = EntityKeyList;
         }
@@ -20425,23 +20425,23 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQUnit", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQUnit")]
-        public RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQUnit PurchRFQUnit;
+        public RequisicaoAX.Dynamics.Purch.AxdPurchRFQUnit PurchRFQUnit;
         
         public PurchRFQUnitServiceReadResponse() {
         }
         
-        public PurchRFQUnitServiceReadResponse(RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQUnit PurchRFQUnit) {
+        public PurchRFQUnitServiceReadResponse(RequisicaoAX.Dynamics.Purch.AxdPurchRFQUnit PurchRFQUnit) {
             this.PurchRFQUnit = PurchRFQUnit;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface PurchRFQUnitServiceChannel : RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService, System.ServiceModel.IClientChannel {
+    public interface PurchRFQUnitServiceChannel : RequisicaoAX.Dynamics.Purch.PurchRFQUnitService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class PurchRFQUnitServiceClient : System.ServiceModel.ClientBase<RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService>, RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService {
+    public partial class PurchRFQUnitServiceClient : System.ServiceModel.ClientBase<RequisicaoAX.Dynamics.Purch.PurchRFQUnitService>, RequisicaoAX.Dynamics.Purch.PurchRFQUnitService {
         
         public PurchRFQUnitServiceClient() {
         }
@@ -20463,130 +20463,130 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindKeysResponse RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService.findKeys(RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindKeysResponse RequisicaoAX.Dynamics.Purch.PurchRFQUnitService.findKeys(RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindKeysRequest request) {
             return base.Channel.findKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] findKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] findKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindKeysRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService)(this)).findKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchRFQUnitService)(this)).findKeys(inValue);
             return retVal.EntityKeyList;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindKeysResponse> RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService.findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindKeysResponse> RequisicaoAX.Dynamics.Purch.PurchRFQUnitService.findKeysAsync(RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindKeysRequest request) {
             return base.Channel.findKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindKeysRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService)(this)).findKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchRFQUnitService)(this)).findKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetChangedKeysResponse RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService.getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetChangedKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetChangedKeysResponse RequisicaoAX.Dynamics.Purch.PurchRFQUnitService.getChangedKeys(RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetChangedKeysRequest request) {
             return base.Channel.getChangedKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetChangedKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage getChangedKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetChangedKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
             inValue._changedDateTime = _changedDateTime;
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetChangedKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService)(this)).getChangedKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetChangedKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchRFQUnitService)(this)).getChangedKeys(inValue);
             return retVal.EntityKeyPage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetChangedKeysResponse> RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService.getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetChangedKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetChangedKeysResponse> RequisicaoAX.Dynamics.Purch.PurchRFQUnitService.getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetChangedKeysRequest request) {
             return base.Channel.getChangedKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetChangedKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetChangedKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
             inValue._changedDateTime = _changedDateTime;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService)(this)).getChangedKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchRFQUnitService)(this)).getChangedKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindResponse RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService.find(RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindResponse RequisicaoAX.Dynamics.Purch.PurchRFQUnitService.find(RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindRequest request) {
             return base.Channel.find(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQUnit find(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindRequest();
+        public RequisicaoAX.Dynamics.Purch.AxdPurchRFQUnit find(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService)(this)).find(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchRFQUnitService)(this)).find(inValue);
             return retVal.PurchRFQUnit;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindResponse> RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService.findAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindResponse> RequisicaoAX.Dynamics.Purch.PurchRFQUnitService.findAsync(RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindRequest request) {
             return base.Channel.findAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceFindRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService)(this)).findAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchRFQUnitService)(this)).findAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetKeysResponse RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService.getKeys(RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetKeysResponse RequisicaoAX.Dynamics.Purch.PurchRFQUnitService.getKeys(RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetKeysRequest request) {
             return base.Channel.getKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage getKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage getKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService)(this)).getKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchRFQUnitService)(this)).getKeys(inValue);
             return retVal.EntityKeyPage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetKeysResponse> RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService.getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetKeysResponse> RequisicaoAX.Dynamics.Purch.PurchRFQUnitService.getKeysAsync(RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetKeysRequest request) {
             return base.Channel.getKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceGetKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService)(this)).getKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchRFQUnitService)(this)).getKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceReadResponse RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService.read(RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceReadRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceReadResponse RequisicaoAX.Dynamics.Purch.PurchRFQUnitService.read(RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceReadRequest request) {
             return base.Channel.read(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.AxdPurchRFQUnit read(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceReadRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceReadRequest();
+        public RequisicaoAX.Dynamics.Purch.AxdPurchRFQUnit read(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceReadRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceReadRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceReadResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService)(this)).read(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceReadResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchRFQUnitService)(this)).read(inValue);
             return retVal.PurchRFQUnit;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceReadResponse> RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService.readAsync(RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceReadRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceReadResponse> RequisicaoAX.Dynamics.Purch.PurchRFQUnitService.readAsync(RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceReadRequest request) {
             return base.Channel.readAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceReadRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitServiceReadRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceReadRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceReadRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchRFQUnitService)(this)).readAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchRFQUnitService)(this)).readAsync(inValue);
         }
     }
     
@@ -20598,63 +20598,63 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/getChanged" +
             "Keys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/getChanged" +
             "KeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/getChanged" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/getChanged" +
             "KeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetChangedKeysResponse getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetChangedKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.CurrencyServiceGetChangedKeysResponse getChangedKeys(RequisicaoAX.Dynamics.Purch.CurrencyServiceGetChangedKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/getChanged" +
             "Keys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/getChanged" +
             "KeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetChangedKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.CurrencyServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.CurrencyServiceGetChangedKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (CurrencyServiceReadRequest) of message CurrencyServiceReadRequest does not match the default value (read)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/read", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/readRespon" +
             "se")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/readAifFau" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/readAifFau" +
             "ltFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceReadResponse read(RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceReadRequest request);
+        RequisicaoAX.Dynamics.Purch.CurrencyServiceReadResponse read(RequisicaoAX.Dynamics.Purch.CurrencyServiceReadRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/read", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/readRespon" +
             "se")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceReadRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.CurrencyServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Purch.CurrencyServiceReadRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (CurrencyServiceFindKeysRequest) of message CurrencyServiceFindKeysRequest does not match the default value (findKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/findKeys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/findKeysRe" +
             "sponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/findKeysAi" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/findKeysAi" +
             "fFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindKeysResponse findKeys(RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.CurrencyServiceFindKeysResponse findKeys(RequisicaoAX.Dynamics.Purch.CurrencyServiceFindKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/findKeys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/findKeysRe" +
             "sponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.CurrencyServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Purch.CurrencyServiceFindKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (CurrencyServiceFindRequest) of message CurrencyServiceFindRequest does not match the default value (find)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/find", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/findRespon" +
             "se")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/findAifFau" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/findAifFau" +
             "ltFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindResponse find(RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindRequest request);
+        RequisicaoAX.Dynamics.Purch.CurrencyServiceFindResponse find(RequisicaoAX.Dynamics.Purch.CurrencyServiceFindRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/find", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/findRespon" +
             "se")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.CurrencyServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Purch.CurrencyServiceFindRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (CurrencyServiceGetKeysRequest) of message CurrencyServiceGetKeysRequest does not match the default value (getKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/getKeys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/getKeysRes" +
             "ponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/getKeysAif" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/getKeysAif" +
             "FaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetKeysResponse getKeys(RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.CurrencyServiceGetKeysResponse getKeys(RequisicaoAX.Dynamics.Purch.CurrencyServiceGetKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/getKeys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/CurrencyService/getKeysRes" +
             "ponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.CurrencyServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Purch.CurrencyServiceGetKeysRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -20665,11 +20665,11 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging")]
-        public RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging;
+        public RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/services", Order=1)]
         public System.DateTime _changedDateTime;
@@ -20677,7 +20677,7 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         public CurrencyServiceGetChangedKeysRequest() {
         }
         
-        public CurrencyServiceGetChangedKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+        public CurrencyServiceGetChangedKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
             this.CallContext = CallContext;
             this.DocumentPaging = DocumentPaging;
             this._changedDateTime = _changedDateTime;
@@ -20692,12 +20692,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage")]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage;
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage;
         
         public CurrencyServiceGetChangedKeysResponse() {
         }
         
-        public CurrencyServiceGetChangedKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage) {
+        public CurrencyServiceGetChangedKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage) {
             this.EntityKeyPage = EntityKeyPage;
         }
     }
@@ -20988,17 +20988,17 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList;
         
         public CurrencyServiceReadRequest() {
         }
         
-        public CurrencyServiceReadRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
+        public CurrencyServiceReadRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
             this.CallContext = CallContext;
             this.EntityKeyList = EntityKeyList;
         }
@@ -21012,12 +21012,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/LedgerCurrency", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/LedgerCurrency")]
-        public RequisicaoAX.Dynamics.Services.Purch.AxdLedgerCurrency LedgerCurrency;
+        public RequisicaoAX.Dynamics.Purch.AxdLedgerCurrency LedgerCurrency;
         
         public CurrencyServiceReadResponse() {
         }
         
-        public CurrencyServiceReadResponse(RequisicaoAX.Dynamics.Services.Purch.AxdLedgerCurrency LedgerCurrency) {
+        public CurrencyServiceReadResponse(RequisicaoAX.Dynamics.Purch.AxdLedgerCurrency LedgerCurrency) {
             this.LedgerCurrency = LedgerCurrency;
         }
     }
@@ -21030,16 +21030,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria;
         
         public CurrencyServiceFindKeysRequest() {
         }
         
-        public CurrencyServiceFindKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
+        public CurrencyServiceFindKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
         }
@@ -21054,12 +21054,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList;
         
         public CurrencyServiceFindKeysResponse() {
         }
         
-        public CurrencyServiceFindKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
+        public CurrencyServiceFindKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
             this.EntityKeyList = EntityKeyList;
         }
     }
@@ -21072,16 +21072,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria;
         
         public CurrencyServiceFindRequest() {
         }
         
-        public CurrencyServiceFindRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
+        public CurrencyServiceFindRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
         }
@@ -21095,12 +21095,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/LedgerCurrency", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/LedgerCurrency")]
-        public RequisicaoAX.Dynamics.Services.Purch.AxdLedgerCurrency LedgerCurrency;
+        public RequisicaoAX.Dynamics.Purch.AxdLedgerCurrency LedgerCurrency;
         
         public CurrencyServiceFindResponse() {
         }
         
-        public CurrencyServiceFindResponse(RequisicaoAX.Dynamics.Services.Purch.AxdLedgerCurrency LedgerCurrency) {
+        public CurrencyServiceFindResponse(RequisicaoAX.Dynamics.Purch.AxdLedgerCurrency LedgerCurrency) {
             this.LedgerCurrency = LedgerCurrency;
         }
     }
@@ -21113,16 +21113,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging")]
-        public RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging;
+        public RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging;
         
         public CurrencyServiceGetKeysRequest() {
         }
         
-        public CurrencyServiceGetKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
+        public CurrencyServiceGetKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
             this.CallContext = CallContext;
             this.DocumentPaging = DocumentPaging;
         }
@@ -21136,23 +21136,23 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage")]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage;
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage;
         
         public CurrencyServiceGetKeysResponse() {
         }
         
-        public CurrencyServiceGetKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage) {
+        public CurrencyServiceGetKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage) {
             this.EntityKeyPage = EntityKeyPage;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface CurrencyServiceChannel : RequisicaoAX.Dynamics.Services.Purch.CurrencyService, System.ServiceModel.IClientChannel {
+    public interface CurrencyServiceChannel : RequisicaoAX.Dynamics.Purch.CurrencyService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class CurrencyServiceClient : System.ServiceModel.ClientBase<RequisicaoAX.Dynamics.Services.Purch.CurrencyService>, RequisicaoAX.Dynamics.Services.Purch.CurrencyService {
+    public partial class CurrencyServiceClient : System.ServiceModel.ClientBase<RequisicaoAX.Dynamics.Purch.CurrencyService>, RequisicaoAX.Dynamics.Purch.CurrencyService {
         
         public CurrencyServiceClient() {
         }
@@ -21174,130 +21174,130 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetChangedKeysResponse RequisicaoAX.Dynamics.Services.Purch.CurrencyService.getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetChangedKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.CurrencyServiceGetChangedKeysResponse RequisicaoAX.Dynamics.Purch.CurrencyService.getChangedKeys(RequisicaoAX.Dynamics.Purch.CurrencyServiceGetChangedKeysRequest request) {
             return base.Channel.getChangedKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
-            RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetChangedKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage getChangedKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+            RequisicaoAX.Dynamics.Purch.CurrencyServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.CurrencyServiceGetChangedKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
             inValue._changedDateTime = _changedDateTime;
-            RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetChangedKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.CurrencyService)(this)).getChangedKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.CurrencyServiceGetChangedKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.CurrencyService)(this)).getChangedKeys(inValue);
             return retVal.EntityKeyPage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetChangedKeysResponse> RequisicaoAX.Dynamics.Services.Purch.CurrencyService.getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetChangedKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.CurrencyServiceGetChangedKeysResponse> RequisicaoAX.Dynamics.Purch.CurrencyService.getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.CurrencyServiceGetChangedKeysRequest request) {
             return base.Channel.getChangedKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
-            RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetChangedKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.CurrencyServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+            RequisicaoAX.Dynamics.Purch.CurrencyServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.CurrencyServiceGetChangedKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
             inValue._changedDateTime = _changedDateTime;
-            return ((RequisicaoAX.Dynamics.Services.Purch.CurrencyService)(this)).getChangedKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.CurrencyService)(this)).getChangedKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceReadResponse RequisicaoAX.Dynamics.Services.Purch.CurrencyService.read(RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceReadRequest request) {
+        RequisicaoAX.Dynamics.Purch.CurrencyServiceReadResponse RequisicaoAX.Dynamics.Purch.CurrencyService.read(RequisicaoAX.Dynamics.Purch.CurrencyServiceReadRequest request) {
             return base.Channel.read(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.AxdLedgerCurrency read(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceReadRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceReadRequest();
+        public RequisicaoAX.Dynamics.Purch.AxdLedgerCurrency read(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Purch.CurrencyServiceReadRequest inValue = new RequisicaoAX.Dynamics.Purch.CurrencyServiceReadRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceReadResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.CurrencyService)(this)).read(inValue);
+            RequisicaoAX.Dynamics.Purch.CurrencyServiceReadResponse retVal = ((RequisicaoAX.Dynamics.Purch.CurrencyService)(this)).read(inValue);
             return retVal.LedgerCurrency;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceReadResponse> RequisicaoAX.Dynamics.Services.Purch.CurrencyService.readAsync(RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceReadRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.CurrencyServiceReadResponse> RequisicaoAX.Dynamics.Purch.CurrencyService.readAsync(RequisicaoAX.Dynamics.Purch.CurrencyServiceReadRequest request) {
             return base.Channel.readAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceReadRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceReadRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.CurrencyServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Purch.CurrencyServiceReadRequest inValue = new RequisicaoAX.Dynamics.Purch.CurrencyServiceReadRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            return ((RequisicaoAX.Dynamics.Services.Purch.CurrencyService)(this)).readAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.CurrencyService)(this)).readAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindKeysResponse RequisicaoAX.Dynamics.Services.Purch.CurrencyService.findKeys(RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.CurrencyServiceFindKeysResponse RequisicaoAX.Dynamics.Purch.CurrencyService.findKeys(RequisicaoAX.Dynamics.Purch.CurrencyServiceFindKeysRequest request) {
             return base.Channel.findKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] findKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] findKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.CurrencyServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.CurrencyServiceFindKeysRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.CurrencyService)(this)).findKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.CurrencyServiceFindKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.CurrencyService)(this)).findKeys(inValue);
             return retVal.EntityKeyList;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindKeysResponse> RequisicaoAX.Dynamics.Services.Purch.CurrencyService.findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.CurrencyServiceFindKeysResponse> RequisicaoAX.Dynamics.Purch.CurrencyService.findKeysAsync(RequisicaoAX.Dynamics.Purch.CurrencyServiceFindKeysRequest request) {
             return base.Channel.findKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.CurrencyServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.CurrencyServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.CurrencyServiceFindKeysRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            return ((RequisicaoAX.Dynamics.Services.Purch.CurrencyService)(this)).findKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.CurrencyService)(this)).findKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindResponse RequisicaoAX.Dynamics.Services.Purch.CurrencyService.find(RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindRequest request) {
+        RequisicaoAX.Dynamics.Purch.CurrencyServiceFindResponse RequisicaoAX.Dynamics.Purch.CurrencyService.find(RequisicaoAX.Dynamics.Purch.CurrencyServiceFindRequest request) {
             return base.Channel.find(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.AxdLedgerCurrency find(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindRequest();
+        public RequisicaoAX.Dynamics.Purch.AxdLedgerCurrency find(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.CurrencyServiceFindRequest inValue = new RequisicaoAX.Dynamics.Purch.CurrencyServiceFindRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.CurrencyService)(this)).find(inValue);
+            RequisicaoAX.Dynamics.Purch.CurrencyServiceFindResponse retVal = ((RequisicaoAX.Dynamics.Purch.CurrencyService)(this)).find(inValue);
             return retVal.LedgerCurrency;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindResponse> RequisicaoAX.Dynamics.Services.Purch.CurrencyService.findAsync(RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.CurrencyServiceFindResponse> RequisicaoAX.Dynamics.Purch.CurrencyService.findAsync(RequisicaoAX.Dynamics.Purch.CurrencyServiceFindRequest request) {
             return base.Channel.findAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceFindRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.CurrencyServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.CurrencyServiceFindRequest inValue = new RequisicaoAX.Dynamics.Purch.CurrencyServiceFindRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            return ((RequisicaoAX.Dynamics.Services.Purch.CurrencyService)(this)).findAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.CurrencyService)(this)).findAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetKeysResponse RequisicaoAX.Dynamics.Services.Purch.CurrencyService.getKeys(RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.CurrencyServiceGetKeysResponse RequisicaoAX.Dynamics.Purch.CurrencyService.getKeys(RequisicaoAX.Dynamics.Purch.CurrencyServiceGetKeysRequest request) {
             return base.Channel.getKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage getKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
-            RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage getKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
+            RequisicaoAX.Dynamics.Purch.CurrencyServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.CurrencyServiceGetKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
-            RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.CurrencyService)(this)).getKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.CurrencyServiceGetKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.CurrencyService)(this)).getKeys(inValue);
             return retVal.EntityKeyPage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetKeysResponse> RequisicaoAX.Dynamics.Services.Purch.CurrencyService.getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.CurrencyServiceGetKeysResponse> RequisicaoAX.Dynamics.Purch.CurrencyService.getKeysAsync(RequisicaoAX.Dynamics.Purch.CurrencyServiceGetKeysRequest request) {
             return base.Channel.getKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
-            RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.CurrencyServiceGetKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.CurrencyServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
+            RequisicaoAX.Dynamics.Purch.CurrencyServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.CurrencyServiceGetKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
-            return ((RequisicaoAX.Dynamics.Services.Purch.CurrencyService)(this)).getKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.CurrencyService)(this)).getKeysAsync(inValue);
         }
     }
     
@@ -21309,113 +21309,113 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/find" +
             "", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/find" +
             "Response")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/find" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/find" +
             "AifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindResponse find(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindResponse find(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/find" +
             "", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/find" +
             "Response")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchReqImportServiceReadRequest) of message PurchReqImportServiceReadRequest does not match the default value (read)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/read" +
             "", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/read" +
             "Response")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/read" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/read" +
             "AifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceReadResponse read(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceReadRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchReqImportServiceReadResponse read(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceReadRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/read" +
             "", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/read" +
             "Response")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceReadRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceReadRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchReqImportServiceGetChangedKeysRequest) of message PurchReqImportServiceGetChangedKeysRequest does not match the default value (getChangedKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/getC" +
             "hangedKeys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/getC" +
             "hangedKeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/getC" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/getC" +
             "hangedKeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetChangedKeysResponse getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetChangedKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetChangedKeysResponse getChangedKeys(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetChangedKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/getC" +
             "hangedKeys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/getC" +
             "hangedKeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetChangedKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetChangedKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchReqImportServiceGetKeysRequest) of message PurchReqImportServiceGetKeysRequest does not match the default value (getKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/getK" +
             "eys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/getK" +
             "eysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/getK" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/getK" +
             "eysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetKeysResponse getKeys(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetKeysResponse getKeys(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/getK" +
             "eys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/getK" +
             "eysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetKeysRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchReqImportServiceCreateRequest) of message PurchReqImportServiceCreateRequest does not match the default value (create)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/crea" +
             "te", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/crea" +
             "teResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/crea" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/crea" +
             "teAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCreateResponse create(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCreateRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCreateResponse create(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCreateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/crea" +
             "te", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/crea" +
             "teResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCreateResponse> createAsync(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCreateRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCreateResponse> createAsync(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCreateRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchReqImportServiceCancelRequest) of message PurchReqImportServiceCancelRequest does not match the default value (cancel)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/canc" +
             "el", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/canc" +
             "elResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/canc" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/canc" +
             "elAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCancelResponse cancel(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCancelRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCancelResponse cancel(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCancelRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/canc" +
             "el", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/canc" +
             "elResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCancelResponse> cancelAsync(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCancelRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCancelResponse> cancelAsync(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCancelRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchReqImportServiceDeleteRequest) of message PurchReqImportServiceDeleteRequest does not match the default value (delete)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/dele" +
             "te", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/dele" +
             "teResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/dele" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/dele" +
             "teAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceDeleteResponse delete(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceDeleteRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchReqImportServiceDeleteResponse delete(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceDeleteRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/dele" +
             "te", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/dele" +
             "teResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceDeleteResponse> deleteAsync(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceDeleteRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceDeleteResponse> deleteAsync(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceDeleteRequest request);
         
         // CODEGEN: Generating message contract since the wrapper name (PurchReqImportServiceFindKeysRequest) of message PurchReqImportServiceFindKeysRequest does not match the default value (findKeys)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/find" +
             "Keys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/find" +
             "KeysResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Services.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/find" +
+        [System.ServiceModel.FaultContractAttribute(typeof(RequisicaoAX.Dynamics.Purch.AifFault), Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/find" +
             "KeysAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindKeysResponse findKeys(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindKeysRequest request);
+        RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindKeysResponse findKeys(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindKeysRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/find" +
             "Keys", ReplyAction="http://schemas.microsoft.com/dynamics/2008/01/services/PurchReqImportService/find" +
             "KeysResponse")]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindKeysRequest request);
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindKeysRequest request);
     }
     
     /// <remarks/>
@@ -26503,16 +26503,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria;
         
         public PurchReqImportServiceFindRequest() {
         }
         
-        public PurchReqImportServiceFindRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
+        public PurchReqImportServiceFindRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
         }
@@ -26526,12 +26526,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchReqImport", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchReqImport")]
-        public RequisicaoAX.Dynamics.Services.Purch.AxdPurchReqImport PurchReqImport;
+        public RequisicaoAX.Dynamics.Purch.AxdPurchReqImport PurchReqImport;
         
         public PurchReqImportServiceFindResponse() {
         }
         
-        public PurchReqImportServiceFindResponse(RequisicaoAX.Dynamics.Services.Purch.AxdPurchReqImport PurchReqImport) {
+        public PurchReqImportServiceFindResponse(RequisicaoAX.Dynamics.Purch.AxdPurchReqImport PurchReqImport) {
             this.PurchReqImport = PurchReqImport;
         }
     }
@@ -26544,17 +26544,17 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList;
         
         public PurchReqImportServiceReadRequest() {
         }
         
-        public PurchReqImportServiceReadRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
+        public PurchReqImportServiceReadRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
             this.CallContext = CallContext;
             this.EntityKeyList = EntityKeyList;
         }
@@ -26568,12 +26568,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchReqImport", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchReqImport")]
-        public RequisicaoAX.Dynamics.Services.Purch.AxdPurchReqImport PurchReqImport;
+        public RequisicaoAX.Dynamics.Purch.AxdPurchReqImport PurchReqImport;
         
         public PurchReqImportServiceReadResponse() {
         }
         
-        public PurchReqImportServiceReadResponse(RequisicaoAX.Dynamics.Services.Purch.AxdPurchReqImport PurchReqImport) {
+        public PurchReqImportServiceReadResponse(RequisicaoAX.Dynamics.Purch.AxdPurchReqImport PurchReqImport) {
             this.PurchReqImport = PurchReqImport;
         }
     }
@@ -26586,11 +26586,11 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging")]
-        public RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging;
+        public RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/services", Order=1)]
         public System.DateTime _changedDateTime;
@@ -26598,7 +26598,7 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         public PurchReqImportServiceGetChangedKeysRequest() {
         }
         
-        public PurchReqImportServiceGetChangedKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+        public PurchReqImportServiceGetChangedKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
             this.CallContext = CallContext;
             this.DocumentPaging = DocumentPaging;
             this._changedDateTime = _changedDateTime;
@@ -26613,12 +26613,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage")]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage;
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage;
         
         public PurchReqImportServiceGetChangedKeysResponse() {
         }
         
-        public PurchReqImportServiceGetChangedKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage) {
+        public PurchReqImportServiceGetChangedKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage) {
             this.EntityKeyPage = EntityKeyPage;
         }
     }
@@ -26631,16 +26631,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging")]
-        public RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging;
+        public RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging;
         
         public PurchReqImportServiceGetKeysRequest() {
         }
         
-        public PurchReqImportServiceGetKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
+        public PurchReqImportServiceGetKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
             this.CallContext = CallContext;
             this.DocumentPaging = DocumentPaging;
         }
@@ -26654,12 +26654,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage")]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage;
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage;
         
         public PurchReqImportServiceGetKeysResponse() {
         }
         
-        public PurchReqImportServiceGetKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage EntityKeyPage) {
+        public PurchReqImportServiceGetKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKeyPage EntityKeyPage) {
             this.EntityKeyPage = EntityKeyPage;
         }
     }
@@ -26672,16 +26672,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchReqImport", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchReqImport")]
-        public RequisicaoAX.Dynamics.Services.Purch.AxdPurchReqImport PurchReqImport;
+        public RequisicaoAX.Dynamics.Purch.AxdPurchReqImport PurchReqImport;
         
         public PurchReqImportServiceCreateRequest() {
         }
         
-        public PurchReqImportServiceCreateRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.AxdPurchReqImport PurchReqImport) {
+        public PurchReqImportServiceCreateRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.AxdPurchReqImport PurchReqImport) {
             this.CallContext = CallContext;
             this.PurchReqImport = PurchReqImport;
         }
@@ -26696,12 +26696,12 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList;
         
         public PurchReqImportServiceCreateResponse() {
         }
         
-        public PurchReqImportServiceCreateResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
+        public PurchReqImportServiceCreateResponse(RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
             this.EntityKeyList = EntityKeyList;
         }
     }
@@ -26714,16 +26714,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey")]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey EntityKey;
+        public RequisicaoAX.Dynamics.Purch.EntityKey EntityKey;
         
         public PurchReqImportServiceCancelRequest() {
         }
         
-        public PurchReqImportServiceCancelRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey EntityKey) {
+        public PurchReqImportServiceCancelRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey EntityKey) {
             this.CallContext = CallContext;
             this.EntityKey = EntityKey;
         }
@@ -26747,17 +26747,17 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList;
         
         public PurchReqImportServiceDeleteRequest() {
         }
         
-        public PurchReqImportServiceDeleteRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
+        public PurchReqImportServiceDeleteRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
             this.CallContext = CallContext;
             this.EntityKeyList = EntityKeyList;
         }
@@ -26781,16 +26781,16 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext;
+        public RequisicaoAX.Dynamics.Purch.CallContext CallContext;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria")]
-        public RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria;
+        public RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria;
         
         public PurchReqImportServiceFindKeysRequest() {
         }
         
-        public PurchReqImportServiceFindKeysRequest(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
+        public PurchReqImportServiceFindKeysRequest(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
             this.CallContext = CallContext;
             this.QueryCriteria = QueryCriteria;
         }
@@ -26805,23 +26805,23 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList")]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey", IsNullable=false)]
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList;
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList;
         
         public PurchReqImportServiceFindKeysResponse() {
         }
         
-        public PurchReqImportServiceFindKeysResponse(RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
+        public PurchReqImportServiceFindKeysResponse(RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
             this.EntityKeyList = EntityKeyList;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface PurchReqImportServiceChannel : RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService, System.ServiceModel.IClientChannel {
+    public interface PurchReqImportServiceChannel : RequisicaoAX.Dynamics.Purch.PurchReqImportService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class PurchReqImportServiceClient : System.ServiceModel.ClientBase<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService>, RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService {
+    public partial class PurchReqImportServiceClient : System.ServiceModel.ClientBase<RequisicaoAX.Dynamics.Purch.PurchReqImportService>, RequisicaoAX.Dynamics.Purch.PurchReqImportService {
         
         public PurchReqImportServiceClient() {
         }
@@ -26843,203 +26843,203 @@ namespace RequisicaoAX.Dynamics.Services.Purch {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindResponse RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService.find(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindResponse RequisicaoAX.Dynamics.Purch.PurchReqImportService.find(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindRequest request) {
             return base.Channel.find(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.AxdPurchReqImport find(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindRequest();
+        public RequisicaoAX.Dynamics.Purch.AxdPurchReqImport find(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService)(this)).find(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchReqImportService)(this)).find(inValue);
             return retVal.PurchReqImport;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindResponse> RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService.findAsync(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindResponse> RequisicaoAX.Dynamics.Purch.PurchReqImportService.findAsync(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindRequest request) {
             return base.Channel.findAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindResponse> findAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService)(this)).findAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchReqImportService)(this)).findAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceReadResponse RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService.read(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceReadRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchReqImportServiceReadResponse RequisicaoAX.Dynamics.Purch.PurchReqImportService.read(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceReadRequest request) {
             return base.Channel.read(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.AxdPurchReqImport read(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceReadRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceReadRequest();
+        public RequisicaoAX.Dynamics.Purch.AxdPurchReqImport read(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceReadRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchReqImportServiceReadRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceReadResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService)(this)).read(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceReadResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchReqImportService)(this)).read(inValue);
             return retVal.PurchReqImport;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceReadResponse> RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService.readAsync(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceReadRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceReadResponse> RequisicaoAX.Dynamics.Purch.PurchReqImportService.readAsync(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceReadRequest request) {
             return base.Channel.readAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceReadRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceReadRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceReadResponse> readAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceReadRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchReqImportServiceReadRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService)(this)).readAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchReqImportService)(this)).readAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetChangedKeysResponse RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService.getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetChangedKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetChangedKeysResponse RequisicaoAX.Dynamics.Purch.PurchReqImportService.getChangedKeys(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetChangedKeysRequest request) {
             return base.Channel.getChangedKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage getChangedKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetChangedKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage getChangedKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetChangedKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
             inValue._changedDateTime = _changedDateTime;
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetChangedKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService)(this)).getChangedKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetChangedKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchReqImportService)(this)).getChangedKeys(inValue);
             return retVal.EntityKeyPage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetChangedKeysResponse> RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService.getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetChangedKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetChangedKeysResponse> RequisicaoAX.Dynamics.Purch.PurchReqImportService.getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetChangedKeysRequest request) {
             return base.Channel.getChangedKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetChangedKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetChangedKeysResponse> getChangedKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging, System.DateTime _changedDateTime) {
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetChangedKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetChangedKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
             inValue._changedDateTime = _changedDateTime;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService)(this)).getChangedKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchReqImportService)(this)).getChangedKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetKeysResponse RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService.getKeys(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetKeysResponse RequisicaoAX.Dynamics.Purch.PurchReqImportService.getKeys(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetKeysRequest request) {
             return base.Channel.getKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKeyPage getKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKeyPage getKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService)(this)).getKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchReqImportService)(this)).getKeys(inValue);
             return retVal.EntityKeyPage;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetKeysResponse> RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService.getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetKeysResponse> RequisicaoAX.Dynamics.Purch.PurchReqImportService.getKeysAsync(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetKeysRequest request) {
             return base.Channel.getKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.DocumentPaging DocumentPaging) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceGetKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetKeysResponse> getKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.DocumentPaging DocumentPaging) {
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetKeysRequest();
             inValue.CallContext = CallContext;
             inValue.DocumentPaging = DocumentPaging;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService)(this)).getKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchReqImportService)(this)).getKeysAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCreateResponse RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService.create(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCreateRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCreateResponse RequisicaoAX.Dynamics.Purch.PurchReqImportService.create(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCreateRequest request) {
             return base.Channel.create(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] create(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.AxdPurchReqImport PurchReqImport) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCreateRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCreateRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] create(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.AxdPurchReqImport PurchReqImport) {
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCreateRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCreateRequest();
             inValue.CallContext = CallContext;
             inValue.PurchReqImport = PurchReqImport;
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCreateResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService)(this)).create(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCreateResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchReqImportService)(this)).create(inValue);
             return retVal.EntityKeyList;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCreateResponse> RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService.createAsync(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCreateRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCreateResponse> RequisicaoAX.Dynamics.Purch.PurchReqImportService.createAsync(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCreateRequest request) {
             return base.Channel.createAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCreateResponse> createAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.AxdPurchReqImport PurchReqImport) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCreateRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCreateRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCreateResponse> createAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.AxdPurchReqImport PurchReqImport) {
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCreateRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCreateRequest();
             inValue.CallContext = CallContext;
             inValue.PurchReqImport = PurchReqImport;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService)(this)).createAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchReqImportService)(this)).createAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCancelResponse RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService.cancel(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCancelRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCancelResponse RequisicaoAX.Dynamics.Purch.PurchReqImportService.cancel(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCancelRequest request) {
             return base.Channel.cancel(request);
         }
         
-        public void cancel(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey EntityKey) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCancelRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCancelRequest();
+        public void cancel(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey EntityKey) {
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCancelRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCancelRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKey = EntityKey;
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCancelResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService)(this)).cancel(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCancelResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchReqImportService)(this)).cancel(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCancelResponse> RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService.cancelAsync(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCancelRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCancelResponse> RequisicaoAX.Dynamics.Purch.PurchReqImportService.cancelAsync(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCancelRequest request) {
             return base.Channel.cancelAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCancelResponse> cancelAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey EntityKey) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCancelRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceCancelRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCancelResponse> cancelAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey EntityKey) {
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCancelRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCancelRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKey = EntityKey;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService)(this)).cancelAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchReqImportService)(this)).cancelAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceDeleteResponse RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService.delete(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceDeleteRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchReqImportServiceDeleteResponse RequisicaoAX.Dynamics.Purch.PurchReqImportService.delete(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceDeleteRequest request) {
             return base.Channel.delete(request);
         }
         
-        public void delete(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceDeleteRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceDeleteRequest();
+        public void delete(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceDeleteRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchReqImportServiceDeleteRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceDeleteResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService)(this)).delete(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceDeleteResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchReqImportService)(this)).delete(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceDeleteResponse> RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService.deleteAsync(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceDeleteRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceDeleteResponse> RequisicaoAX.Dynamics.Purch.PurchReqImportService.deleteAsync(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceDeleteRequest request) {
             return base.Channel.deleteAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceDeleteResponse> deleteAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.EntityKey[] EntityKeyList) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceDeleteRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceDeleteRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceDeleteResponse> deleteAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.EntityKey[] EntityKeyList) {
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceDeleteRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchReqImportServiceDeleteRequest();
             inValue.CallContext = CallContext;
             inValue.EntityKeyList = EntityKeyList;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService)(this)).deleteAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchReqImportService)(this)).deleteAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindKeysResponse RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService.findKeys(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindKeysRequest request) {
+        RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindKeysResponse RequisicaoAX.Dynamics.Purch.PurchReqImportService.findKeys(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindKeysRequest request) {
             return base.Channel.findKeys(request);
         }
         
-        public RequisicaoAX.Dynamics.Services.Purch.EntityKey[] findKeys(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindKeysRequest();
+        public RequisicaoAX.Dynamics.Purch.EntityKey[] findKeys(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindKeysRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindKeysResponse retVal = ((RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService)(this)).findKeys(inValue);
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindKeysResponse retVal = ((RequisicaoAX.Dynamics.Purch.PurchReqImportService)(this)).findKeys(inValue);
             return retVal.EntityKeyList;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindKeysResponse> RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService.findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindKeysRequest request) {
+        System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindKeysResponse> RequisicaoAX.Dynamics.Purch.PurchReqImportService.findKeysAsync(RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindKeysRequest request) {
             return base.Channel.findKeysAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Services.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Services.Purch.QueryCriteria QueryCriteria) {
-            RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Services.Purch.PurchReqImportServiceFindKeysRequest();
+        public System.Threading.Tasks.Task<RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindKeysResponse> findKeysAsync(RequisicaoAX.Dynamics.Purch.CallContext CallContext, RequisicaoAX.Dynamics.Purch.QueryCriteria QueryCriteria) {
+            RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindKeysRequest inValue = new RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindKeysRequest();
             inValue.CallContext = CallContext;
             inValue.QueryCriteria = QueryCriteria;
-            return ((RequisicaoAX.Dynamics.Services.Purch.PurchReqImportService)(this)).findKeysAsync(inValue);
+            return ((RequisicaoAX.Dynamics.Purch.PurchReqImportService)(this)).findKeysAsync(inValue);
         }
     }
 }

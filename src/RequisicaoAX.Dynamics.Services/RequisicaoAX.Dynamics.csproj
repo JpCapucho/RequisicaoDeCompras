@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B3AC6BE-E3FA-4A94-B407-6A0723A52534}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RequisicaoAX.Dynamics</RootNamespace>
+    <AssemblyName>RequisicaoAX.Dynamics</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connected Services\Customer\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\HcmWorker\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\Purch\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\DataAreaDAO.cs" />
+    <Compile Include="Model\DataArea.cs" />
+    <Compile Include="Model\EcoResCategory.cs" />
+    <Compile Include="Model\EcoResProduct.cs" />
+    <Compile Include="Model\FiscalEstablishment_BR.cs" />
+    <Compile Include="Model\Partition.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Connected Services\Customer\CustCustomerServices.wsdl" />
+    <None Include="Connected Services\Customer\CustCustomerServices.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Customer\CustCustomerServices1.wsdl" />
+    <None Include="Connected Services\Customer\CustCustomerServices1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Customer\CustCustomerServices10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Customer\CustCustomerServices11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Customer\CustCustomerServices12.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Customer\CustCustomerServices13.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Customer\CustCustomerServices2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Customer\CustCustomerServices3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Customer\CustCustomerServices4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Customer\CustCustomerServices5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Customer\CustCustomerServices6.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Customer\CustCustomerServices7.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Customer\CustCustomerServices8.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Customer\CustCustomerServices9.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Customer\RequisicaoAX.Dynamics.Customer.AxdCustomer.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Customer\RequisicaoAX.Dynamics.Customer.CustomerServiceCreateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Customer\RequisicaoAX.Dynamics.Customer.CustomerServiceDeleteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Customer\RequisicaoAX.Dynamics.Customer.CustomerServiceFindKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Customer\RequisicaoAX.Dynamics.Customer.CustomerServiceFindResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Customer\RequisicaoAX.Dynamics.Customer.CustomerServiceGetChangedKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Customer\RequisicaoAX.Dynamics.Customer.CustomerServiceGetKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Customer\RequisicaoAX.Dynamics.Customer.CustomerServiceReadResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Customer\RequisicaoAX.Dynamics.Customer.CustomerServiceUpdateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Customer\RequisicaoAX.Dynamics.Customer.EntityKey.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Customer\RequisicaoAX.Dynamics.Customer.EntityKeyPage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\HcmWorker\HcmWorkerImportServices.wsdl" />
+    <None Include="Connected Services\HcmWorker\HcmWorkerImportServices.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\HcmWorker\HcmWorkerImportServices1.wsdl" />
+    <None Include="Connected Services\HcmWorker\HcmWorkerImportServices1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\HcmWorker\HcmWorkerImportServices10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\HcmWorker\HcmWorkerImportServices11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\HcmWorker\HcmWorkerImportServices12.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\HcmWorker\HcmWorkerImportServices13.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\HcmWorker\HcmWorkerImportServices2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\HcmWorker\HcmWorkerImportServices3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\HcmWorker\HcmWorkerImportServices4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\HcmWorker\HcmWorkerImportServices5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\HcmWorker\HcmWorkerImportServices6.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\HcmWorker\HcmWorkerImportServices7.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\HcmWorker\HcmWorkerImportServices8.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\HcmWorker\HcmWorkerImportServices9.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\HcmWorker\RequisicaoAX.Dynamics.HcmWorker.AxdHcmWorkerImport.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\HcmWorker\RequisicaoAX.Dynamics.HcmWorker.EntityKey.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\HcmWorker\RequisicaoAX.Dynamics.HcmWorker.EntityKeyPage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\HcmWorker\RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceCreateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\HcmWorker\RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindAsOfResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\HcmWorker\RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysAsOfResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\HcmWorker\RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\HcmWorker\RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceFindResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\HcmWorker\RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetChangedKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\HcmWorker\RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceGetKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\HcmWorker\RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadAsOfResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\HcmWorker\RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceReadResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\HcmWorker\RequisicaoAX.Dynamics.HcmWorker.HcmWorkerImportServiceUpdateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ.wsdl" />
+    <None Include="Connected Services\Purch\PurchRFQ.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ1.wsdl" />
+    <None Include="Connected Services\Purch\PurchRFQ1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ12.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ13.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ14.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ15.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ16.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ17.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ18.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ2.wsdl" />
+    <None Include="Connected Services\Purch\PurchRFQ2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ20.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ21.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ211.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ212.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ7.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ8.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\PurchRFQ9.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.AxdDlvDlvMode.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.AxdDlvDlvTerm.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.AxdLedgerCurrency.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.AxdMarkupMarkupTable.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.AxdPurchReqImport.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.AxdPurchRFQPaymTerms.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.AxdPurchRFQSites.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.AxdPurchRFQUnit.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.CurrencyServiceFindKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.CurrencyServiceFindResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.CurrencyServiceGetChangedKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.CurrencyServiceGetKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.CurrencyServiceReadResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceFindResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetChangedKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceGetKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.DlvDlvModeServiceReadResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceFindResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetChangedKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceGetKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.DlvDlvTermServiceReadResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.EntityKey.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.EntityKeyPage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceFindResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetChangedKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceGetKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.MarkupMarkupTableServiceReadResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCancelResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchReqImportServiceCreateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchReqImportServiceDeleteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchReqImportServiceFindResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetChangedKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchReqImportServiceGetKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchReqImportServiceReadResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceFindResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetChangedKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceGetKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchRFQPaymTermsServiceReadResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceCreateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceFindResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetChangedKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceGetKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceReadResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchRFQSitesServiceUpdateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceFindResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetChangedKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceGetKeysResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Purch\RequisicaoAX.Dynamics.Purch.PurchRFQUnitServiceReadResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\Customer\" />
+    <WCFMetadataStorage Include="Connected Services\HcmWorker\" />
+    <WCFMetadataStorage Include="Connected Services\Purch\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\Purch\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\Purch\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\Purch\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\Customer\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\Customer\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\Customer\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\HcmWorker\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\HcmWorker\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\HcmWorker\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
