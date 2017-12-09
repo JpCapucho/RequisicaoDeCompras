@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.microsoft.com/dynamics/2008/01/documents/HcmWorkerImport" xmlns:st="http://schemas.microsoft.com/dynamics/2008/01/sharedtypes" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/dynamics/2008/01/documents/HcmWorkerImport" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/HcmWorkerImportServices?xsd=xsd10" namespace="http://schemas.microsoft.com/dynamics/2008/01/sharedtypes" />
+  <xs:element name="HcmWorkerImport" type="tns:AxdHcmWorkerImport" />
+  <xs:complexType name="AxdHcmWorkerImport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ClearNilFieldsOnUpdate" nillable="true" type="st:AxdEnum_boolean" />
+      <xs:element minOccurs="0" name="DocPurpose" nillable="true" type="st:AxdEnum_XMLDocPurpose" />
+      <xs:element minOccurs="0" name="SenderId" nillable="true" type="st:AxdExtType_DataAreaId" />
+      <xs:element minOccurs="0" name="ValidAsOfDateTime" nillable="true" type="st:AxdType_DateTime" />
+      <xs:element minOccurs="0" name="ValidFromDateTime" nillable="true" type="st:AxdType_DateTime" />
+      <xs:element minOccurs="0" name="ValidTimeStateType" nillable="true" type="st:AxdEnum_AxdValidTimeStateType" />
+      <xs:element minOccurs="0" name="ValidToDateTime" nillable="true" type="st:AxdType_DateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="HcmWorker" type="tns:AxdEntity_HcmWorker" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AxdEntity_HcmWorker">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="_DocumentHash" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Person" nillable="true" type="st:AxdExtType_DirPartyNumber" />
+      <xs:element minOccurs="0" name="PersonnelNumber" nillable="true" type="st:AxdExtType_HcmPersonnelNumberId" />
+      <xs:element minOccurs="0" name="RecId" nillable="true" type="st:AxdExtType_RecId" />
+      <xs:element minOccurs="0" name="RecVersion" nillable="true" type="st:AxdExtType_RecVersion" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DirPerson" type="tns:AxdEntity_DirPerson_DirPerson" />
+      <xs:element minOccurs="1" maxOccurs="unbounded" name="HcmEmployment" type="tns:AxdEntity_HcmEmployment" />
+      <xs:element minOccurs="0" maxOccurs="1" name="HcmWorkerTitle" type="tns:AxdEntity_HcmWorkerTitle" />
+    </xs:sequence>
+    <xs:attribute fixed="entity" name="class" use="required" />
+    <xs:attribute name="action" type="st:AxdEnum_AxdEntityAction" />
+  </xs:complexType>
+  <xs:complexType name="AxdEntity_DirPerson_DirPartyTable">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="InstanceRelationType" nillable="true" type="st:AxdExtType_RelationType" />
+      <xs:element minOccurs="0" name="KnownAs" nillable="true" type="st:AxdExtType_DirPartyName" />
+      <xs:element minOccurs="0" name="LanguageId" nillable="true" type="st:AxdExtType_LanguageId" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="st:AxdExtType_DirPartyName" />
+      <xs:element minOccurs="0" name="NameAlias" nillable="true" type="st:AxdExtType_NameAlias" />
+      <xs:element minOccurs="0" name="PartyNumber" nillable="true" type="st:AxdExtType_DirPartyNumber" />
+      <xs:element minOccurs="0" name="PrimaryAddressLocation" nillable="true" type="st:AxdExtType_LogisticsLocationId" />
+      <xs:element minOccurs="0" name="PrimaryContactEmail" nillable="true" type="st:AxdExtType_LogisticsElectronicAddressRecId" />
+      <xs:element minOccurs="0" name="PrimaryContactFax" nillable="true" type="st:AxdExtType_LogisticsElectronicAddressRecId" />
+      <xs:element minOccurs="0" name="PrimaryContactPhone" nillable="true" type="st:AxdExtType_LogisticsElectronicAddressRecId" />
+      <xs:element minOccurs="0" name="PrimaryContactTelex" nillable="true" type="st:AxdExtType_LogisticsElectronicAddressRecId" />
+      <xs:element minOccurs="0" name="PrimaryContactURL" nillable="true" type="st:AxdExtType_LogisticsElectronicAddressRecId" />
+      <xs:element minOccurs="0" name="RecId" nillable="true" type="st:AxdExtType_RecId" />
+      <xs:element minOccurs="0" name="RecVersion" nillable="true" type="st:AxdExtType_RecVersion" />
+    </xs:sequence>
+    <xs:attribute fixed="entity" name="class" use="required" />
+    <xs:attribute name="action" type="st:AxdEnum_AxdEntityAction" />
+  </xs:complexType>
+  <xs:complexType name="AxdEntity_DirPerson_DirPerson">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:AxdEntity_DirPerson_DirPartyTable">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AnniversaryDay" nillable="true" type="st:AxdExtType_Day" />
+          <xs:element minOccurs="0" name="AnniversaryMonth" nillable="true" type="st:AxdEnum_MonthsOfYear" />
+          <xs:element minOccurs="0" name="AnniversaryYear" nillable="true" type="st:AxdType_Integer" />
+          <xs:element minOccurs="0" name="BirthDay" nillable="true" type="st:AxdExtType_Day" />
+          <xs:element minOccurs="0" name="BirthMonth" nillable="true" type="st:AxdEnum_MonthsOfYear" />
+          <xs:element minOccurs="0" name="BirthYear" nillable="true" type="st:AxdType_Integer" />
+          <xs:element minOccurs="0" name="ChildrenNames" nillable="true" type="st:AxdExtType_DirPersonChildrenNames" />
+          <xs:element minOccurs="0" name="CommunicatorSignIn" nillable="true" type="st:AxdExtType_LogisticsElectronicAddressRecId" />
+          <xs:element minOccurs="0" name="Gender" nillable="true" type="st:AxdEnum_Gender" />
+          <xs:element minOccurs="0" name="Hobbies" nillable="true" type="st:AxdExtType_DirPersonHobbies" />
+          <xs:element minOccurs="0" name="Initials" nillable="true" type="st:AxdExtType_DirPersonInitials" />
+          <xs:element minOccurs="0" name="MaritalStatus" nillable="true" type="st:AxdEnum_DirPersonMaritalStatus" />
+          <xs:element minOccurs="0" name="NameSequence" nillable="true" type="st:AxdExtType_DirNameSequenceDisplayAs" />
+          <xs:element minOccurs="0" name="PersonalSuffix" nillable="true" type="st:AxdEntityKey_DirNameAffix" />
+          <xs:element minOccurs="0" name="PersonalTitle" nillable="true" type="st:AxdEntityKey_DirNameAffix" />
+          <xs:element minOccurs="0" name="PersonSuffix" nillable="true" type="st:AxdExtType_DirNameAffixValue" />
+          <xs:element minOccurs="0" name="PersonTitle" nillable="true" type="st:AxdExtType_DirNameAffixValue" />
+          <xs:element minOccurs="0" name="PhoneticFirstName" nillable="true" type="st:AxdExtType_DirPhoneticFirstName" />
+          <xs:element minOccurs="0" name="PhoneticLastName" nillable="true" type="st:AxdExtType_DirPhoneticLastName" />
+          <xs:element minOccurs="0" name="PhoneticMiddleName" nillable="true" type="st:AxdExtType_DirPhoneticMiddleName" />
+          <xs:element minOccurs="0" name="ProfessionalSuffix" nillable="true" type="st:AxdExtType_DirNameProfessionalSuffix" />
+          <xs:element minOccurs="0" name="ProfessionalTitle" nillable="true" type="st:AxdExtType_DirNameProfessionalTitle" />
+          <xs:element minOccurs="1" maxOccurs="1" name="DirPersonName" type="tns:AxdEntity_DirPersonName" />
+          <xs:element minOccurs="0" maxOccurs="1" name="HcmPersonDetails" type="tns:AxdEntity_HcmPersonDetails" />
+          <xs:element minOccurs="0" maxOccurs="1" name="HcmPersonPrivateDetails" type="tns:AxdEntity_HcmPersonPrivateDetails" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="DirPartyPostalAddressView" type="tns:AxdEntity_DirPartyPostalAddressView" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="DirPartyContactInfoView" type="tns:AxdEntity_DirPartyContactInfoView" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="AxdEntity_DirPersonName">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FirstName" nillable="true" type="st:AxdExtType_FirstName" />
+      <xs:element minOccurs="0" name="LastName" nillable="true" type="st:AxdExtType_LastName" />
+      <xs:element minOccurs="0" name="MiddleName" nillable="true" type="st:AxdExtType_MiddleName" />
+      <xs:element minOccurs="0" name="RecId" nillable="true" type="st:AxdExtType_RecId" />
+      <xs:element minOccurs="0" name="RecVersion" nillable="true" type="st:AxdExtType_RecVersion" />
+      <xs:element minOccurs="0" name="ValidFrom" nillable="true" type="st:AxdExtType_EffectiveDateTime" />
+      <xs:element minOccurs="0" name="ValidTo" nillable="true" type="st:AxdExtType_ExpirationDateTime" />
+    </xs:sequence>
+    <xs:attribute fixed="entity" name="class" use="required" />
+    <xs:attribute name="action" type="st:AxdEnum_AxdEntityAction" />
+    <xs:attribute name="updateMode" type="st:AxdEnum_ValidTimeStateUpdate" />
+  </xs:complexType>
+  <xs:complexType name="AxdEntity_HcmPersonDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DisabledVeteran" nillable="true" type="st:AxdExtType_HcmMilitaryDisabledVeteran" />
+      <xs:element minOccurs="0" name="ExpatriateEndDate" nillable="true" type="st:AxdExtType_HcmExpatriateEndDate" />
+      <xs:element minOccurs="0" name="ExpatriateStartDate" nillable="true" type="st:AxdExtType_HcmExpatriateStartDate" />
+      <xs:element minOccurs="0" name="IsExpatriateRulingApplicable" nillable="true" type="st:AxdExtType_HcmExpatriateRulingApplicable" />
+      <xs:element minOccurs="0" name="MaritalStatus" nillable="true" type="st:AxdEnum_HcmPersonMaritalStatus" />
+      <xs:element minOccurs="0" name="MilitaryServiceEndDate" nillable="true" type="st:AxdExtType_HcmMilitaryServiceEndDate" />
+      <xs:element minOccurs="0" name="MilitaryServiceStartDate" nillable="true" type="st:AxdExtType_HcmMilitaryServiceStartDate" />
+      <xs:element minOccurs="0" name="NumberOfDependents" nillable="true" type="st:AxdExtType_HcmPersonNumberOfDependents" />
+      <xs:element minOccurs="0" name="Person" nillable="true" type="st:AxdExtType_DirPartyNumber" />
+      <xs:element minOccurs="0" name="RecId" nillable="true" type="st:AxdExtType_RecId" />
+      <xs:element minOccurs="0" name="RecVersion" nillable="true" type="st:AxdExtType_RecVersion" />
+      <xs:element minOccurs="0" name="ValidFrom" nillable="true" type="st:AxdExtType_ValidFromDateTime" />
+      <xs:element minOccurs="0" name="ValidTo" nillable="true" type="st:AxdExtType_ValidToDateTime" />
+      <xs:element minOccurs="0" name="VeteranStatus" nillable="true" type="st:AxdExtType_HcmVeteranStatusId" />
+    </xs:sequence>
+    <xs:attribute fixed="entity" name="class" use="required" />
+    <xs:attribute name="action" type="st:AxdEnum_AxdEntityAction" />
+    <xs:attribute name="updateMode" type="st:AxdEnum_ValidTimeStateUpdate" />
+  </xs:complexType>
+  <xs:complexType name="AxdEntity_HcmPersonPrivateDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BirthDate" nillable="true" type="st:AxdExtType_HcmPersonBirthDate" />
+      <xs:element minOccurs="0" name="CitizenshipCountryRegion" nillable="true" type="st:AxdUnion_AxdExtType_LogisticsAddressCountryRegionId_AxdType_ExtCodeValue" />
+      <xs:element minOccurs="0" name="DeceasedDate" nillable="true" type="st:AxdExtType_HcmPersonDeceasedDate" />
+      <xs:element minOccurs="0" name="DisabledVerificationDate" nillable="true" type="st:AxdExtType_EndDate" />
+      <xs:element minOccurs="0" name="Education" nillable="true" type="st:AxdExtType_Training" />
+      <xs:element minOccurs="0" name="EthnicOrigin" nillable="true" type="st:AxdExtType_HcmEthnicOriginId" />
+      <xs:element minOccurs="0" name="FatherBirthCountryRegion" nillable="true" type="st:AxdUnion_AxdExtType_LogisticsAddressCountryRegionId_AxdType_ExtCodeValue" />
+      <xs:element minOccurs="0" name="Gender" nillable="true" type="st:AxdEnum_HcmPersonGender" />
+      <xs:element minOccurs="0" name="IsDisabled" nillable="true" type="st:AxdExtType_NoYesId" />
+      <xs:element minOccurs="0" name="IsFulltimeStudent" nillable="true" type="st:AxdExtType_NoYesId" />
+      <xs:element minOccurs="0" name="MotherBirthCountryRegion" nillable="true" type="st:AxdUnion_AxdExtType_LogisticsAddressCountryRegionId_AxdType_ExtCodeValue" />
+      <xs:element minOccurs="0" name="NativeLanguage" nillable="true" type="st:AxdExtType_HcmLanguageCodeId" />
+      <xs:element minOccurs="0" name="Person" nillable="true" type="st:AxdExtType_DirPartyNumber" />
+      <xs:element minOccurs="0" name="PersonBirthCountryRegion" nillable="true" type="st:AxdUnion_AxdExtType_LogisticsAddressCountryRegionId_AxdType_ExtCodeValue" />
+      <xs:element minOccurs="0" name="RecId" nillable="true" type="st:AxdExtType_RecId" />
+      <xs:element minOccurs="0" name="RecVersion" nillable="true" type="st:AxdExtType_RecVersion" />
+    </xs:sequence>
+    <xs:attribute fixed="entity" name="class" use="required" />
+    <xs:attribute name="action" type="st:AxdEnum_AxdEntityAction" />
+  </xs:complexType>
+  <xs:complexType name="AxdEntity_DirPartyPostalAddressView">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="_RecId_LogisticsPostalAddress" nillable="true" type="st:AxdExtType_RecId" />
+      <xs:element minOccurs="0" name="_recVersion_LogisticsPostalAddress" nillable="true" type="st:AxdExtType_RecVersion" />
+      <xs:element minOccurs="0" name="Address" nillable="true" type="st:AxdExtType_LogisticsAddressing" />
+      <xs:element minOccurs="0" name="Apartment_RU" nillable="true" type="st:AxdExtType_LogisticsAddressApartment_RU" />
+      <xs:element minOccurs="0" name="Building_RU" nillable="true" type="st:AxdExtType_LogisticsAddressBuilding_RU" />
+      <xs:element minOccurs="0" name="BuildingCompliment" nillable="true" type="st:AxdExtType_LogisticsAddressBuildingCompliment" />
+      <xs:element minOccurs="0" name="City" nillable="true" type="st:AxdExtType_LogisticsAddressCity" />
+      <xs:element minOccurs="0" name="CityRecId" nillable="true" type="st:AxdExtType_LogisticsAddressCityRecId" />
+      <xs:element minOccurs="0" name="CountryCurrencyCode" nillable="true" type="st:AxdUnion_AxdExtType_CurrencyCode_AxdType_ExtCodeValue" />
+      <xs:element minOccurs="0" name="CountryRegionId" nillable="true" type="st:AxdUnion_AxdExtType_LogisticsAddressCountryRegionId_AxdType_ExtCodeValue" />
+      <xs:element minOccurs="0" name="County" nillable="true" type="st:AxdUnion_AxdExtType_LogisticsAddressCountyId_AxdType_ExtCodeValue" />
+      <xs:element minOccurs="0" name="District" nillable="true" type="st:AxdExtType_LogisticsAddressDistrictRecId" />
+      <xs:element minOccurs="0" name="DistrictName" nillable="true" type="st:AxdExtType_LogisticsAddressDistrictName" />
+      <xs:element minOccurs="0" name="FlatId_RU" nillable="true" type="st:AxdExtType_LogisticsAddressFlatId_RU" />
+      <xs:element minOccurs="0" name="HouseId_RU" nillable="true" type="st:AxdExtType_LogisticsAddressHouseId_RU" />
+      <xs:element minOccurs="0" name="IsLocationOwner" nillable="true" type="st:AxdExtType_DirPartyIsLocationOwner" />
+      <xs:element minOccurs="0" name="ISOcode" nillable="true" type="st:AxdExtType_LogisticsAddressCountryRegionISOCode" />
+      <xs:element minOccurs="0" name="IsPrimary" nillable="true" type="st:AxdExtType_LogisticsIsPrimaryAddress" />
+      <xs:element minOccurs="0" name="IsPrimaryTaxRegistration" nillable="true" type="st:AxdExtType_LogisticsIsPrimaryTaxRegistrationAddress" />
+      <xs:element minOccurs="0" name="IsPrivate" nillable="true" type="st:AxdExtType_LogisticsIsPrivate" />
+      <xs:element minOccurs="0" name="Latitude" nillable="true" type="st:AxdExtType_LogisticsAddressLatitude" />
+      <xs:element minOccurs="0" name="Location" nillable="true" type="st:AxdExtType_RecId" />
+      <xs:element minOccurs="0" name="LocationName" nillable="true" type="st:AxdExtType_Description" />
+      <xs:element minOccurs="0" name="Longitude" nillable="true" type="st:AxdExtType_LogisticsAddressLongitude" />
+      <xs:element minOccurs="0" name="Party" nillable="true" type="st:AxdExtType_DirPartyNumber" />
+      <xs:element minOccurs="0" name="PartyLocation" nillable="true" type="st:AxdExtType_RecId" />
+      <xs:element minOccurs="0" name="PostalAddress" nillable="true" type="st:AxdExtType_RecId" />
+      <xs:element minOccurs="0" name="PostBox" nillable="true" type="st:AxdExtType_LogisticsAddressPostBox" />
+      <xs:element minOccurs="0" name="PrivateForParty" nillable="true" type="st:AxdExtType_DirPartyPrivateLocationRecId" />
+      <xs:element minOccurs="0" name="RecId" nillable="true" type="st:AxdExtType_RecId" />
+      <xs:element minOccurs="0" name="RecVersion" nillable="true" type="st:AxdExtType_RecVersion" />
+      <xs:element minOccurs="0" name="Roles" nillable="true" type="st:AxdExtType_DirPartyLocationRoleNames" />
+      <xs:element minOccurs="0" name="State" nillable="true" type="st:AxdUnion_AxdExtType_LogisticsAddressStateId_AxdType_ExtCodeValue" />
+      <xs:element minOccurs="0" name="Street" nillable="true" type="st:AxdExtType_LogisticsAddressStreet" />
+      <xs:element minOccurs="0" name="StreetId_RU" nillable="true" type="st:AxdExtType_LogisticsAddressStreetID_RU" />
+      <xs:element minOccurs="0" name="StreetNumber" nillable="true" type="st:AxdExtType_LogisticsAddressStreetNumber" />
+      <xs:element minOccurs="0" name="TimeZone" nillable="true" type="st:AxdEnum_Timezone" />
+      <xs:element minOccurs="0" name="ValidFrom" nillable="true" type="st:AxdExtType_EffectiveDateTime" />
+      <xs:element minOccurs="0" name="ValidTo" nillable="true" type="st:AxdExtType_ExpirationDateTime" />
+      <xs:element minOccurs="0" name="ZipCode" nillable="true" type="st:AxdUnion_AxdExtType_LogisticsAddressZipCodeId_AxdType_ExtCodeValue" />
+    </xs:sequence>
+    <xs:attribute fixed="entity" name="class" use="required" />
+    <xs:attribute name="action" type="st:AxdEnum_AxdEntityAction" />
+    <xs:attribute name="updateMode" type="st:AxdEnum_ValidTimeStateUpdate" />
+  </xs:complexType>
+  <xs:complexType name="AxdEntity_DirPartyContactInfoView">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CountryRegionCode" nillable="true" type="st:AxdExtType_LogisticsCountryRegionCode" />
+      <xs:element minOccurs="0" name="ElectronicAddress" nillable="true" type="st:AxdExtType_RecId" />
+      <xs:element minOccurs="0" name="IsInstantMessage" nillable="true" type="st:AxdExtType_LogisticsIsInstantMessage" />
+      <xs:element minOccurs="0" name="IsLocationOwner" nillable="true" type="st:AxdExtType_DirPartyIsLocationOwner" />
+      <xs:element minOccurs="0" name="IsMobilePhone" nillable="true" type="st:AxdExtType_LogisticsIsMobilePhone" />
+      <xs:element minOccurs="0" name="IsPrimary" nillable="true" type="st:AxdEnum_NoYes" />
+      <xs:element minOccurs="0" name="IsPrivate" nillable="true" type="st:AxdEnum_NoYes" />
+      <xs:element minOccurs="0" name="Location" nillable="true" type="st:AxdExtType_RecId" />
+      <xs:element minOccurs="0" name="LocationId" nillable="true" type="st:AxdExtType_LogisticsLocationId" />
+      <xs:element minOccurs="0" name="LocationName" nillable="true" type="st:AxdExtType_Description" />
+      <xs:element minOccurs="0" name="Locator" nillable="true" type="st:AxdExtType_LogisticsElectronicAddressLocator" />
+      <xs:element minOccurs="0" name="LocatorExtension" nillable="true" type="st:AxdExtType_PhoneLocal" />
+      <xs:element minOccurs="0" name="Party" nillable="true" type="st:AxdExtType_DirPartyNumber" />
+      <xs:element minOccurs="0" name="PartyLocation" nillable="true" type="st:AxdExtType_RecId" />
+      <xs:element minOccurs="0" name="PrivateForParty" nillable="true" type="st:AxdExtType_DirPartyPrivateLocationRecId" />
+      <xs:element minOccurs="0" name="RecId" nillable="true" type="st:AxdExtType_RecId" />
+      <xs:element minOccurs="0" name="RecVersion" nillable="true" type="st:AxdExtType_RecVersion" />
+      <xs:element minOccurs="0" name="Roles" nillable="true" type="st:AxdExtType_DirPartyLocationRoleNames" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="st:AxdEnum_LogisticsElectronicAddressMethodType" />
+      <xs:element minOccurs="0" name="TypeIcon" nillable="true" type="st:AxdExtType_Integer" />
+      <xs:element minOccurs="0" name="ValidFrom" nillable="true" type="st:AxdExtType_EffectiveDateTime" />
+      <xs:element minOccurs="0" name="ValidTo" nillable="true" type="st:AxdExtType_ExpirationDateTime" />
+    </xs:sequence>
+    <xs:attribute fixed="entity" name="class" use="required" />
+    <xs:attribute name="action" type="st:AxdEnum_AxdEntityAction" />
+  </xs:complexType>
+  <xs:complexType name="AxdEntity_HcmEmployment">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DefaultDimension" nillable="true" type="st:AxdType_DimensionAttributeValueSet" />
+      <xs:element minOccurs="0" name="EEOEstablishment" nillable="true" type="st:AxdExtType_HCMEEOEstablishmentName" />
+      <xs:element minOccurs="1" name="EmploymentType" type="st:AxdEnum_HcmEmploymentType" />
+      <xs:element minOccurs="1" name="LegalEntity" type="st:AxdExtType_SelectableDataArea" />
+      <xs:element minOccurs="0" name="RecId" nillable="true" type="st:AxdExtType_RecId" />
+      <xs:element minOccurs="0" name="RecVersion" nillable="true" type="st:AxdExtType_RecVersion" />
+      <xs:element minOccurs="0" name="ValidFrom" nillable="true" type="st:AxdExtType_HcmEmploymentValidFrom" />
+      <xs:element minOccurs="0" name="ValidTo" nillable="true" type="st:AxdExtType_HcmEmploymentValidTo" />
+      <xs:element minOccurs="0" name="Worker" nillable="true" type="st:AxdExtType_HcmPersonnelNumberId" />
+      <xs:element minOccurs="0" maxOccurs="1" name="HcmEmploymentDetail" type="tns:AxdEntity_HcmEmploymentDetail" />
+    </xs:sequence>
+    <xs:attribute fixed="entity" name="class" use="required" />
+    <xs:attribute name="action" type="st:AxdEnum_AxdEntityAction" />
+    <xs:attribute name="updateMode" type="st:AxdEnum_ValidTimeStateUpdate" />
+  </xs:complexType>
+  <xs:complexType name="AxdEntity_HcmEmploymentDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AdjustedWorkerStartDate" nillable="true" type="st:AxdExtType_HcmEmploymentAdjStartDateTime" />
+      <xs:element minOccurs="0" name="EmployerNoticeAmount" nillable="true" type="st:AxdExtType_HcmEmployerNoticeAmount" />
+      <xs:element minOccurs="0" name="EmployerUnitOfNotice" nillable="true" type="st:AxdExtType_HcmEmployerUnitOfNotice" />
+      <xs:element minOccurs="0" name="Employment" nillable="true" type="st:AxdEntityKey_HcmEmployment" />
+      <xs:element minOccurs="0" name="LastDateWorked" nillable="true" type="st:AxdExtType_HcmEmploymentLastWorkedDateTime" />
+      <xs:element minOccurs="0" name="RecId" nillable="true" type="st:AxdExtType_RecId" />
+      <xs:element minOccurs="0" name="RecVersion" nillable="true" type="st:AxdExtType_RecVersion" />
+      <xs:element minOccurs="0" name="TransitionDate" nillable="true" type="st:AxdExtType_HcmEmploymentTransitionDateTime" />
+      <xs:element minOccurs="0" name="TransitionReasonCode" nillable="true" type="st:AxdExtType_HcmReasonCodeId" />
+      <xs:element minOccurs="0" name="ValidFrom" nillable="true" type="st:AxdExtType_ValidFromDateTime" />
+      <xs:element minOccurs="0" name="ValidTo" nillable="true" type="st:AxdExtType_ValidToDateTime" />
+      <xs:element minOccurs="0" name="WorkerNoticeAmount" nillable="true" type="st:AxdExtType_HcmWorkerNoticeAmount" />
+      <xs:element minOccurs="0" name="WorkerStartDate" nillable="true" type="st:AxdExtType_HcmEmploymentStartDateTime" />
+      <xs:element minOccurs="0" name="WorkerUnitOfNotice" nillable="true" type="st:AxdExtType_HcmWorkerUnitOfNotice" />
+    </xs:sequence>
+    <xs:attribute fixed="entity" name="class" use="required" />
+    <xs:attribute name="action" type="st:AxdEnum_AxdEntityAction" />
+    <xs:attribute name="updateMode" type="st:AxdEnum_ValidTimeStateUpdate" />
+  </xs:complexType>
+  <xs:complexType name="AxdEntity_HcmWorkerTitle">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Location" nillable="true" type="st:AxdExtType_LogisticsLocationId" />
+      <xs:element minOccurs="0" name="OfficeLocation" nillable="true" type="st:AxdExtType_HcmWorkerOfficeLocation" />
+      <xs:element minOccurs="0" name="RecId" nillable="true" type="st:AxdExtType_RecId" />
+      <xs:element minOccurs="0" name="RecVersion" nillable="true" type="st:AxdExtType_RecVersion" />
+      <xs:element minOccurs="0" name="SeniorityDate" nillable="true" type="st:AxdExtType_HcmEmploymentSeniorityDateTime" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="st:AxdExtType_HcmTitleId" />
+      <xs:element minOccurs="0" name="ValidFrom" nillable="true" type="st:AxdExtType_ValidFromDateTime" />
+      <xs:element minOccurs="0" name="ValidTo" nillable="true" type="st:AxdExtType_ValidToDateTime" />
+      <xs:element minOccurs="0" name="Worker" nillable="true" type="st:AxdExtType_HcmPersonnelNumberId" />
+    </xs:sequence>
+    <xs:attribute fixed="entity" name="class" use="required" />
+    <xs:attribute name="action" type="st:AxdEnum_AxdEntityAction" />
+    <xs:attribute name="updateMode" type="st:AxdEnum_ValidTimeStateUpdate" />
+  </xs:complexType>
+</xs:schema>

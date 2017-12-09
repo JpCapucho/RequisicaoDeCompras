@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQUnit" xmlns:st="http://schemas.microsoft.com/dynamics/2008/01/sharedtypes" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQUnit" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd11" namespace="http://schemas.microsoft.com/dynamics/2008/01/sharedtypes" />
+  <xs:element name="PurchRFQUnit" type="tns:AxdPurchRFQUnit" />
+  <xs:complexType name="AxdPurchRFQUnit">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ClearNilFieldsOnUpdate" nillable="true" type="st:AxdEnum_boolean" />
+      <xs:element minOccurs="0" name="DocPurpose" nillable="true" type="st:AxdEnum_XMLDocPurpose" />
+      <xs:element minOccurs="0" name="SenderId" nillable="true" type="st:AxdExtType_DataAreaId" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UnitOfMeasure" type="tns:AxdEntity_UnitOfMeasure" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AxdEntity_UnitOfMeasure">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="_DocumentHash" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RecId" nillable="true" type="st:AxdExtType_RecId" />
+      <xs:element minOccurs="0" name="RecVersion" nillable="true" type="st:AxdExtType_RecVersion" />
+      <xs:element minOccurs="1" name="Symbol" type="st:AxdExtType_UnitOfMeasureSymbol" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UnitOfMeasureTranslation" type="tns:AxdEntity_UnitOfMeasureTranslation" />
+    </xs:sequence>
+    <xs:attribute fixed="entity" name="class" use="required" />
+    <xs:attribute name="action" type="st:AxdEnum_AxdEntityAction" />
+  </xs:complexType>
+  <xs:complexType name="AxdEntity_UnitOfMeasureTranslation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="RecId" nillable="true" type="st:AxdExtType_RecId" />
+      <xs:element minOccurs="0" name="RecVersion" nillable="true" type="st:AxdExtType_RecVersion" />
+      <xs:element minOccurs="1" name="UnitOfMeasure" type="st:AxdExtType_UnitOfMeasureRecId" />
+      <xs:element minOccurs="1" name="LanguageId" type="st:AxdExtType_LanguageIdAll" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="st:AxdExtType_Description" />
+    </xs:sequence>
+    <xs:attribute fixed="entity" name="class" use="required" />
+    <xs:attribute name="action" type="st:AxdEnum_AxdEntityAction" />
+  </xs:complexType>
+</xs:schema>

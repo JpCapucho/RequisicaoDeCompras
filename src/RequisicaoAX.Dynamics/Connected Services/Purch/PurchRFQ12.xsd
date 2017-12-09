@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd1" namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging" />
+  <xs:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd3" namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey" />
+  <xs:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd4" namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList" />
+  <xs:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd6" namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage" />
+  <xs:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd9" namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria" />
+  <xs:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd10" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/DlvDlvMode" />
+  <xs:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd12" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/DlvDlvTerm" />
+  <xs:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd13" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/LedgerCurrency" />
+  <xs:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd14" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/MarkupMarkupTable" />
+  <xs:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd15" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchReqImport" />
+  <xs:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd16" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQPaymTerms" />
+  <xs:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd17" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQSites" />
+  <xs:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd18" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQUnit" />
+  <xs:element xmlns:q1="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging" name="DocumentPaging" type="q1:DocumentPaging" />
+  <xs:element xmlns:q2="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey" name="EntityKey" type="q2:EntityKey" />
+  <xs:element xmlns:q3="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList" name="EntityKeyList" type="q3:EntityKeyList" />
+  <xs:element xmlns:q4="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage" name="EntityKeyPage" type="q4:EntityKeyPage" />
+  <xs:element xmlns:q5="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria" name="QueryCriteria" type="q5:QueryCriteria" />
+  <xs:element xmlns:q6="http://schemas.microsoft.com/dynamics/2008/01/documents/DlvDlvMode" name="AxdDlvDlvMode" type="q6:AxdDlvDlvMode" />
+  <xs:element xmlns:q7="http://schemas.microsoft.com/dynamics/2008/01/documents/DlvDlvTerm" name="AxdDlvDlvTerm" type="q7:AxdDlvDlvTerm" />
+  <xs:element xmlns:q8="http://schemas.microsoft.com/dynamics/2008/01/documents/LedgerCurrency" name="AxdLedgerCurrency" type="q8:AxdLedgerCurrency" />
+  <xs:element xmlns:q9="http://schemas.microsoft.com/dynamics/2008/01/documents/MarkupMarkupTable" name="AxdMarkupMarkupTable" type="q9:AxdMarkupMarkupTable" />
+  <xs:element xmlns:q10="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchReqImport" name="AxdPurchReqImport" type="q10:AxdPurchReqImport" />
+  <xs:element xmlns:q11="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQPaymTerms" name="AxdPurchRFQPaymTerms" type="q11:AxdPurchRFQPaymTerms" />
+  <xs:element xmlns:q12="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQSites" name="AxdPurchRFQSites" type="q12:AxdPurchRFQSites" />
+  <xs:element xmlns:q13="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQUnit" name="AxdPurchRFQUnit" type="q13:AxdPurchRFQUnit" />
+</xs:schema>

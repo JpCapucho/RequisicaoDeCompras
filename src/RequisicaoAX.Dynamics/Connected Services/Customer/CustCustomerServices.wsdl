@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:i0="http://schemas.microsoft.com/dynamics/2008/01/services" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CustCustomerServices" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_CustomerService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:import namespace="http://schemas.microsoft.com/dynamics/2008/01/services" location="http://saxdev:8101/DynamicsAx/Services/CustCustomerServices?wsdl=wsdl0" />
+  <wsdl:types />
+  <wsdl:binding name="NetTcpBinding_CustomerService" type="i0:CustomerService">
+    <wsp:PolicyReference URI="#NetTcpBinding_CustomerService_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="findKeys">
+      <soap12:operation soapAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/findKeys" style="document" />
+      <wsdl:input name="CustomerServiceFindKeysRequest">
+        <soap12:header message="i0:CustomerServiceFindKeysRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CustomerServiceFindKeysResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="create">
+      <soap12:operation soapAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/create" style="document" />
+      <wsdl:input name="CustomerServiceCreateRequest">
+        <soap12:header message="i0:CustomerServiceCreateRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CustomerServiceCreateResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <soap12:operation soapAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/delete" style="document" />
+      <wsdl:input name="CustomerServiceDeleteRequest">
+        <soap12:header message="i0:CustomerServiceDeleteRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CustomerServiceDeleteResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getChangedKeys">
+      <soap12:operation soapAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/getChangedKeys" style="document" />
+      <wsdl:input name="CustomerServiceGetChangedKeysRequest">
+        <soap12:header message="i0:CustomerServiceGetChangedKeysRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CustomerServiceGetChangedKeysResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="update">
+      <soap12:operation soapAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/update" style="document" />
+      <wsdl:input name="CustomerServiceUpdateRequest">
+        <soap12:header message="i0:CustomerServiceUpdateRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CustomerServiceUpdateResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getKeys">
+      <soap12:operation soapAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/getKeys" style="document" />
+      <wsdl:input name="CustomerServiceGetKeysRequest">
+        <soap12:header message="i0:CustomerServiceGetKeysRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CustomerServiceGetKeysResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="read">
+      <soap12:operation soapAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/read" style="document" />
+      <wsdl:input name="CustomerServiceReadRequest">
+        <soap12:header message="i0:CustomerServiceReadRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CustomerServiceReadResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="find">
+      <soap12:operation soapAction="http://schemas.microsoft.com/dynamics/2008/01/services/CustomerService/find" style="document" />
+      <wsdl:input name="CustomerServiceFindRequest">
+        <soap12:header message="i0:CustomerServiceFindRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CustomerServiceFindResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CustCustomerServices">
+    <wsdl:port name="NetTcpBinding_CustomerService" binding="tns:NetTcpBinding_CustomerService">
+      <soap12:address location="net.tcp://saxdev:8201/DynamicsAx/Services/CustCustomerServices" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://saxdev:8201/DynamicsAx/Services/CustCustomerServices</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Upn>svc.aos@cardexpress.corp</Upn>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd19" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd20" namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd22" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd0" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd1" namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd2" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd3" namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd4" namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd6" namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd9" namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd10" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/DlvDlvMode" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd11" namespace="http://schemas.microsoft.com/dynamics/2008/01/sharedtypes" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd12" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/DlvDlvTerm" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd13" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/LedgerCurrency" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd14" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/MarkupMarkupTable" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd15" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchReqImport" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd16" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQPaymTerms" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd17" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQSites" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd18" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/PurchRFQUnit" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd21" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd23" namespace="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.AX.Framework.Services" />
+      <xsd:import schemaLocation="http://saxdev:8101/DynamicsAx/Services/PurchRFQ?xsd=xsd24" namespace="http://schemas.microsoft.com/dynamics/2008/01/services" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="DlvDlvModeServiceGetChangedKeysRequest">
+    <wsdl:part name="parameters" element="tns:DlvDlvModeServiceGetChangedKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvModeServiceGetChangedKeysRequest_Headers">
+    <wsdl:part xmlns:q1="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q1:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvModeServiceGetChangedKeysResponse">
+    <wsdl:part name="parameters" element="tns:DlvDlvModeServiceGetChangedKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvModeService_getChangedKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q2:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvModeServiceGetKeysRequest">
+    <wsdl:part name="parameters" element="tns:DlvDlvModeServiceGetKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvModeServiceGetKeysRequest_Headers">
+    <wsdl:part xmlns:q3="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q3:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvModeServiceGetKeysResponse">
+    <wsdl:part name="parameters" element="tns:DlvDlvModeServiceGetKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvModeService_getKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q4:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvModeServiceFindKeysRequest">
+    <wsdl:part name="parameters" element="tns:DlvDlvModeServiceFindKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvModeServiceFindKeysRequest_Headers">
+    <wsdl:part xmlns:q5="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q5:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvModeServiceFindKeysResponse">
+    <wsdl:part name="parameters" element="tns:DlvDlvModeServiceFindKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvModeService_findKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q6:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvModeServiceReadRequest">
+    <wsdl:part name="parameters" element="tns:DlvDlvModeServiceReadRequest" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvModeServiceReadRequest_Headers">
+    <wsdl:part xmlns:q7="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q7:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvModeServiceReadResponse">
+    <wsdl:part name="parameters" element="tns:DlvDlvModeServiceReadResponse" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvModeService_read_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q8:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvModeServiceFindRequest">
+    <wsdl:part name="parameters" element="tns:DlvDlvModeServiceFindRequest" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvModeServiceFindRequest_Headers">
+    <wsdl:part xmlns:q9="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q9:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvModeServiceFindResponse">
+    <wsdl:part name="parameters" element="tns:DlvDlvModeServiceFindResponse" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvModeService_find_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q10:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvTermServiceReadRequest">
+    <wsdl:part name="parameters" element="tns:DlvDlvTermServiceReadRequest" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvTermServiceReadRequest_Headers">
+    <wsdl:part xmlns:q11="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q11:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvTermServiceReadResponse">
+    <wsdl:part name="parameters" element="tns:DlvDlvTermServiceReadResponse" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvTermService_read_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q12:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvTermServiceFindKeysRequest">
+    <wsdl:part name="parameters" element="tns:DlvDlvTermServiceFindKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvTermServiceFindKeysRequest_Headers">
+    <wsdl:part xmlns:q13="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q13:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvTermServiceFindKeysResponse">
+    <wsdl:part name="parameters" element="tns:DlvDlvTermServiceFindKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvTermService_findKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q14="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q14:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvTermServiceGetChangedKeysRequest">
+    <wsdl:part name="parameters" element="tns:DlvDlvTermServiceGetChangedKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvTermServiceGetChangedKeysRequest_Headers">
+    <wsdl:part xmlns:q15="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q15:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvTermServiceGetChangedKeysResponse">
+    <wsdl:part name="parameters" element="tns:DlvDlvTermServiceGetChangedKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvTermService_getChangedKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q16="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q16:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvTermServiceGetKeysRequest">
+    <wsdl:part name="parameters" element="tns:DlvDlvTermServiceGetKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvTermServiceGetKeysRequest_Headers">
+    <wsdl:part xmlns:q17="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q17:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvTermServiceGetKeysResponse">
+    <wsdl:part name="parameters" element="tns:DlvDlvTermServiceGetKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvTermService_getKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q18="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q18:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvTermServiceFindRequest">
+    <wsdl:part name="parameters" element="tns:DlvDlvTermServiceFindRequest" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvTermServiceFindRequest_Headers">
+    <wsdl:part xmlns:q19="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q19:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvTermServiceFindResponse">
+    <wsdl:part name="parameters" element="tns:DlvDlvTermServiceFindResponse" />
+  </wsdl:message>
+  <wsdl:message name="DlvDlvTermService_find_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q20="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q20:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MarkupMarkupTableServiceGetKeysRequest">
+    <wsdl:part name="parameters" element="tns:MarkupMarkupTableServiceGetKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="MarkupMarkupTableServiceGetKeysRequest_Headers">
+    <wsdl:part xmlns:q21="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q21:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MarkupMarkupTableServiceGetKeysResponse">
+    <wsdl:part name="parameters" element="tns:MarkupMarkupTableServiceGetKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="MarkupMarkupTableService_getKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q22="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q22:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MarkupMarkupTableServiceFindRequest">
+    <wsdl:part name="parameters" element="tns:MarkupMarkupTableServiceFindRequest" />
+  </wsdl:message>
+  <wsdl:message name="MarkupMarkupTableServiceFindRequest_Headers">
+    <wsdl:part xmlns:q23="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q23:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MarkupMarkupTableServiceFindResponse">
+    <wsdl:part name="parameters" element="tns:MarkupMarkupTableServiceFindResponse" />
+  </wsdl:message>
+  <wsdl:message name="MarkupMarkupTableService_find_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q24="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q24:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MarkupMarkupTableServiceGetChangedKeysRequest">
+    <wsdl:part name="parameters" element="tns:MarkupMarkupTableServiceGetChangedKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="MarkupMarkupTableServiceGetChangedKeysRequest_Headers">
+    <wsdl:part xmlns:q25="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q25:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MarkupMarkupTableServiceGetChangedKeysResponse">
+    <wsdl:part name="parameters" element="tns:MarkupMarkupTableServiceGetChangedKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="MarkupMarkupTableService_getChangedKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q26="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q26:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MarkupMarkupTableServiceReadRequest">
+    <wsdl:part name="parameters" element="tns:MarkupMarkupTableServiceReadRequest" />
+  </wsdl:message>
+  <wsdl:message name="MarkupMarkupTableServiceReadRequest_Headers">
+    <wsdl:part xmlns:q27="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q27:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MarkupMarkupTableServiceReadResponse">
+    <wsdl:part name="parameters" element="tns:MarkupMarkupTableServiceReadResponse" />
+  </wsdl:message>
+  <wsdl:message name="MarkupMarkupTableService_read_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q28="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q28:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="MarkupMarkupTableServiceFindKeysRequest">
+    <wsdl:part name="parameters" element="tns:MarkupMarkupTableServiceFindKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="MarkupMarkupTableServiceFindKeysRequest_Headers">
+    <wsdl:part xmlns:q29="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q29:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="MarkupMarkupTableServiceFindKeysResponse">
+    <wsdl:part name="parameters" element="tns:MarkupMarkupTableServiceFindKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="MarkupMarkupTableService_findKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q30="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q30:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQPaymTermsServiceFindKeysRequest">
+    <wsdl:part name="parameters" element="tns:PurchRFQPaymTermsServiceFindKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQPaymTermsServiceFindKeysRequest_Headers">
+    <wsdl:part xmlns:q31="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q31:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQPaymTermsServiceFindKeysResponse">
+    <wsdl:part name="parameters" element="tns:PurchRFQPaymTermsServiceFindKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQPaymTermsService_findKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q32="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q32:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQPaymTermsServiceReadRequest">
+    <wsdl:part name="parameters" element="tns:PurchRFQPaymTermsServiceReadRequest" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQPaymTermsServiceReadRequest_Headers">
+    <wsdl:part xmlns:q33="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q33:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQPaymTermsServiceReadResponse">
+    <wsdl:part name="parameters" element="tns:PurchRFQPaymTermsServiceReadResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQPaymTermsService_read_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q34="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q34:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQPaymTermsServiceFindRequest">
+    <wsdl:part name="parameters" element="tns:PurchRFQPaymTermsServiceFindRequest" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQPaymTermsServiceFindRequest_Headers">
+    <wsdl:part xmlns:q35="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q35:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQPaymTermsServiceFindResponse">
+    <wsdl:part name="parameters" element="tns:PurchRFQPaymTermsServiceFindResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQPaymTermsService_find_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q36="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q36:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQPaymTermsServiceGetChangedKeysRequest">
+    <wsdl:part name="parameters" element="tns:PurchRFQPaymTermsServiceGetChangedKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQPaymTermsServiceGetChangedKeysRequest_Headers">
+    <wsdl:part xmlns:q37="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q37:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQPaymTermsServiceGetChangedKeysResponse">
+    <wsdl:part name="parameters" element="tns:PurchRFQPaymTermsServiceGetChangedKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQPaymTermsService_getChangedKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q38="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q38:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQPaymTermsServiceGetKeysRequest">
+    <wsdl:part name="parameters" element="tns:PurchRFQPaymTermsServiceGetKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQPaymTermsServiceGetKeysRequest_Headers">
+    <wsdl:part xmlns:q39="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q39:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQPaymTermsServiceGetKeysResponse">
+    <wsdl:part name="parameters" element="tns:PurchRFQPaymTermsServiceGetKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQPaymTermsService_getKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q40="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q40:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceFindKeysRequest">
+    <wsdl:part name="parameters" element="tns:PurchRFQSitesServiceFindKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceFindKeysRequest_Headers">
+    <wsdl:part xmlns:q41="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q41:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceFindKeysResponse">
+    <wsdl:part name="parameters" element="tns:PurchRFQSitesServiceFindKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesService_findKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q42="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q42:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceGetKeysRequest">
+    <wsdl:part name="parameters" element="tns:PurchRFQSitesServiceGetKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceGetKeysRequest_Headers">
+    <wsdl:part xmlns:q43="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q43:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceGetKeysResponse">
+    <wsdl:part name="parameters" element="tns:PurchRFQSitesServiceGetKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesService_getKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q44="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q44:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceUpdateRequest">
+    <wsdl:part name="parameters" element="tns:PurchRFQSitesServiceUpdateRequest" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceUpdateRequest_Headers">
+    <wsdl:part xmlns:q45="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q45:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceUpdateResponse">
+    <wsdl:part name="parameters" element="tns:PurchRFQSitesServiceUpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesService_update_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q46="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q46:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceCreateRequest">
+    <wsdl:part name="parameters" element="tns:PurchRFQSitesServiceCreateRequest" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceCreateRequest_Headers">
+    <wsdl:part xmlns:q47="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q47:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceCreateResponse">
+    <wsdl:part name="parameters" element="tns:PurchRFQSitesServiceCreateResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesService_create_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q48="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q48:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceReadRequest">
+    <wsdl:part name="parameters" element="tns:PurchRFQSitesServiceReadRequest" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceReadRequest_Headers">
+    <wsdl:part xmlns:q49="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q49:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceReadResponse">
+    <wsdl:part name="parameters" element="tns:PurchRFQSitesServiceReadResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesService_read_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q50="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q50:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceFindRequest">
+    <wsdl:part name="parameters" element="tns:PurchRFQSitesServiceFindRequest" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceFindRequest_Headers">
+    <wsdl:part xmlns:q51="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q51:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceFindResponse">
+    <wsdl:part name="parameters" element="tns:PurchRFQSitesServiceFindResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesService_find_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q52="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q52:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceGetChangedKeysRequest">
+    <wsdl:part name="parameters" element="tns:PurchRFQSitesServiceGetChangedKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceGetChangedKeysRequest_Headers">
+    <wsdl:part xmlns:q53="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q53:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesServiceGetChangedKeysResponse">
+    <wsdl:part name="parameters" element="tns:PurchRFQSitesServiceGetChangedKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQSitesService_getChangedKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q54="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q54:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQUnitServiceFindKeysRequest">
+    <wsdl:part name="parameters" element="tns:PurchRFQUnitServiceFindKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQUnitServiceFindKeysRequest_Headers">
+    <wsdl:part xmlns:q55="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q55:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQUnitServiceFindKeysResponse">
+    <wsdl:part name="parameters" element="tns:PurchRFQUnitServiceFindKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQUnitService_findKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q56="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q56:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQUnitServiceGetChangedKeysRequest">
+    <wsdl:part name="parameters" element="tns:PurchRFQUnitServiceGetChangedKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQUnitServiceGetChangedKeysRequest_Headers">
+    <wsdl:part xmlns:q57="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q57:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQUnitServiceGetChangedKeysResponse">
+    <wsdl:part name="parameters" element="tns:PurchRFQUnitServiceGetChangedKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQUnitService_getChangedKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q58="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q58:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQUnitServiceFindRequest">
+    <wsdl:part name="parameters" element="tns:PurchRFQUnitServiceFindRequest" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQUnitServiceFindRequest_Headers">
+    <wsdl:part xmlns:q59="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q59:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQUnitServiceFindResponse">
+    <wsdl:part name="parameters" element="tns:PurchRFQUnitServiceFindResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQUnitService_find_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q60="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q60:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQUnitServiceGetKeysRequest">
+    <wsdl:part name="parameters" element="tns:PurchRFQUnitServiceGetKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQUnitServiceGetKeysRequest_Headers">
+    <wsdl:part xmlns:q61="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q61:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQUnitServiceGetKeysResponse">
+    <wsdl:part name="parameters" element="tns:PurchRFQUnitServiceGetKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQUnitService_getKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q62="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q62:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQUnitServiceReadRequest">
+    <wsdl:part name="parameters" element="tns:PurchRFQUnitServiceReadRequest" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQUnitServiceReadRequest_Headers">
+    <wsdl:part xmlns:q63="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q63:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQUnitServiceReadResponse">
+    <wsdl:part name="parameters" element="tns:PurchRFQUnitServiceReadResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchRFQUnitService_read_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q64="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q64:AifFault" />
+  </wsdl:message>
+  <wsdl:portType name="DlvDlvModeService">
+    <wsdl:operation name="getChangedKeys">
+      <wsdl:input wsaw:Action="http://tempuri.org/DlvDlvModeService/getChangedKeys" name="DlvDlvModeServiceGetChangedKeysRequest" message="tns:DlvDlvModeServiceGetChangedKeysRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/DlvDlvModeService/getChangedKeysResponse" name="DlvDlvModeServiceGetChangedKeysResponse" message="tns:DlvDlvModeServiceGetChangedKeysResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/DlvDlvModeService/getChangedKeysAifFaultFault" name="AifFaultFault" message="tns:DlvDlvModeService_getChangedKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getKeys">
+      <wsdl:input wsaw:Action="http://tempuri.org/DlvDlvModeService/getKeys" name="DlvDlvModeServiceGetKeysRequest" message="tns:DlvDlvModeServiceGetKeysRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/DlvDlvModeService/getKeysResponse" name="DlvDlvModeServiceGetKeysResponse" message="tns:DlvDlvModeServiceGetKeysResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/DlvDlvModeService/getKeysAifFaultFault" name="AifFaultFault" message="tns:DlvDlvModeService_getKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="findKeys">
+      <wsdl:input wsaw:Action="http://tempuri.org/DlvDlvModeService/findKeys" name="DlvDlvModeServiceFindKeysRequest" message="tns:DlvDlvModeServiceFindKeysRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/DlvDlvModeService/findKeysResponse" name="DlvDlvModeServiceFindKeysResponse" message="tns:DlvDlvModeServiceFindKeysResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/DlvDlvModeService/findKeysAifFaultFault" name="AifFaultFault" message="tns:DlvDlvModeService_findKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="read">
+      <wsdl:input wsaw:Action="http://tempuri.org/DlvDlvModeService/read" name="DlvDlvModeServiceReadRequest" message="tns:DlvDlvModeServiceReadRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/DlvDlvModeService/readResponse" name="DlvDlvModeServiceReadResponse" message="tns:DlvDlvModeServiceReadResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/DlvDlvModeService/readAifFaultFault" name="AifFaultFault" message="tns:DlvDlvModeService_read_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="find">
+      <wsdl:input wsaw:Action="http://tempuri.org/DlvDlvModeService/find" name="DlvDlvModeServiceFindRequest" message="tns:DlvDlvModeServiceFindRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/DlvDlvModeService/findResponse" name="DlvDlvModeServiceFindResponse" message="tns:DlvDlvModeServiceFindResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/DlvDlvModeService/findAifFaultFault" name="AifFaultFault" message="tns:DlvDlvModeService_find_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="DlvDlvTermService">
+    <wsdl:operation name="read">
+      <wsdl:input wsaw:Action="http://tempuri.org/DlvDlvTermService/read" name="DlvDlvTermServiceReadRequest" message="tns:DlvDlvTermServiceReadRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/DlvDlvTermService/readResponse" name="DlvDlvTermServiceReadResponse" message="tns:DlvDlvTermServiceReadResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/DlvDlvTermService/readAifFaultFault" name="AifFaultFault" message="tns:DlvDlvTermService_read_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="findKeys">
+      <wsdl:input wsaw:Action="http://tempuri.org/DlvDlvTermService/findKeys" name="DlvDlvTermServiceFindKeysRequest" message="tns:DlvDlvTermServiceFindKeysRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/DlvDlvTermService/findKeysResponse" name="DlvDlvTermServiceFindKeysResponse" message="tns:DlvDlvTermServiceFindKeysResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/DlvDlvTermService/findKeysAifFaultFault" name="AifFaultFault" message="tns:DlvDlvTermService_findKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getChangedKeys">
+      <wsdl:input wsaw:Action="http://tempuri.org/DlvDlvTermService/getChangedKeys" name="DlvDlvTermServiceGetChangedKeysRequest" message="tns:DlvDlvTermServiceGetChangedKeysRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/DlvDlvTermService/getChangedKeysResponse" name="DlvDlvTermServiceGetChangedKeysResponse" message="tns:DlvDlvTermServiceGetChangedKeysResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/DlvDlvTermService/getChangedKeysAifFaultFault" name="AifFaultFault" message="tns:DlvDlvTermService_getChangedKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getKeys">
+      <wsdl:input wsaw:Action="http://tempuri.org/DlvDlvTermService/getKeys" name="DlvDlvTermServiceGetKeysRequest" message="tns:DlvDlvTermServiceGetKeysRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/DlvDlvTermService/getKeysResponse" name="DlvDlvTermServiceGetKeysResponse" message="tns:DlvDlvTermServiceGetKeysResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/DlvDlvTermService/getKeysAifFaultFault" name="AifFaultFault" message="tns:DlvDlvTermService_getKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="find">
+      <wsdl:input wsaw:Action="http://tempuri.org/DlvDlvTermService/find" name="DlvDlvTermServiceFindRequest" message="tns:DlvDlvTermServiceFindRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/DlvDlvTermService/findResponse" name="DlvDlvTermServiceFindResponse" message="tns:DlvDlvTermServiceFindResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/DlvDlvTermService/findAifFaultFault" name="AifFaultFault" message="tns:DlvDlvTermService_find_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="MarkupMarkupTableService">
+    <wsdl:operation name="getKeys">
+      <wsdl:input wsaw:Action="http://tempuri.org/MarkupMarkupTableService/getKeys" name="MarkupMarkupTableServiceGetKeysRequest" message="tns:MarkupMarkupTableServiceGetKeysRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MarkupMarkupTableService/getKeysResponse" name="MarkupMarkupTableServiceGetKeysResponse" message="tns:MarkupMarkupTableServiceGetKeysResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MarkupMarkupTableService/getKeysAifFaultFault" name="AifFaultFault" message="tns:MarkupMarkupTableService_getKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="find">
+      <wsdl:input wsaw:Action="http://tempuri.org/MarkupMarkupTableService/find" name="MarkupMarkupTableServiceFindRequest" message="tns:MarkupMarkupTableServiceFindRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MarkupMarkupTableService/findResponse" name="MarkupMarkupTableServiceFindResponse" message="tns:MarkupMarkupTableServiceFindResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MarkupMarkupTableService/findAifFaultFault" name="AifFaultFault" message="tns:MarkupMarkupTableService_find_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getChangedKeys">
+      <wsdl:input wsaw:Action="http://tempuri.org/MarkupMarkupTableService/getChangedKeys" name="MarkupMarkupTableServiceGetChangedKeysRequest" message="tns:MarkupMarkupTableServiceGetChangedKeysRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MarkupMarkupTableService/getChangedKeysResponse" name="MarkupMarkupTableServiceGetChangedKeysResponse" message="tns:MarkupMarkupTableServiceGetChangedKeysResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MarkupMarkupTableService/getChangedKeysAifFaultFault" name="AifFaultFault" message="tns:MarkupMarkupTableService_getChangedKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="read">
+      <wsdl:input wsaw:Action="http://tempuri.org/MarkupMarkupTableService/read" name="MarkupMarkupTableServiceReadRequest" message="tns:MarkupMarkupTableServiceReadRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MarkupMarkupTableService/readResponse" name="MarkupMarkupTableServiceReadResponse" message="tns:MarkupMarkupTableServiceReadResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MarkupMarkupTableService/readAifFaultFault" name="AifFaultFault" message="tns:MarkupMarkupTableService_read_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="findKeys">
+      <wsdl:input wsaw:Action="http://tempuri.org/MarkupMarkupTableService/findKeys" name="MarkupMarkupTableServiceFindKeysRequest" message="tns:MarkupMarkupTableServiceFindKeysRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/MarkupMarkupTableService/findKeysResponse" name="MarkupMarkupTableServiceFindKeysResponse" message="tns:MarkupMarkupTableServiceFindKeysResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/MarkupMarkupTableService/findKeysAifFaultFault" name="AifFaultFault" message="tns:MarkupMarkupTableService_findKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="PurchRFQPaymTermsService">
+    <wsdl:operation name="findKeys">
+      <wsdl:input wsaw:Action="http://tempuri.org/PurchRFQPaymTermsService/findKeys" name="PurchRFQPaymTermsServiceFindKeysRequest" message="tns:PurchRFQPaymTermsServiceFindKeysRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/PurchRFQPaymTermsService/findKeysResponse" name="PurchRFQPaymTermsServiceFindKeysResponse" message="tns:PurchRFQPaymTermsServiceFindKeysResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/PurchRFQPaymTermsService/findKeysAifFaultFault" name="AifFaultFault" message="tns:PurchRFQPaymTermsService_findKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="read">
+      <wsdl:input wsaw:Action="http://tempuri.org/PurchRFQPaymTermsService/read" name="PurchRFQPaymTermsServiceReadRequest" message="tns:PurchRFQPaymTermsServiceReadRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/PurchRFQPaymTermsService/readResponse" name="PurchRFQPaymTermsServiceReadResponse" message="tns:PurchRFQPaymTermsServiceReadResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/PurchRFQPaymTermsService/readAifFaultFault" name="AifFaultFault" message="tns:PurchRFQPaymTermsService_read_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="find">
+      <wsdl:input wsaw:Action="http://tempuri.org/PurchRFQPaymTermsService/find" name="PurchRFQPaymTermsServiceFindRequest" message="tns:PurchRFQPaymTermsServiceFindRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/PurchRFQPaymTermsService/findResponse" name="PurchRFQPaymTermsServiceFindResponse" message="tns:PurchRFQPaymTermsServiceFindResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/PurchRFQPaymTermsService/findAifFaultFault" name="AifFaultFault" message="tns:PurchRFQPaymTermsService_find_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getChangedKeys">
+      <wsdl:input wsaw:Action="http://tempuri.org/PurchRFQPaymTermsService/getChangedKeys" name="PurchRFQPaymTermsServiceGetChangedKeysRequest" message="tns:PurchRFQPaymTermsServiceGetChangedKeysRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/PurchRFQPaymTermsService/getChangedKeysResponse" name="PurchRFQPaymTermsServiceGetChangedKeysResponse" message="tns:PurchRFQPaymTermsServiceGetChangedKeysResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/PurchRFQPaymTermsService/getChangedKeysAifFaultFault" name="AifFaultFault" message="tns:PurchRFQPaymTermsService_getChangedKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getKeys">
+      <wsdl:input wsaw:Action="http://tempuri.org/PurchRFQPaymTermsService/getKeys" name="PurchRFQPaymTermsServiceGetKeysRequest" message="tns:PurchRFQPaymTermsServiceGetKeysRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/PurchRFQPaymTermsService/getKeysResponse" name="PurchRFQPaymTermsServiceGetKeysResponse" message="tns:PurchRFQPaymTermsServiceGetKeysResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/PurchRFQPaymTermsService/getKeysAifFaultFault" name="AifFaultFault" message="tns:PurchRFQPaymTermsService_getKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="PurchRFQSitesService">
+    <wsdl:operation name="findKeys">
+      <wsdl:input wsaw:Action="http://tempuri.org/PurchRFQSitesService/findKeys" name="PurchRFQSitesServiceFindKeysRequest" message="tns:PurchRFQSitesServiceFindKeysRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/PurchRFQSitesService/findKeysResponse" name="PurchRFQSitesServiceFindKeysResponse" message="tns:PurchRFQSitesServiceFindKeysResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/PurchRFQSitesService/findKeysAifFaultFault" name="AifFaultFault" message="tns:PurchRFQSitesService_findKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getKeys">
+      <wsdl:input wsaw:Action="http://tempuri.org/PurchRFQSitesService/getKeys" name="PurchRFQSitesServiceGetKeysRequest" message="tns:PurchRFQSitesServiceGetKeysRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/PurchRFQSitesService/getKeysResponse" name="PurchRFQSitesServiceGetKeysResponse" message="tns:PurchRFQSitesServiceGetKeysResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/PurchRFQSitesService/getKeysAifFaultFault" name="AifFaultFault" message="tns:PurchRFQSitesService_getKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="update">
+      <wsdl:input wsaw:Action="http://tempuri.org/PurchRFQSitesService/update" name="PurchRFQSitesServiceUpdateRequest" message="tns:PurchRFQSitesServiceUpdateRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/PurchRFQSitesService/updateResponse" name="PurchRFQSitesServiceUpdateResponse" message="tns:PurchRFQSitesServiceUpdateResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/PurchRFQSitesService/updateAifFaultFault" name="AifFaultFault" message="tns:PurchRFQSitesService_update_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="create">
+      <wsdl:input wsaw:Action="http://tempuri.org/PurchRFQSitesService/create" name="PurchRFQSitesServiceCreateRequest" message="tns:PurchRFQSitesServiceCreateRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/PurchRFQSitesService/createResponse" name="PurchRFQSitesServiceCreateResponse" message="tns:PurchRFQSitesServiceCreateResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/PurchRFQSitesService/createAifFaultFault" name="AifFaultFault" message="tns:PurchRFQSitesService_create_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="read">
+      <wsdl:input wsaw:Action="http://tempuri.org/PurchRFQSitesService/read" name="PurchRFQSitesServiceReadRequest" message="tns:PurchRFQSitesServiceReadRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/PurchRFQSitesService/readResponse" name="PurchRFQSitesServiceReadResponse" message="tns:PurchRFQSitesServiceReadResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/PurchRFQSitesService/readAifFaultFault" name="AifFaultFault" message="tns:PurchRFQSitesService_read_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="find">
+      <wsdl:input wsaw:Action="http://tempuri.org/PurchRFQSitesService/find" name="PurchRFQSitesServiceFindRequest" message="tns:PurchRFQSitesServiceFindRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/PurchRFQSitesService/findResponse" name="PurchRFQSitesServiceFindResponse" message="tns:PurchRFQSitesServiceFindResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/PurchRFQSitesService/findAifFaultFault" name="AifFaultFault" message="tns:PurchRFQSitesService_find_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getChangedKeys">
+      <wsdl:input wsaw:Action="http://tempuri.org/PurchRFQSitesService/getChangedKeys" name="PurchRFQSitesServiceGetChangedKeysRequest" message="tns:PurchRFQSitesServiceGetChangedKeysRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/PurchRFQSitesService/getChangedKeysResponse" name="PurchRFQSitesServiceGetChangedKeysResponse" message="tns:PurchRFQSitesServiceGetChangedKeysResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/PurchRFQSitesService/getChangedKeysAifFaultFault" name="AifFaultFault" message="tns:PurchRFQSitesService_getChangedKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="PurchRFQUnitService">
+    <wsdl:operation name="findKeys">
+      <wsdl:input wsaw:Action="http://tempuri.org/PurchRFQUnitService/findKeys" name="PurchRFQUnitServiceFindKeysRequest" message="tns:PurchRFQUnitServiceFindKeysRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/PurchRFQUnitService/findKeysResponse" name="PurchRFQUnitServiceFindKeysResponse" message="tns:PurchRFQUnitServiceFindKeysResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/PurchRFQUnitService/findKeysAifFaultFault" name="AifFaultFault" message="tns:PurchRFQUnitService_findKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getChangedKeys">
+      <wsdl:input wsaw:Action="http://tempuri.org/PurchRFQUnitService/getChangedKeys" name="PurchRFQUnitServiceGetChangedKeysRequest" message="tns:PurchRFQUnitServiceGetChangedKeysRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/PurchRFQUnitService/getChangedKeysResponse" name="PurchRFQUnitServiceGetChangedKeysResponse" message="tns:PurchRFQUnitServiceGetChangedKeysResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/PurchRFQUnitService/getChangedKeysAifFaultFault" name="AifFaultFault" message="tns:PurchRFQUnitService_getChangedKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="find">
+      <wsdl:input wsaw:Action="http://tempuri.org/PurchRFQUnitService/find" name="PurchRFQUnitServiceFindRequest" message="tns:PurchRFQUnitServiceFindRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/PurchRFQUnitService/findResponse" name="PurchRFQUnitServiceFindResponse" message="tns:PurchRFQUnitServiceFindResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/PurchRFQUnitService/findAifFaultFault" name="AifFaultFault" message="tns:PurchRFQUnitService_find_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getKeys">
+      <wsdl:input wsaw:Action="http://tempuri.org/PurchRFQUnitService/getKeys" name="PurchRFQUnitServiceGetKeysRequest" message="tns:PurchRFQUnitServiceGetKeysRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/PurchRFQUnitService/getKeysResponse" name="PurchRFQUnitServiceGetKeysResponse" message="tns:PurchRFQUnitServiceGetKeysResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/PurchRFQUnitService/getKeysAifFaultFault" name="AifFaultFault" message="tns:PurchRFQUnitService_getKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="read">
+      <wsdl:input wsaw:Action="http://tempuri.org/PurchRFQUnitService/read" name="PurchRFQUnitServiceReadRequest" message="tns:PurchRFQUnitServiceReadRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/PurchRFQUnitService/readResponse" name="PurchRFQUnitServiceReadResponse" message="tns:PurchRFQUnitServiceReadResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/PurchRFQUnitService/readAifFaultFault" name="AifFaultFault" message="tns:PurchRFQUnitService_read_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>
