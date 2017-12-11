@@ -7,6 +7,7 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
+using System.Collections.Generic;
 
 namespace RequisicaoAX.Model
 {
@@ -28,6 +29,11 @@ namespace RequisicaoAX.Model
         /// Nome da particao
         /// </summary>
 		public virtual string Nome { get; set; }
+
+        /// <summary>
+        /// Requisicoes dessa particao
+        /// </summary>
+        public virtual IList<Requisicao> Requisicoes { get; set; }
 
         #endregion
 

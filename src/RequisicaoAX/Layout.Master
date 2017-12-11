@@ -24,12 +24,14 @@
             <div class="main_container">
                 <div class="col-md-3 left_col">
                     <div class="left_col scroll-view">
-                        <%--<div class="navbar nav_title" style="border: 0;">
+                        <%--
+                            <div class="navbar nav_title" style="border: 0;">
                             <a href="/" class="site_title">
                                 <i class="fa fa-money"></i>
                                 <span>Monitor </span>
                             </a>
-                        </div>--%>
+                        </div>
+                        --%>
 
                         <div class="clearfix"></div>
 
@@ -39,7 +41,7 @@
                                 <img src="/images/user.png" alt="..." class="img-circle profile_img">
                             </div>
                             <div class="profile_info">
-                                <span>Bem Vindo, <asp:LoginName runat="server" /></span>
+                                <span>Bem Vindo, <%--<asp:LoginName runat="server" />--%></span>
                                 <h2><%= Session["Username"] %></h2>
                             </div>
                         </div>
@@ -125,7 +127,7 @@
                             <a data-toggle="tooltip" data-placement="top" title="Settings">
                                 <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
                             </a>
-                            <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                            <a data-toggle="tooltip" data-placement="top" title="FullScreen" onclick="toggleFullScreen()">
                                 <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
                             </a>
                             <a data-toggle="tooltip" data-placement="top" title="Lock">
@@ -162,7 +164,7 @@
                                                 <span>Configurações</span>
                                             </a>
                                         </li>
-                                        <li><a href="javascript:;">Ajuda</a></li>
+                                        <li><a href="javascript:;">Sobre</a></li>
                                         <li><a href="/login"><i class="fa fa-sign-out pull-right"></i>Sair</a></li>
                                     </ul>
                                 </li>

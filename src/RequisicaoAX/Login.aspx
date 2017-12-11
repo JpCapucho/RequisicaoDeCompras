@@ -4,23 +4,13 @@
 <html lang="en">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Login | Monitor </title>
+    <title><%: Page.Title %> | Requisições Web </title>
 
-    <!-- Bootstrap -->
-    <link href="~/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="~/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <!-- NProgress -->
-    <link href="~/bower_components/nprogress/nprogress.css" rel="stylesheet">
-    <!-- Animate.css -->
-    <link href="~/bower_components/animate.css/animate.min.css" rel="stylesheet">
-    <!-- Custom Theme Style -->
-    <link href="~/css/custom.css" rel="stylesheet">
+    <%: Styles.Render("~/bundles/css") %>
 
 </head>
 <body class="login">
@@ -59,7 +49,7 @@
 
                                 <div>
                                     <h1><i class="fa fa-money"></i>  RequisicaoAX </h1>
-                                    <p>&copy;<%: DateTime.Now.Year %> All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
+                                    <p>&copy;<%: DateTime.Now.Year %> Todos os direitos reservados. Privacidade e Termos</p>
                                 </div>
                             </div>
                         </div>
@@ -96,7 +86,7 @@
 
                                 <div>
                                     <h1><i class="fa fa-money"></i>RequisicaoAX </h1>
-                                    <p>&copy;<%: DateTime.Now.Year %> All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
+                                    <p>&copy;<%: DateTime.Now.Year %> Todos os direitos reservados. Privacidade e Termos</p>
                                 </div>
                             </div>
                         </div>

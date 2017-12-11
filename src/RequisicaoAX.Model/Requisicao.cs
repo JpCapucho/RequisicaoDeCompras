@@ -19,6 +19,11 @@ namespace RequisicaoAX.Model
         public virtual long Id { get; set; }
 
         /// <summary>
+        /// Descricao da requisicao de compra
+        /// </summary>
+        public virtual string Nome { get; set; }
+
+        /// <summary>
         /// Usuario que criou a requisição
         /// </summary>
         public virtual Usuario CriadoPor { get; set; }
@@ -28,6 +33,9 @@ namespace RequisicaoAX.Model
         /// </summary>
         public virtual DateTime? DataCriacao { get; set; } = DateTime.Now;
         
+        public virtual Usuario ModificadoPor { get; set; }
+        public virtual DateTime? DataModificacao { get; set; }
+
         /// <summary>
         /// Usuario que aprovou a requisição
         /// </summary>
@@ -43,8 +51,10 @@ namespace RequisicaoAX.Model
         /// </summary>
         public virtual Empresa Empresa { get; set; }
 
-        public virtual bool Visivel { get; set; }
+        public virtual string Obs { get; set; }
 
+        public virtual bool Visivel { get; set; }
+        
         /// <summary>
         /// Produtos dessa cotação
         /// </summary>

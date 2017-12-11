@@ -40,7 +40,7 @@ namespace RequisicaoAX
                 "~/bower_components/bootstrap/dist/js/bootstrap.min.js",
                 "~/bower_components/fastclick/lib/fastclick.js",
                 "~/bower_components/nprogress/nprogress.js",
-                "~/js/custom.min.js"));
+                "~/js/custom.js"));
 
             ScriptManager.ScriptResourceMapping.AddDefinition(
                 "respond",

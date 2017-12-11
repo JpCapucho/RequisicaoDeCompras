@@ -10,6 +10,11 @@
 		</id>
 
     <property name="Nome" length="40" />
+
+    <bag name="Requisicoes" lazy="true" cascade="all" >
+      <key column="ParticaoId" />
+      <one-to-many class="Requisicao" />
+    </bag>
     
 	</class>
 </hibernate-mapping>

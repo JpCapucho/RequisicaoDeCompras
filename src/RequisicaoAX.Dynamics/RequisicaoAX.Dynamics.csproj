@@ -68,6 +68,7 @@
     <Compile Include="Model\EcoResProduct.cs" />
     <Compile Include="Model\FiscalEstablishment_BR.cs" />
     <Compile Include="Model\Partition.cs" />
+    <Compile Include="Model\PurchReqBusinessJustificationCodes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service.cs" />
   </ItemGroup>
