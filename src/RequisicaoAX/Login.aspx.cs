@@ -16,7 +16,8 @@ namespace RequisicaoAX
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-
+            if (Context.User.Identity.IsAuthenticated)
+                Response.Redirect("~/");
         }
     }
 }
