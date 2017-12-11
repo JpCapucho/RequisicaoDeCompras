@@ -4,8 +4,10 @@ namespace RequisicaoAX.Model
 {
     public enum RequisicaoStatusEnum
     {
+        [Description("Rascunho")]
         Rascunho = 0,
 
+        [Description("Enviado")]
         Enviado = 1,
 
         [Description("Conclusão pendente")]

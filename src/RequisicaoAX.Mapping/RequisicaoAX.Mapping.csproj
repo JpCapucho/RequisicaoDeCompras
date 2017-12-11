@@ -66,5 +66,8 @@
   <ItemGroup>
     <EmbeddedResource Include="Projeto.hbm.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Justificativa.hbm.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
