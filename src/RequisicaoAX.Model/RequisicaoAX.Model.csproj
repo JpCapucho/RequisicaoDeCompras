@@ -45,8 +45,10 @@
     <Compile Include="Item.cs" />
     <Compile Include="Particao.cs" />
     <Compile Include="Produto.cs" />
+    <Compile Include="Projeto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Requisicao.cs" />
+    <Compile Include="RequisicaoStatusEnum.cs" />
     <Compile Include="Usuario.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

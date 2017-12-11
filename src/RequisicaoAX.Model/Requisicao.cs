@@ -24,6 +24,11 @@ namespace RequisicaoAX.Model
         public virtual string Nome { get; set; }
 
         /// <summary>
+        /// 
+        /// </summary>
+        public virtual RequisicaoStatusEnum Status { get; set; }
+
+        /// <summary>
         /// Usuario que criou a requisição
         /// </summary>
         public virtual Usuario CriadoPor { get; set; }
@@ -33,7 +38,14 @@ namespace RequisicaoAX.Model
         /// </summary>
         public virtual DateTime? DataCriacao { get; set; } = DateTime.Now;
         
+        /// <summary>
+        /// Usuario que modificou a requisicao
+        /// </summary>
         public virtual Usuario ModificadoPor { get; set; }
+
+        /// <summary>
+        /// Data da modificação
+        /// </summary>
         public virtual DateTime? DataModificacao { get; set; }
 
         /// <summary>
