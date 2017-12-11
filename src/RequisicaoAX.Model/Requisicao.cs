@@ -24,9 +24,34 @@ namespace RequisicaoAX.Model
         public virtual string Nome { get; set; }
 
         /// <summary>
-        /// 
+        /// Status da requisicao
         /// </summary>
         public virtual RequisicaoStatusEnum Status { get; set; }
+
+        /// <summary>
+        /// Finalidade da requisição
+        /// </summary>
+        public virtual FinalidadeRequisicaoEnum Finalidade { get; set; }
+
+        /// <summary>
+        /// Data em que o fornecedor deve entregar os produtos
+        /// </summary>
+        public virtual DateTime DataEntrega { get; set; }
+
+        /// <summary>
+        /// Data utilizada para registrar na contabilidade e validar os fundos de orçamentos
+        /// </summary>
+        public virtual DateTime DataContabil { get; set; }
+
+        /// <summary>
+        /// O motivo que justifica para o negócio
+        /// </summary>
+        public virtual Justificativa Motivo { get; set; }
+
+        /// <summary>
+        /// Detalhes adicionais para qualificar a justificativa
+        /// </summary>
+        public virtual string Detalhes { get; set; }
 
         /// <summary>
         /// Usuario que criou a requisição
@@ -37,7 +62,7 @@ namespace RequisicaoAX.Model
         /// Data de criação do registro
         /// </summary>
         public virtual DateTime? DataCriacao { get; set; } = DateTime.Now;
-        
+
         /// <summary>
         /// Usuario que modificou a requisicao
         /// </summary>
@@ -63,10 +88,9 @@ namespace RequisicaoAX.Model
         /// </summary>
         public virtual Empresa Empresa { get; set; }
 
-        public virtual string Obs { get; set; }
 
         public virtual bool Visivel { get; set; }
-        
+
         /// <summary>
         /// Produtos dessa cotação
         /// </summary>
@@ -74,8 +98,7 @@ namespace RequisicaoAX.Model
 
 
         #endregion
-
-
+        
         #region Constructor
         public Requisicao() { }
 

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="RequisicaoAX.Model"
+                   namespace="RequisicaoAX.Model" >
+
+	<class name="Justificativa" schema="rfq">
+
+		<id name="Id">
+			<generator class="assigned" />
+		</id>
+
+    <property name="Descricao" />
+    <property name="Visivel" not-null="true" />
+
+    <bag name="Requisicoes" lazy="true" cascade="none" >
+      <key column="JustificativaId" />
+      <one-to-many class="Requisicao" />
+    </bag>
+
+	</class>
+</hibernate-mapping>
+

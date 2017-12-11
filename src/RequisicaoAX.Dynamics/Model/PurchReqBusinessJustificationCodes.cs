@@ -8,10 +8,10 @@ namespace RequisicaoAX.Dynamics.Model
 {
     public class PurchReqBusinessJustificationCodes
     {
-        public string Description { get; set; }
-
         public string Reason { get; set; }
 
+        public string Description { get; set; }
+        
         public int RecVersion { get; set; }
 
         public long Partition { get; set; }

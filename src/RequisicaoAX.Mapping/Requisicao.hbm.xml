@@ -9,7 +9,13 @@
 			<generator class="identity" />
 		</id>
 
-    <property name="Nome" length="60" />
+    <property name="Nome" length="60" not-null="true" />
+    <property name="Status" not-null="true" />
+    <property name="Finalidade" not-null="true" />
+    <property name="DataEntrega" not-null="true" />
+    <property name="DataCriacao" not-null="true" />
+
+    <many-to-one name="CriadoPor" class="Usuario" column="CriadoPor" cascade="none" />
 
     <many-to-one name="CriadoPor" class="Usuario" column="CriadoPor" cascade="none" />
     <property name="DataCriacao" />

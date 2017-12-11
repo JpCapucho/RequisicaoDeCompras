@@ -42,7 +42,9 @@
   <ItemGroup>
     <Compile Include="Empresa.cs" />
     <Compile Include="Filial.cs" />
+    <Compile Include="FinalidadeRequisicaoEnum.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="Justificativa.cs" />
     <Compile Include="Particao.cs" />
     <Compile Include="Produto.cs" />
     <Compile Include="Projeto.cs" />

@@ -4,6 +4,9 @@ using System.Text;
 
 namespace RequisicaoAX.Model
 {
+    /// <summary>
+    /// Item da requisição de compra
+    /// </summary>
     public class Item
     {
         #region Fields
