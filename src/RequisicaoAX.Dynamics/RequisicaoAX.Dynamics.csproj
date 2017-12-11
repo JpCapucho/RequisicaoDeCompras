@@ -62,6 +62,7 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="DAO\DataAreaDAO.cs" />
+    <Compile Include="DAO\EcoResProductDAO.cs" />
     <Compile Include="Model\DataArea.cs" />
     <Compile Include="Model\EcoResCategory.cs" />
     <Compile Include="Model\EcoResProduct.cs" />

@@ -1,15 +1,15 @@
-﻿using RequisicaoAX.Dynamics.Model;
+﻿using Dapper;
+using RequisicaoAX.Dynamics.Model;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data.SqlClient;
-using Dapper;
 
 namespace RequisicaoAX.Dynamics.DAO
 {
-    public class DataAreaDAO
+    public class EcoResProductDAO
     {
         private SqlConnection Conn { get; set; }
 
@@ -17,36 +17,35 @@ namespace RequisicaoAX.Dynamics.DAO
         /// Contrutor com a string de conexao
         /// </summary>
         /// <param name="_conn"></param>
-        public DataAreaDAO(SqlConnection _conn)
+        public EcoResProductDAO(SqlConnection _conn)
         {
             this.Conn = _conn;
         }
 
         /// <summary>
-        /// Constutor com a stringo de conexao
+        /// Construtor com a stringo de conexao
         /// </summary>
         /// <param name="_connString"></param>
-        public DataAreaDAO(string _connString)
+        public EcoResProductDAO(string _connString)
         {
             this.Conn = new SqlConnection(_connString);
         }
 
         /// <summary>
-        /// Select pelo ID que retorna um objeto Filial
+        /// Select pelo RECID que retorna um objeto Produto
         /// </summary>
         /// <param name="_id"></param>
         /// <returns></returns>
-        public DataArea GetByID(string _id)
+        public EcoResProduct GetByID(long _id)
         {
-            var query = @"select * from [DATAAREA] where ID = @Entrada";
+            var query = @"select * from [ECORESPRODUCT] where RECID = @Entrada";
 
             using (Conn)
             {
                 try
                 {
-                    var resultado = Conn.Query<DataArea>(query, new { Entrada = _id }).SingleOrDefault();
+                    var resultado = Conn.Query<EcoResProduct>(query, new { Entrada = _id }).SingleOrDefault();
                     return resultado;
-
                 }
                 catch (Exception ex)
                 {
@@ -56,30 +55,28 @@ namespace RequisicaoAX.Dynamics.DAO
         }
 
         /// <summary>
-        /// Select All que retorna todos os objetos da tabela
+        /// Select ALl que retorna todos os objetos da tabela
         /// </summary>
         /// <returns></returns>
-        public List<DataArea> GetAll()
+        public List<EcoResProduct> GetAll()
         {
-            var list = new List<DataArea>();
+            var list = new List<EcoResProduct>();
 
             using (Conn)
             {
                 try
                 {
-                    var result = Conn.Query<DataArea>("select * from [DATAAREA]");
+                    var result = Conn.Query<EcoResProduct>("select * from [ECORESPRODUCT]");
 
-                    foreach (DataArea filial in result)
+                    foreach (EcoResProduct produto in result)
                     {
-                        list.Add(filial);
+                        list.Add(produto);
                     }
-
                 }
                 catch (Exception ex)
                 {
                     throw ex;
                 }
-
                 return list;
             }
         }
