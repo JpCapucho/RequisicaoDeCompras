@@ -22,6 +22,8 @@ namespace RequisicaoAX.Model
 
         public virtual string CNPJ { get; set; }
 
+        public virtual bool Visivel { get; set; }
+
         /// <summary>
         /// <see cref="Empresa"/> vinculada a esta entidade
         /// </summary>

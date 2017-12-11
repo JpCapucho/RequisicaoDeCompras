@@ -10,7 +10,8 @@
 		</id>
 
     <property name="Nome" length="40" />
-
+    <property name="Visivel" />
+    
     <bag name="Filiais" lazy="true" cascade="all" >
       <key column="EmpresaId" />
       <one-to-many class="Filial" />

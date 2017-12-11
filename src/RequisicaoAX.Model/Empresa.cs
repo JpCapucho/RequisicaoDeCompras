@@ -19,7 +19,10 @@ namespace RequisicaoAX.Model
         /// Nome da empresa
         /// </summary>
         public virtual string Nome { get; set; }
-        
+
+
+        public virtual bool Visivel { get; set; }
+
         /// <summary>
         /// Filiais vinculadas a esta entidade
         /// </summary>

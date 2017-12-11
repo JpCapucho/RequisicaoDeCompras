@@ -18,7 +18,7 @@
       <one-to-many class="Item" />
     </bag>
 
-
+    
 	</class>
 </hibernate-mapping>
 

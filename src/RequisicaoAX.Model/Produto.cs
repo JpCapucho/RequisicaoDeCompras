@@ -27,15 +27,12 @@ namespace RequisicaoAX.Model
         /// Codigo do produto
         /// </summary>
         public virtual string Codigo { get; set; }
-
-
-
-
+        
         /// <summary>
         /// Verifica se o produto está disponivel
         /// </summary>
         public virtual bool Disponivel { get; set; }
-
+        
         /// <summary>
         /// Requisições onde o produto foi utilizado
         /// </summary>

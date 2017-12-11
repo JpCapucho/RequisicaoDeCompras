@@ -13,7 +13,7 @@
     <property name="Status" not-null="true" />
     <property name="Finalidade" not-null="true" />
     <property name="DataEntrega" not-null="true" />
-    <property name="DataCriacao" not-null="true" />
+    <property name="DataContabil" not-null="true" />
 
     <many-to-one name="Motivo" class="Justificativa" column="JustificativaId" cascade="none" />
     <property name="Detalhes" length="566" />
