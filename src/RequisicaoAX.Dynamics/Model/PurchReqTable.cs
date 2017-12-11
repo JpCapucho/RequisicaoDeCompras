@@ -61,5 +61,6 @@ namespace RequisicaoAX.Dynamics.Model
         public long PARTITION { get; set; }
 
         public long RECID { get; set; }
+
     }
 }

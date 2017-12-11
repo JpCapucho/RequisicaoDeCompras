@@ -13,16 +13,29 @@ namespace RequisicaoAX.Dynamics.DAO
     {
         private SqlConnection Conn { get; set; }
 
+        /// <summary>
+        /// Construtor com a string de conexao
+        /// </summary>
+        /// <param name="_conn"></param>
         public PurchReqBusinessJustificationCodesDAO(SqlConnection _conn)
         {
             this.Conn = _conn;
         }
 
+        /// <summary>
+        /// Construtor com a string de conexao
+        /// </summary>
+        /// <param name="_connString"></param>
         public PurchReqBusinessJustificationCodesDAO(string _connString)
         {
             this.Conn = new SqlConnection(_connString);
         }
 
+        /// <summary>
+        /// Select pelo RECID e retorna um objeto PurchReqBusinessJustificationCodes
+        /// </summary>
+        /// <param name="_id"></param>
+        /// <returns></returns>
         public PurchReqBusinessJustificationCodes GetById(long _id)
         {
             var query = @"select * from [PURCHREQBUSINESSJUSTIFICATIONCODES] where RECID = @Entrada";
@@ -41,6 +54,10 @@ namespace RequisicaoAX.Dynamics.DAO
             }
         }
 
+        /// <summary>
+        /// Select all e retorna um objeto PurchReqBusinessJustificationCodes
+        /// </summary>
+        /// <returns></returns>
         public List<PurchReqBusinessJustificationCodes> GetAll()
         {
             var list = new List<PurchReqBusinessJustificationCodes>();
