@@ -1,0 +1,276 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.master.cs" Inherits="RequisicaoAX.Layout" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <title><%: Page.Title %> | Requisições Web </title>
+
+    <%: Styles.Render("~/bundles/css") %>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body class="nav-md">
+    <form id="formAX" runat="server">
+        <div class="container body">
+            <div class="main_container">
+                <div class="col-md-3 left_col">
+                    <div class="left_col scroll-view">
+                        <%--<div class="navbar nav_title" style="border: 0;">
+                            <a href="/" class="site_title">
+                                <i class="fa fa-money"></i>
+                                <span>Monitor </span>
+                            </a>
+                        </div>--%>
+
+                        <div class="clearfix"></div>
+
+                        <%-- menu profile quick info --%>
+                        <div class="profile clearfix">
+                            <div class="profile_pic">
+                                <img src="/images/user.png" alt="..." class="img-circle profile_img">
+                            </div>
+                            <div class="profile_info">
+                                <span>Bem Vindo, <asp:LoginName runat="server" /></span>
+                                <h2><%= Session["Username"] %></h2>
+                            </div>
+                        </div>
+                        <%-- /menu profile quick info --%>
+
+                        <br />
+
+                        <%-- sidebar menu --%>
+                        <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                            <div class="menu_section">
+                                <h3>Geral </h3>
+                                <ul class="nav side-menu">
+                                    <li><a><i class="fa fa-home"></i>Home <span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <li><a href="/">Dashboard</a></li>
+                                        </ul>
+                                    </li>
+                                    <% if (Session["Username"] != null)
+                                        { %>
+                                    <li><a><i class="fa fa-users"></i>Comercial <span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <li><a href="/comercial/acerto/">Acerto</a></li>
+                                            <li><a href="/comercial/auditoria/">Auditoria</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a><i class="fa fa-line-chart"></i>Financeiro <span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <li><a href="/financeiro/boletos/">Boletos</a></li>
+                                            <li><a href="/financeiro/cnab/">CNAB</a></li>
+                                            <li><a href="/financeiro/extrato/">Extrato Bancario</a></li>
+                                            <li><a href="/financeiro/missing/">Missing</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a><i class="fa fa-gavel"></i>Fiscal <span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <li><a href="/fiscal/">Boletos</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a><i class="fa fa-gears"></i>Integração <span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <li><a>CRONN<span class="fa fa-chevron-down"></span></a>
+                                                <ul class="nav child_menu">
+                                                    <li class="sub_menu">
+                                                        <a href="/integracao/cronn/cartago/">Cartago</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/integracao/cronn/tendencia/">Tendência</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><a>Dynamics AX<span class="fa fa-chevron-down"></span></a>
+                                                <ul class="nav child_menu">
+                                                    <li>
+                                                        <a href="/integracao/dynamics/cliente/">Clientes</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/integracao/dynamics/boleto/">Boletos</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/integracao/dynamics/venda/">Vendas</a>
+                                                    </li>
+                                                    <li>
+                                                        <a>Erros<span class="fa fa-chevron-down"></span></a>
+                                                        <ul class="nav child_menu">
+                                                            <li>
+                                                                <a href="/integracao/dynamics/erros/venda/">Erros de Venda</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <% } %>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <%-- /sidebar menu --%>
+
+                        <%-- /menu footer buttons --%>
+                        <div class="sidebar-footer hidden-small">
+                            <a data-toggle="tooltip" data-placement="top" title="Settings">
+                                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+                            </a>
+                            <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+                            </a>
+                            <a data-toggle="tooltip" data-placement="top" title="Lock">
+                                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+                            </a>
+                            <a data-toggle="tooltip" data-placement="top" title="Logout" href="/login/">
+                                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                        <%-- /menu footer buttons --%>
+                    </div>
+                </div>
+
+                <%-- top navigation --%>
+                <div class="top_nav">
+                    <div class="nav_menu">
+                        <nav>
+                            <div class="nav toggle">
+                                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                            </div>
+
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="">
+                                    <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                        <img src="/images/user.png" alt="">
+                                        <%= Session["Username"] %>
+                                        <span class=" fa fa-angle-down"></span>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                        <li><a href="/usuario/perfil">Perfil do usuário</a></li>
+                                        <li>
+                                            <a href="/usuario/config">
+                                                <span class="badge bg-red pull-right">50%</span>
+                                                <span>Configurações</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="javascript:;">Ajuda</a></li>
+                                        <li><a href="/login"><i class="fa fa-sign-out pull-right"></i>Sair</a></li>
+                                    </ul>
+                                </li>
+
+                                <li role="presentation" class="dropdown">
+                                    <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa fa-envelope-o"></i>
+                                        <span class="badge bg-green">6</span>
+                                    </a>
+                                    <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                                        <li>
+                                            <a>
+                                                <span class="image">
+                                                    <asp:Image ImageUrl="~/images/user.png" AlternateText="Imagem do perfil" runat="server" /></span>
+                                                <span>
+                                                    <span>John Smith</span>
+                                                    <span class="time">3 mins ago</span>
+                                                </span>
+                                                <span class="message">Film festivals used to be do-or-die moments for movie makers. They were where...
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <span class="image">
+                                                    <asp:Image ImageUrl="~/images/user.png" AlternateText="Imagem do perfil" runat="server" />
+                                                </span>
+                                                <span>
+                                                    <span>Fabiano</span>
+                                                    <span class="time">3 mins ago</span>
+                                                </span>
+                                                <span class="message">Film festivals used to be do-or-die moments for movie makers. They were where...
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <span class="image">
+                                                    <asp:Image ImageUrl="~/images/user.png" AlternateText="Imagem do perfil" runat="server" /></span>
+                                                <span>
+                                                    <span>John Smith</span>
+                                                    <span class="time">3 mins ago</span>
+                                                </span>
+                                                <span class="message">Film festivals used to be do-or-die moments for movie makers. They were where...
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <span class="image">
+                                                    <asp:Image ImageUrl="~/images/user.png" AlternateText="Imagem do perfil" runat="server" />
+                                                </span>
+                                                <span>
+                                                    <span>John Smith</span>
+                                                    <span class="time">3 mins ago</span>
+                                                </span>
+                                                <span class="message">Film festivals used to be do-or-die moments for movie makers. They were where...
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <div class="text-center">
+                                                <a>
+                                                    <strong>Ver todos os alertas</strong>
+                                                    <i class="fa fa-angle-right"></i>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <%-- /top navigation --%>
+
+
+                <asp:ContentPlaceHolder ID="bodyLayout" runat="server">
+                </asp:ContentPlaceHolder>
+
+                <%-- footer content --%>
+                <footer>
+                    <div class="pull-right">
+                        &copy; <%: DateTime.Now.Year %> - ReqWebAx
+                    </div>
+                    <div class="clearfix"></div>
+                </footer>
+                <%-- /footer content --%>
+            </div>
+        </div>
+    </form>
+
+    <%: Scripts.Render("~/bundles/components") %>
+
+    <asp:ContentPlaceHolder ID="scripts" runat="server">
+
+       <%-- <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-92283886-1', 'auto');
+            ga('send', 'pageview');
+        </script>--%>
+    </asp:ContentPlaceHolder>
+
+</body>
+</html>

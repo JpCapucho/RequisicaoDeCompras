@@ -34,13 +34,27 @@ namespace RequisicaoAX
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                             "~/Scripts/modernizr-*"));
 
+            //componentes do template gentellela
+            bundles.Add(new ScriptBundle("~/bundles/components").Include(
+                "~/bower_components/jquery/dist/jquery.min.js",
+                "~/bower_components/bootstrap/dist/js/bootstrap.min.js",
+                "~/bower_components/fastclick/lib/fastclick.js",
+                "~/bower_components/nprogress/nprogress.js",
+                "~/js/custom.min.js"));
+
             ScriptManager.ScriptResourceMapping.AddDefinition(
                 "respond",
-                new ScriptResourceDefinition
-                {
+                new ScriptResourceDefinition {
                     Path = "~/Scripts/respond.min.js",
                     DebugPath = "~/Scripts/respond.js",
                 });
+
+            bundles.Add(new StyleBundle("~/bundles/css").Include(
+                "~/bower_components/bootstrap/dist/css/bootstrap.min.css",
+                "~/bower_components/font-awesome/css/font-awesome.min.css",
+                "~/bower_components/nprogress/nprogress.css",
+                "~/css/custom.min.css"
+                ));
         }
     }
 }

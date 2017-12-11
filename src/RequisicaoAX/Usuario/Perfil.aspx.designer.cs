@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RequisicaoAX
+namespace RequisicaoAX.Usuario
 {
 
 
-    public partial class Default
+    public partial class Perfil
     {
     }
 }

@@ -28,12 +28,12 @@ namespace RequisicaoAX.Util
         public bool IsAuthenticated(string domain, string username, string pwd)
         {
             string domainAndUsername = string.Format(@"{0}\{1}", domain, username);
-            DirectoryEntry entry = new DirectoryEntry(_path,
-                                                       domainAndUsername, pwd);
+            var entry = new DirectoryEntry(_path, domainAndUsername, pwd, AuthenticationTypes.ServerBind);
+
             try
             {
                 // Bind to the native AdsObject to force authentication.  
-                Object obj = entry.NativeObject;
+                //Object obj = entry.NativeObject;
 
                 DirectorySearcher search = new DirectorySearcher(entry) {
                     Filter = string.Format("(SAMAccountName={0})", username)
@@ -57,6 +57,7 @@ namespace RequisicaoAX.Util
             {
                 throw new Exception("Erro ao autenticar usuário. " + ex.Message);
             }
+
             return true;
         }
 
