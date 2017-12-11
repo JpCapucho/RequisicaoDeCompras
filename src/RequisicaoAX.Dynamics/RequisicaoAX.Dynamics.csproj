@@ -73,6 +73,7 @@
     <Compile Include="Model\EcoResCategory.cs" />
     <Compile Include="Model\EcoResProduct.cs" />
     <Compile Include="Model\FiscalEstablishment_BR.cs" />
+    <Compile Include="Model\InventTable.cs" />
     <Compile Include="Model\Partition.cs" />
     <Compile Include="Model\PurchReqBusinessJustificationCodes.cs" />
     <Compile Include="Model\PurchReqLine.cs" />

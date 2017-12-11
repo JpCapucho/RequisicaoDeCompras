@@ -16,6 +16,11 @@
       <one-to-many class="Filial" />
     </bag>
 
+    <bag name="Requisicoes" lazy="true" cascade="all" >
+      <key column="EmpresaId" />
+      <one-to-many class="Requisicao" />
+    </bag>
+
   </class>
 </hibernate-mapping>
 
