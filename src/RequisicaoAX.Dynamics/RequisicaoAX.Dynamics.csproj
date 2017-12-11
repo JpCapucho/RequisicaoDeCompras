@@ -67,12 +67,16 @@
     <Compile Include="DAO\FiscalEstablishment_BRDAO.cs" />
     <Compile Include="DAO\PartitionDAO.cs" />
     <Compile Include="DAO\PurchReqBusinessJustificationCodesDAO.cs" />
+    <Compile Include="DAO\PurchReqLineDAO.cs" />
+    <Compile Include="DAO\PurchReqTableDAO.cs" />
     <Compile Include="Model\DataArea.cs" />
     <Compile Include="Model\EcoResCategory.cs" />
     <Compile Include="Model\EcoResProduct.cs" />
     <Compile Include="Model\FiscalEstablishment_BR.cs" />
     <Compile Include="Model\Partition.cs" />
     <Compile Include="Model\PurchReqBusinessJustificationCodes.cs" />
+    <Compile Include="Model\PurchReqLine.cs" />
+    <Compile Include="Model\PurchReqTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service.cs" />
   </ItemGroup>
