@@ -15,7 +15,12 @@
     <property name="DataEntrega" not-null="true" />
     <property name="DataCriacao" not-null="true" />
 
-    <many-to-one name="CriadoPor" class="Usuario" column="CriadoPor" cascade="none" />
+    <many-to-one name="Motivo" class="Justificativa" column="JustificativaId" cascade="none" />
+    <property name="Detalhes" length="566" />
+
+    <property name="EmEspera" />
+    <property name="MotivoEspera" length="566" />
+    
 
     <many-to-one name="CriadoPor" class="Usuario" column="CriadoPor" cascade="none" />
     <property name="DataCriacao" />

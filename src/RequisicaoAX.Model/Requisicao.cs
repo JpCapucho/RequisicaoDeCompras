@@ -52,7 +52,12 @@ namespace RequisicaoAX.Model
         /// Detalhes adicionais para qualificar a justificativa
         /// </summary>
         public virtual string Detalhes { get; set; }
+        
+        public virtual bool EmEspera { get; set; }
 
+        public virtual string MotivoEspera { get; set; }
+
+        #region Historico
         /// <summary>
         /// Usuario que criou a requisição
         /// </summary>
@@ -82,6 +87,7 @@ namespace RequisicaoAX.Model
         /// Data de aprovação
         /// </summary>
         public virtual DateTime? DataAprovacao { get; set; }
+        #endregion
 
         /// <summary>
         /// Empresa vinculada a requisicao
