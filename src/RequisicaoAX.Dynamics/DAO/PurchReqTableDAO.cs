@@ -88,8 +88,8 @@ namespace RequisicaoAX.Dynamics.DAO
         public List<PurchReqTable> GetById(long _id)
         {
             var query = @"  SELECT *
-                            FROM [DynamicsAX_PRD].[dbo].[PURCHREQLINE] PL
-                            INNER JOIN [DynamicsAX_PRD].[dbo].[PURCHREQTABLE] PT ON (PL.PURCHREQTABLE = PT.RECID) where RECID = @Entrada";
+                            FROM [PURCHREQLINE] PL
+                            INNER JOIN [PURCHREQTABLE] PT ON (PL.PURCHREQTABLE = PT.RECID) where RECID = @Entrada";
 
             using (Conn)
             {
@@ -117,8 +117,8 @@ namespace RequisicaoAX.Dynamics.DAO
         public List<PurchReqTable> GetByPurchReqId(long _id)
         {
             var query = @"  SELECT *
-                            FROM [DynamicsAX_PRD].[dbo].[PURCHREQLINE] PL
-                            INNER JOIN [DynamicsAX_PRD].[dbo].[PURCHREQTABLE] PT ON (PL.PURCHREQTABLE = PT.RECID) where PURCHREQID = @Entrada";
+                            FROM [PURCHREQLINE] PL
+                            INNER JOIN [PURCHREQTABLE] PT ON (PL.PURCHREQTABLE = PT.RECID) where PURCHREQID = @Entrada";
 
             using (Conn)
             {
@@ -145,8 +145,8 @@ namespace RequisicaoAX.Dynamics.DAO
         public List<PurchReqTable> GetAll()
         {
             var query = @"  SELECT *
-                            FROM [DynamicsAX_PRD].[dbo].[PURCHREQLINE] PL
-                            INNER JOIN [DynamicsAX_PRD].[dbo].[PURCHREQTABLE] PT ON (PL.PURCHREQTABLE = PT.RECID)";
+                            FROM [PURCHREQLINE] PL
+                            INNER JOIN [PURCHREQTABLE] PT ON (PL.PURCHREQTABLE = PT.RECID)";
 
             using (Conn)
             {
