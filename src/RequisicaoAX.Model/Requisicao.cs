@@ -94,6 +94,8 @@ namespace RequisicaoAX.Model
         /// </summary>
         public virtual Empresa Empresa { get; set; }
 
+        public virtual Particao Particao { get; set; }
+
 
         public virtual bool Visivel { get; set; }
 

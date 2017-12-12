@@ -14,6 +14,8 @@
     
     <many-to-one name="Empresa" column="EmpresaId" cascade="none" />
     
+    <property name="Visivel" />
+    
     <bag name="Usuarios" lazy="true" cascade="none" >
       <key column="FilialId" />
       <one-to-many class="Usuario" />
