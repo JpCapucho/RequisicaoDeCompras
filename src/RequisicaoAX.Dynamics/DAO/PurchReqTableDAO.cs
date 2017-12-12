@@ -26,7 +26,7 @@ namespace RequisicaoAX.Dynamics.DAO
         /// Construtor com a string de conexao
         /// </summary>
         /// <param name="_connString"></param>
-        public PurchReqTableDAO (string _connString)
+        public PurchReqTableDAO(string _connString)
         {
             this.Conn = new SqlConnection(_connString);
         }
@@ -36,16 +36,71 @@ namespace RequisicaoAX.Dynamics.DAO
         /// </summary>
         /// <param name="_id"></param>
         /// <returns></returns>
-        public PurchReqTable GetById (long _id)
+        //public PurchReqTable GetById(long _id)
+        //{
+        //    var query = @"select * from [PURCHREQTABLE] where RECID = @Entrada";
+
+        //    using (Conn)
+        //    {
+        //        try
+        //        {
+        //            var resultado = Conn.Query<PurchReqTable>(query, new { Entrada = _id }).FirstOrDefault();
+        //            return resultado;
+        //        }
+        //        catch (Exception ex)
+        //        {
+        //            throw ex;
+        //        }
+        //    }
+        //}
+
+        /// <summary>
+        /// Select pelo PURCHREQID e retorna um objeto PurchReqTable
+        /// </summary>
+        /// <param name = "_id" ></ param >
+        /// < returns ></ returns >
+        //public PurchReqTable GetByPurchReqId(long _id)
+        //{
+        //    var query = @"select * from [PURCHREQTABLE] where PURCHREQID = @Entrada";
+
+        //    using (Conn)
+        //    {
+        //        try
+        //        {
+        //            var resultado = Conn.Query<PurchReqTable>(query, new { Entrada = _id }).FirstOrDefault();
+        //            return resultado;
+        //        }
+        //        catch (Exception ex)
+        //        {
+        //            throw ex;
+        //        }
+        //    }
+        //}
+
+
+
+
+        /// <summary>
+        /// Select pelo RECID e retorna um objeto PurchreqTable
+        /// </summary>
+        /// <param name="_id"></param>
+        /// <returns></returns>
+        public List<PurchReqTable> GetById(long _id)
         {
-            var query = @"select * from [PURCHREQTABLE] where RECID = @Entrada";
+            var query = @"  SELECT *
+                            FROM [PURCHREQLINE] PL
+                            INNER JOIN [PURCHREQTABLE] PT ON (PL.PURCHREQTABLE = PT.RECID) where RECID = @Entrada";
 
             using (Conn)
             {
                 try
                 {
-                    var resultado = Conn.Query<PurchReqTable>(query, new { Entrada = _id }).FirstOrDefault();
-                    return resultado;
+                    var resultado = Conn.Query<PurchReqTable, PurchReqLine, PurchReqTable>(query,
+                        (purchTable, purchLine) => { purchTable.TableLines.Add(purchLine); return purchTable; },
+                        new { Entrada = _id },
+                        splitOn: "RECID"
+                        );
+                    return resultado.ToList();
                 }
                 catch (Exception ex)
                 {
@@ -55,20 +110,26 @@ namespace RequisicaoAX.Dynamics.DAO
         }
 
         /// <summary>
-        /// Select pelo PURCHREQID e retorna um objeto PurchReqTable
+        /// Select pelo PURCHREQID que retorna um objeto PurchTable
         /// </summary>
         /// <param name="_id"></param>
         /// <returns></returns>
-        public PurchReqTable GetByPurchReqId(long _id)
+        public List<PurchReqTable> GetByPurchReqId(long _id)
         {
-            var query = @"select * from [PURCHREQTABLE] where PURCHREQID = @Entrada";
+            var query = @"  SELECT *
+                            FROM [PURCHREQLINE] PL
+                            INNER JOIN [PURCHREQTABLE] PT ON (PL.PURCHREQTABLE = PT.RECID) where PURCHREQID = @Entrada";
 
             using (Conn)
             {
                 try
                 {
-                    var resultado = Conn.Query<PurchReqTable>(query, new { Entrada = _id }).FirstOrDefault();
-                    return resultado;
+                    var resultado = Conn.Query<PurchReqTable, PurchReqLine, PurchReqTable>(query,
+                        (purchTable, purchLine) => { purchTable.TableLines.Add(purchLine); return purchTable; },
+                        new { Entrada = _id },
+                        splitOn: "RECID"
+                        );
+                    return resultado.ToList();
                 }
                 catch (Exception ex)
                 {
@@ -77,28 +138,56 @@ namespace RequisicaoAX.Dynamics.DAO
             }
         }
 
+        /// <summary>
+        /// Select All que retorna todos os objetos da tabela PurchReqTable
+        /// </summary>
+        /// <returns></returns>
         public List<PurchReqTable> GetAll()
         {
-            var list = new List<PurchReqTable>();
+            var query = @"  SELECT *
+                            FROM [PURCHREQLINE] PL
+                            INNER JOIN [PURCHREQTABLE] PT ON (PL.PURCHREQTABLE = PT.RECID)";
 
             using (Conn)
             {
                 try
                 {
-                    var result = Conn.Query<PurchReqTable>("select * from [PURCHREQTABLE]");
-
-                    foreach (PurchReqTable purchTable in result)
-                    {
-                        list.Add(purchTable);
-                    }
+                    var resultado = Conn.Query<PurchReqTable, PurchReqLine, PurchReqTable>(query,
+                        (purchTable, purchLine) => { purchTable.TableLines.Add(purchLine); return purchTable; },
+                        splitOn: "RECID"
+                        );
+                    return resultado.ToList();
                 }
                 catch (Exception ex)
                 {
                     throw ex;
                 }
-                return list;
             }
         }
+
+
+        //public List<PurchReqTable> GetAll()
+        //{
+        //    var list = new List<PurchReqTable>();
+
+        //    using (Conn)
+        //    {
+        //        try
+        //        {
+        //            var result = Conn.Query<PurchReqTable>("select * from [PURCHREQTABLE]");
+
+        //            foreach (PurchReqTable purchTable in result)
+        //            {
+        //                list.Add(purchTable);
+        //            }
+        //        }
+        //        catch (Exception ex)
+        //        {
+        //            throw ex;
+        //        }
+        //        return list;
+        //    }
+        //}
 
     }
 }

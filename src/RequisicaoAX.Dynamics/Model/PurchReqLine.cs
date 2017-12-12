@@ -225,5 +225,7 @@ namespace RequisicaoAX.Dynamics.Model
         public long RECID { get; set; }
 
         public long BUDGETRESERVATIONLINE_PSN { get; set; }
+
+        public PurchReqTable PurchreqTable { get; set; }
     }
 }

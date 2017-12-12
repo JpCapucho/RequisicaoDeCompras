@@ -65,6 +65,7 @@
     <Compile Include="DAO\EcoResCategoryDAO.cs" />
     <Compile Include="DAO\EcoResProductDAO.cs" />
     <Compile Include="DAO\FiscalEstablishment_BRDAO.cs" />
+    <Compile Include="DAO\InventTableDAO.cs" />
     <Compile Include="DAO\PartitionDAO.cs" />
     <Compile Include="DAO\PurchReqBusinessJustificationCodesDAO.cs" />
     <Compile Include="DAO\PurchReqLineDAO.cs" />

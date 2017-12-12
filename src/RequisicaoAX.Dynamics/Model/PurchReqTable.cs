@@ -62,5 +62,15 @@ namespace RequisicaoAX.Dynamics.Model
 
         public long RECID { get; set; }
 
+        private IList<PurchReqLine> tableLines;
+        public IList<PurchReqLine> TableLines
+        {
+            get
+            {
+                if (tableLines == null) tableLines = new List<PurchReqLine>();
+                return tableLines;
+            }
+            set { tableLines = value; }
+        }
     }
 }
