@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Layout.Master" AutoEventWireup="true" CodeBehind="Requisicao.aspx.cs" Inherits="RequisicaoAX.Compras.Requisicao" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Layout.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="RequisicaoAX.Compras.Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 

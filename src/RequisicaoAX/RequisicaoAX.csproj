@@ -168,7 +168,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="Compras\Requisicao.aspx" />
+    <Content Include="Compras\Default.aspx" />
+    <Content Include="Compras\Requisicao\Default.aspx" />
+    <Content Include="Compras\Requisicao\Nova.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -250,12 +252,27 @@
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Compras\Requisicao.aspx.cs">
-      <DependentUpon>Requisicao.aspx</DependentUpon>
+    <Compile Include="App_Start\WebToolsAndUtils.cs" />
+    <Compile Include="Compras\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Compras\Requisicao.aspx.designer.cs">
-      <DependentUpon>Requisicao.aspx</DependentUpon>
+    <Compile Include="Compras\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Compras\Requisicao\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Compras\Requisicao\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Compras\Requisicao\Nova.aspx.cs">
+      <DependentUpon>Nova.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Compras\Requisicao\Nova.aspx.designer.cs">
+      <DependentUpon>Nova.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>

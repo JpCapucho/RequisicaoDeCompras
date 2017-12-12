@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RequisicaoAX.Compras
+namespace RequisicaoAX.Compras.Requisicao
 {
 
 
-    public partial class Requisicao
+    public partial class Default
     {
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RequisicaoAX.App_Start;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,11 @@ namespace RequisicaoAX
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                var userName = WebToolsAndUtils.GetUserName(Context);
+                Session["Username"] = userName;
+            }
         }
     }
 }
