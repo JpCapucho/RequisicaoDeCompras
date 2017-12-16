@@ -169,8 +169,8 @@
                                                 <span>Configurações</span>
                                             </a>
                                         </li>
-                                        <li><a href="javascript:;">Sobre</a></li>
-                                        <li><a href="/about"><i class="fa fa-sign-out pull-right"></i>Sair</a></li>
+                                        <li><a href="/about">Sobre</a></li>
+                                        <li><a href="/login"><i class="fa fa-sign-out pull-right"></i>Sair</a></li>
                                     </ul>
                                 </li>
 
@@ -253,7 +253,7 @@
                 <%-- footer content --%>
                 <footer>
                     <div class="pull-right">
-                        &copy; <%: DateTime.Now.Year %> - ReqWebAx
+                        &copy; <%: DateTime.Now.Year %> - DCI Template by   <a href="https://colorlib.com" >Colorlib</a>
                     </div>
                     <div class="clearfix"></div>
                 </footer>

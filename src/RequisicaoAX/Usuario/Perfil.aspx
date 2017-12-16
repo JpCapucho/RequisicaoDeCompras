@@ -55,7 +55,7 @@
                                         <img class="img-responsive avatar-view" src="/images/picture.jpg" alt="Avatar" title="Change the avatar">
                                     </div>
                                 </div>
-                                <h3><asp:LoginName runat="server" /></h3>
+                                <h3><%= Session["Username"] %></h3>
 
                                 <ul class="list-unstyled user_data">
                                     <li><i class="fa fa-map-marker user-profile-icon"></i>San Francisco, California, USA
