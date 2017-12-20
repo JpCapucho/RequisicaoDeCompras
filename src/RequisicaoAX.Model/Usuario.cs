@@ -51,6 +51,17 @@ namespace RequisicaoAX.Model
         public virtual bool Admin { get; set; }
 
         /// <summary>
+        /// Codigo do trabalhador
+        /// </summary>
+        public virtual string CodigoTrabalhador { get; set; }
+
+        /// <summary>
+        /// identificador unico do registro
+        /// </summary>
+        public virtual long RecId { get; set; }
+
+
+        /// <summary>
         /// Filial vinculada
         /// </summary>
         public virtual Filial Filial { get; set; }

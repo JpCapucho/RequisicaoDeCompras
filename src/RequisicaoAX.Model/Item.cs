@@ -33,6 +33,13 @@ namespace RequisicaoAX.Model
         /// </summary>
         public virtual Produto Produto { get; set; }
 
+        public virtual int Quantidade { get; set; }
+
+        public virtual Filial Filial { get; set; }
+
+        public virtual string CodigoExterno { get; set; }
+
+
         #endregion
 
         #region Constructor

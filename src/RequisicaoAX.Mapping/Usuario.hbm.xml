@@ -14,9 +14,10 @@
     <property name="SID" length="80" />
     <property name="Aprovador" />
     <property name="Admin" />
+    <property name="CodigoTrabalhador" length="12" />
+    <property name="RecId" />
     
     <many-to-one name="Filial" column="FilialId" cascade="none" />
-    
 
 	</class>
 </hibernate-mapping>

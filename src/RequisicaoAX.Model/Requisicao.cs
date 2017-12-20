@@ -14,7 +14,7 @@ namespace RequisicaoAX.Model
         /// Identificador da requisição
         /// </summary>
         /// <remarks>
-        /// Gerado automaticamente pelo SGDB
+        /// Gerado automaticamente pelo sistema
         /// </remarks>
         public virtual long Id { get; set; }
 
