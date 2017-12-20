@@ -13,7 +13,14 @@
     <property name="Complemento" />
     
     <many-to-one name="Produto" column="ProdutoId" cascade="none" />
-    
-	</class>
+
+    <property name="Quantidade" />
+
+    <many-to-one name="Filial" column="FilialId" cascade="none" />
+
+    <property name="CodigoExterno" length="15" />
+
+
+  </class>
 </hibernate-mapping>
 

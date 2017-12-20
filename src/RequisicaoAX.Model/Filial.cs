@@ -33,6 +33,8 @@ namespace RequisicaoAX.Model
         /// Usuarios da filial
         /// </summary>
         public virtual IList<Usuario> Usuarios { get; set; }
+
+        public virtual IList<Item> Itens { get; set; }
         #endregion
 
         #region Constructor

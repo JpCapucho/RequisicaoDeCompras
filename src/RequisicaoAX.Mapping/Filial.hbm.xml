@@ -21,6 +21,10 @@
       <one-to-many class="Usuario" />
     </bag>
 
+    <bag name="Itens" lazy="true" cascade="none" >
+      <key column="FilialId" />
+      <one-to-many class="Item" />
+    </bag>
 
 	</class>
 </hibernate-mapping>
