@@ -24,6 +24,8 @@ namespace RequisicaoAX
 
             //Ao inicializar a aplicação inicia o NHibernateSessionFactory da Aplicação
             NHibernate.Helper.Management.SessionManager.Instance.InitializeSessionFactory();
+
+            new RequisicaoAX.Dynamics.Services.Service().fazerAlgo();
         }
 
 
