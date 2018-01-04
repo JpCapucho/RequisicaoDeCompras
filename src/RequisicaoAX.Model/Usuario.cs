@@ -5,13 +5,13 @@ namespace RequisicaoAX.Model
     /// <summary>
     /// Representa um usuario do sistema
     /// </summary>
-    public class Usuario
+    public class Usuario : NHibernate.Helper.Generics.GenericEntity<long>
     {
         #region Fields
         /// <summary>
         /// Identificador unico de cada usuario
         /// </summary>
-        public virtual long Id { get; set; }
+        //public virtual long Id { get; set; }
 
         /// <summary>
         /// Nome do Usuario

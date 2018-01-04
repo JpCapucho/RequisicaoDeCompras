@@ -51,6 +51,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\NHibernate.Helper\NHibernate.Helper\NHibernate.Helper.csproj">
+      <Project>{a1ba87f1-43b2-4d40-a8e7-0e42d9114745}</Project>
+      <Name>NHibernate.Helper</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RequisicaoAX.DAO\RequisicaoAX.DAO.csproj">
       <Project>{75770f74-d637-4ae6-9663-98ca6caccbf9}</Project>
       <Name>RequisicaoAX.DAO</Name>

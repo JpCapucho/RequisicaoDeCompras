@@ -73,6 +73,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\NHibernate.Helper\NHibernate.Helper\NHibernate.Helper.csproj">
+      <Project>{a1ba87f1-43b2-4d40-a8e7-0e42d9114745}</Project>
+      <Name>NHibernate.Helper</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RequisicaoAX.Model\RequisicaoAX.Model.csproj">
       <Project>{7de322a1-b30a-448e-9147-ff4ce05cc50a}</Project>
       <Name>RequisicaoAX.Model</Name>
